@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { useTournament } from './hooks/useTournament';
 import { StandingsTable } from './components/StandingsTable';
 import { MatchList } from './components/MatchList';
@@ -276,6 +277,7 @@ function App() {
           </div>
         )}
       </main>
+      <SpeedInsights />
     </div>
   );
 }
