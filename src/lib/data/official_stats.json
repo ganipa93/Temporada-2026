@@ -1,0 +1,658 @@
+{
+  "3038": {
+    "name": "Adrián Martínez",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "3518": {
+    "name": "Ignacio Vázquez",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "70912": {
+    "name": "Alex Luna",
+    "goals": 3,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "70983": {
+    "name": "Diego Valdés",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "76156": {
+    "name": "Diego Sosa",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "85513": {
+    "name": "Marcelo Torres",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "108223": {
+    "name": "Ángel Di María",
+    "goals": 3,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "113309": {
+    "name": "Diego Churín",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "116395": {
+    "name": "Rodrigo Castillo",
+    "goals": 0,
+    "assists": 3,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "153115": {
+    "name": "Leandro Paredes",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "154748": {
+    "name": "Leandro González Pírez",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "172267": {
+    "name": "Lucas Zelarayán",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "173449": {
+    "name": "Matías Catalán",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "177780": {
+    "name": "Juan Fernando Quintero",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "178062": {
+    "name": "Emiliano Rigoni",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "185434": {
+    "name": "Matías Fernández",
+    "goals": 1,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "199651": {
+    "name": "Marcelino Moreno",
+    "goals": 3,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "200353": {
+    "name": "Víctor Malcorra",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "206959": {
+    "name": "Leandro Díaz",
+    "goals": 4,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "207650": {
+    "name": "Gabriel Compagnucci",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "208421": {
+    "name": "Gabriel Ávalos",
+    "goals": 3,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "216727": {
+    "name": "Renzo Tesuri",
+    "goals": 1,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "217079": {
+    "name": "Jordy Caicedo",
+    "goals": 4,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "220094": {
+    "name": "Jalil Elías",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "228388": {
+    "name": "Tomás Conechny",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "233913": {
+    "name": "Pedro Silva Torrejón",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "236365": {
+    "name": "Emmanuel Ojeda",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "238734": {
+    "name": "Gabriel Rojas",
+    "goals": 1,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "252617": {
+    "name": "Ronaldo Martínez",
+    "goals": 2,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "253308": {
+    "name": "Junior Marabel",
+    "goals": 2,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "276224": {
+    "name": "Nicolás Laméndola",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "276287": {
+    "name": "Matías Pellegrini",
+    "goals": 3,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "276302": {
+    "name": "Augusto Schott",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "283675": {
+    "name": "Alexis Cuello",
+    "goals": 2,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "283756": {
+    "name": "Santiago López Garcia",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "284845": {
+    "name": "Juan Gutiérrez",
+    "goals": 1,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "285245": {
+    "name": "Juan Gauto",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "285696": {
+    "name": "Diego Ortegoza",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "287026": {
+    "name": "Mauro Méndez",
+    "goals": 3,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "289076": {
+    "name": "Vicente Pizarro",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "289737": {
+    "name": "Cesar Ibañez",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "290542": {
+    "name": "Lautaro Blanco",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "292028": {
+    "name": "Iván Tapia",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "292094": {
+    "name": "Rodrigo Insúa",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "298576": {
+    "name": "Juan Miritello",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "301955": {
+    "name": "Gastón Benedetti",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "301978": {
+    "name": "Sheyko Studer",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "301980": {
+    "name": "José Romero",
+    "goals": 4,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "303319": {
+    "name": "Aaron Molinas",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "309475": {
+    "name": "Ignacio Russo",
+    "goals": 3,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "309496": {
+    "name": "Fabrizio Sartori Prieto",
+    "goals": 4,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "310003": {
+    "name": "Facundo Zabala",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "310778": {
+    "name": "Antony Alonso",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "310786": {
+    "name": "Ayrton Portillo",
+    "goals": 1,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "315719": {
+    "name": "Gonzalo Rios",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "315722": {
+    "name": "Alan Barrionuevo",
+    "goals": 1,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "315926": {
+    "name": "Santiago Solari",
+    "goals": 1,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "318291": {
+    "name": "Alejo Veliz",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "318398": {
+    "name": "Facundo Lencioni",
+    "goals": 1,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "319604": {
+    "name": "Nicolás Fernández",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "322911": {
+    "name": "Franco Zapiola",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "334106": {
+    "name": "Oscar Cortés",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "335515": {
+    "name": "Kevin Ortíz",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "335674": {
+    "name": "Luis Abraham",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "335865": {
+    "name": "Giuliano Cerato",
+    "goals": 1,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "336665": {
+    "name": "Alejo Osella",
+    "goals": 3,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "338874": {
+    "name": "Rodrigo Atencio",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "338991": {
+    "name": "Leandro Lozano",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "341457": {
+    "name": "Lautaro Di Lollo",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "341510": {
+    "name": "Walter Núñez",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "346867": {
+    "name": "Alexis Steimbach",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "359827": {
+    "name": "Matías Abaldo",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "361303": {
+    "name": "Julian Contrera",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "366024": {
+    "name": "Nicolas Schelotto",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "379466": {
+    "name": "Julián Ceballos",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "382906": {
+    "name": "Lautaro Gutierrez",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "384667": {
+    "name": "Lautaro Millán",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "396616": {
+    "name": "Valentín Dávila",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "400123": {
+    "name": "Ignacio Ovando",
+    "goals": 1,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "400805": {
+    "name": "Facundo Gauch",
+    "goals": 0,
+    "assists": 1,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "402605": {
+    "name": "Giovanni Baroni",
+    "goals": 0,
+    "assists": 2,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  },
+  "406297": {
+    "name": "Tiziano Perrota",
+    "goals": 2,
+    "assists": 0,
+    "yellowCards": 0,
+    "redCards": 0,
+    "matchesPlayed": 0
+  }
+}
