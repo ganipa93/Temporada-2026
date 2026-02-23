@@ -78,9 +78,15 @@ const SectionLabel: React.FC<{ label: string; count: number; icon: React.ReactNo
 );
 
 /* ═══ PARTIDOS EN VIVO — TanStack Query version ═══ */
-interface Props { accentColor?: string }
+interface Props {
+    accentColor?: string;
+    onSync?: (realFixtures: any[]) => void;
+}
 
-export const PartidosEnVivo: React.FC<Props> = ({ accentColor = '#4FC3F7' }) => {
+export const PartidosEnVivo: React.FC<Props> = ({
+    accentColor = '#4FC3F7',
+    onSync
+}) => {
     const [dateOffset, setDateOffset] = useState(0);
 
     const targetDate = useMemo(() => {
@@ -93,6 +99,13 @@ export const PartidosEnVivo: React.FC<Props> = ({ accentColor = '#4FC3F7' }) => 
     const { data, isLoading, error, dataUpdatedAt, isFetching, refetch } = useLiveFixtures(targetDate);
     const fixtures = data?.fixtures ?? [];
     const isConnected = !error;
+
+    // ← Automatic synchronization bridge
+    React.useEffect(() => {
+        if (fixtures.length > 0 && onSync && dateOffset === 0) {
+            onSync(fixtures);
+        }
+    }, [fixtures, onSync, dateOffset]);
 
     const { live, finished, upcoming } = useMemo(() => ({
         live: fixtures.filter((f: Fixture) => f.status === 'live' || f.status === 'halftime'),

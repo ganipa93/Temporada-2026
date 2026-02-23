@@ -11,12 +11,24 @@ export const useTournament = () => {
 
     // Initialize/Load Data
     useEffect(() => {
-        const storedTeams = localStorage.getItem('tournament_teams_v3'); // Force reset for official fixture
-        const storedMatches = localStorage.getItem('tournament_matches_v3');
+        const storedTeamsRaw = localStorage.getItem('tournament_teams_v3');
+        const storedMatchesRaw = localStorage.getItem('tournament_matches_v3');
 
-        if (storedTeams && storedMatches) {
-            setTeams(JSON.parse(storedTeams));
-            setMatches(JSON.parse(storedMatches));
+        if (storedTeamsRaw && storedMatchesRaw) {
+            const storedMatches = JSON.parse(storedMatchesRaw);
+            const storedTeams: Team[] = JSON.parse(storedTeamsRaw);
+
+            // Merge with TEAMS to get new fields like apiId without losing current stats
+            const mergedTeams = storedTeams.map(st => {
+                const sourceTeam = TEAMS.find(t => t.id === st.id);
+                return {
+                    ...st,
+                    apiId: sourceTeam?.apiId ?? st.apiId
+                };
+            });
+
+            setTeams(mergedTeams);
+            setMatches(storedMatches);
         } else {
             // Use Official Fixture
             setMatches(OFFICIAL_FIXTURE as Match[]);
@@ -199,6 +211,48 @@ export const useTournament = () => {
         localStorage.removeItem('tournament_teams_v3');
         localStorage.removeItem('tournament_matches_v3');
         window.location.reload();
+    };
+
+    // --- Sync with Real API Results ---
+    const syncMatchesWithRealData = (realFixtures: any[]) => {
+        let hasChanges = false;
+        const newMatches = matches.map(m => {
+            if (m.isPlayed) return m;
+
+            // Find internal teams to get their apiIds
+            const homeTeam = teams.find(t => t.id === m.homeTeamId);
+            const awayTeam = teams.find(t => t.id === m.awayTeamId);
+
+            if (!homeTeam?.apiId || !awayTeam?.apiId) return m;
+
+            // Find real fixture matching these apiIds
+            const realFixture = realFixtures.find(rf => {
+                // Handle different potential structures (direct response from API-Football vs our transformed response)
+                const rfHomeId = rf.teams?.home?.id ?? rf.home?.id;
+                const rfAwayId = rf.teams?.away?.id ?? rf.away?.id;
+                return rfHomeId === homeTeam.apiId && rfAwayId === awayTeam.apiId;
+            });
+
+            if (realFixture) {
+                const status = realFixture.fixture?.status?.short || realFixture.statusShort;
+                const isFinished = status === 'FT' || status === 'AET' || status === 'PEN';
+
+                if (isFinished) {
+                    const hScore = realFixture.goals?.home ?? realFixture.score?.home ?? (realFixture.goals && realFixture.goals.home);
+                    const aScore = realFixture.goals?.away ?? realFixture.score?.away ?? (realFixture.goals && realFixture.goals.away);
+
+                    if (hScore !== undefined && aScore !== undefined && hScore !== null && aScore !== null) {
+                        hasChanges = true;
+                        return { ...m, homeScore: hScore, awayScore: aScore, isPlayed: true };
+                    }
+                }
+            }
+            return m;
+        });
+
+        if (hasChanges) {
+            setMatches(newMatches);
+        }
     };
 
     // --- Manual Update ---
@@ -397,6 +451,7 @@ export const useTournament = () => {
         resetTournament,
         updateMatch,
         bulkUpdateMatches,
+        syncMatchesWithRealData,
         getStandings,
         getCombinedStats
     };

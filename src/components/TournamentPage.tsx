@@ -21,7 +21,7 @@ export function TournamentPage({ tournament }: Props) {
     const {
         teams, matches,
         simulateMatch, simulateNextRound, simulateAll, resetTournament,
-        getStandings, bulkUpdateMatches,
+        getStandings, bulkUpdateMatches, syncMatchesWithRealData
     } = useTournament();
 
     const [activeTab, setActiveTab] = useState<SubTab>('regular');
@@ -198,7 +198,10 @@ export function TournamentPage({ tournament }: Props) {
                 )}
 
                 {activeTab === 'envivo' && (
-                    <PartidosEnVivo accentColor={accentColor} />
+                    <PartidosEnVivo
+                        accentColor={accentColor}
+                        onSync={syncMatchesWithRealData}
+                    />
                 )}
             </div>
         </div>

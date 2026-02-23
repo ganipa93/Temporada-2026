@@ -298,9 +298,9 @@ export const TEAMS: Team[] = [
         ]
     },
     {
-        id: 'gimnasia-m',
-        apiId: 440,
-        name: 'Gimnasia (M)',
+        id: 'gimnasia-lp',
+        apiId: 434,
+        name: 'Gimnasia (LP)',
         shortName: 'GIM',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/11972.png',
         zone: 'A',
@@ -355,7 +355,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'independiente',
-        apiId: 434,
+        apiId: 453,
         name: 'Independiente',
         shortName: 'IND',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/11.png',
@@ -856,6 +856,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'aldosivi',
+        apiId: 463,
         name: 'Aldosivi',
         shortName: 'ALD',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/9739.png',
@@ -910,6 +911,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'argentinos',
+        apiId: 439,
         name: 'Argentinos Jrs',
         shortName: 'ARG',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/3.png',
@@ -978,6 +980,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'atletico',
+        apiId: 449,
         name: 'Atl. Tucumán',
         shortName: 'ATU',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/9785.png',
@@ -1034,6 +1037,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'banfield',
+        apiId: 438,
         name: 'Banfield',
         shortName: 'BAN',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/235.png',
@@ -1088,6 +1092,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'barracas',
+        apiId: 460,
         name: 'Barracas Central',
         shortName: 'BAR',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/10060.png',
@@ -1145,6 +1150,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'belgrano',
+        apiId: 467,
         name: 'Belgrano',
         shortName: 'BEL',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/4.png',
@@ -1313,6 +1319,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'huracan',
+        apiId: 450,
         name: 'Huracán',
         shortName: 'HUR',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/10.png',
@@ -1364,6 +1371,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'ind-rivadavia',
+        apiId: 479,
         name: 'Ind. Rivadavia',
         shortName: 'INR',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/9744.png',
@@ -1417,6 +1425,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'racing',
+        apiId: 436,
         name: 'Racing Club',
         shortName: 'RAC',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/15.png',
@@ -1470,6 +1479,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'river',
+        apiId: 435,
         name: 'River Plate',
         shortName: 'RIV',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/16.png',
@@ -1523,6 +1533,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'rosario',
+        apiId: 466,
         name: 'Rosario Central',
         shortName: 'CEN',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/17.png',
@@ -1581,6 +1592,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'sarmiento',
+        apiId: 475,
         name: 'Sarmiento',
         shortName: 'SAR',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/10158.png',
@@ -1639,6 +1651,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'tigre',
+        apiId: 469,
         name: 'Tigre',
         shortName: 'TIG',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/7767.png',
