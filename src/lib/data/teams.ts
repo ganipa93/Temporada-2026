@@ -756,7 +756,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'union',
-        apiId: 471,
+        apiId: 441,
         name: 'Unión',
         shortName: 'UNI',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/20.png',
@@ -1204,6 +1204,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'estudiantes-rc',
+        apiId: 2424,
         name: 'Estudiantes (RC)',
         shortName: 'ERC',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/19685.png',

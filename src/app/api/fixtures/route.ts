@@ -1,54 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const API_HOST = 'v3.football.api-sports.io';
-const API_KEY = process.env.RAPIDAPI_KEY || '';
-
-function transformFixture(f: any) {
-    const status = f.fixture?.status?.short || 'NS';
-    const elapsed = f.fixture?.status?.elapsed || null;
-
-    let localStatus: 'upcoming' | 'live' | 'halftime' | 'finished' = 'upcoming';
-    if (['1H', '2H', 'ET', 'BT', 'P', 'INT'].includes(status)) localStatus = 'live';
-    else if (['FT', 'AET', 'PEN', 'AWD', 'WO'].includes(status)) localStatus = 'finished';
-    else if (['HT'].includes(status)) localStatus = 'halftime';
-
-    return {
-        id: f.fixture?.id,
-        date: f.fixture?.date,
-        status: localStatus,
-        statusShort: status,
-        elapsed,
-        venue: f.fixture?.venue?.name || null,
-        home: {
-            id: f.teams?.home?.id,
-            name: f.teams?.home?.name,
-            logo: f.teams?.home?.logo,
-            winner: f.teams?.home?.winner,
-        },
-        away: {
-            id: f.teams?.away?.id,
-            name: f.teams?.away?.name,
-            logo: f.teams?.away?.logo,
-            winner: f.teams?.away?.winner,
-        },
-        score: {
-            home: f.goals?.home ?? null,
-            away: f.goals?.away ?? null,
-            halftime: f.score?.halftime || null,
-        },
-        events: (f.events || []).map((e: any) => ({
-            time: e.time?.elapsed,
-            extra: e.time?.extra,
-            team: e.team?.name,
-            teamId: e.team?.id,
-            player: e.player?.name,
-            assist: e.assist?.name,
-            type: e.type,
-            detail: e.detail,
-        })),
-    };
-}
-
 /* Mock data for development without API key */
 function getMockFixtures(date: string) {
     const teams = [
@@ -98,45 +49,7 @@ function getMockFixtures(date: string) {
 
 export async function GET(req: NextRequest) {
     const { searchParams } = req.nextUrl;
-    const date = searchParams.get('date') ?? new Date().toISOString().split('T')[0];
-    const league = searchParams.get('league') ?? '128';
-    const season = searchParams.get('season') ?? '2026';
+    const requestedDate = searchParams.get('date') ?? new Date().toISOString().split('T')[0];
 
-    if (!API_KEY || API_KEY === 'your_api_key_here') {
-        return NextResponse.json(getMockFixtures(date));
-    }
-
-    try {
-        const res = await fetch(
-            `https://${API_HOST}/fixtures?date=${date}&league=${league}&season=${season}`,
-            {
-                headers: {
-                    'x-rapidapi-host': API_HOST,
-                    'x-rapidapi-key': API_KEY,
-                },
-                next: { revalidate: 30 },
-            }
-        );
-
-        const data = await res.json();
-
-        if (data.errors && Object.keys(data.errors).length > 0) {
-            console.error('[API Fixtures] API Error:', data.errors);
-            return NextResponse.json({
-                error: 'API Error',
-                details: data.errors,
-                fixtures: [],
-                source: 'api-football'
-            }, { status: 403 });
-        }
-
-        return NextResponse.json({
-            fixtures: (data.response ?? []).map(transformFixture),
-            date,
-            source: 'api-football',
-        });
-    } catch (err) {
-        console.error('[API Fixtures] Fetch Error:', err);
-        return NextResponse.json({ error: 'Failed to fetch fixtures', fixtures: [] }, { status: 500 });
-    }
+    return NextResponse.json(getMockFixtures(requestedDate));
 }

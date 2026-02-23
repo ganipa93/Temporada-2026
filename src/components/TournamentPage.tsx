@@ -8,20 +8,19 @@ import { PlayoffBracket } from '@/components/PlayoffBracket';
 import { TopScorers } from '@/components/TopScorers';
 import { ProbabilityPanel } from '@/components/ProbabilityPanel';
 import { EnVivo } from '@/components/simulacion/EnVivo';
-import { PartidosEnVivo } from '@/components/en-vivo/PartidosEnVivo';
-import { LayoutGrid, Trophy, PlayCircle, FastForward, RotateCcw, Medal, BarChart3, Radio, Tv } from 'lucide-react';
+import { LayoutGrid, Trophy, PlayCircle, FastForward, RotateCcw, Medal, BarChart3, Radio } from 'lucide-react';
 
 interface Props {
     tournament: 'apertura' | 'clausura';
 }
 
-type SubTab = 'regular' | 'playoffs' | 'scorers' | 'proyecciones' | 'simulacion' | 'envivo';
+type SubTab = 'regular' | 'playoffs' | 'scorers' | 'proyecciones' | 'simulacion';
 
 export function TournamentPage({ tournament }: Props) {
     const {
         teams, matches,
         simulateMatch, simulateNextRound, simulateAll, resetTournament,
-        getStandings, bulkUpdateMatches, syncMatchesWithRealData
+        getStandings, bulkUpdateMatches
     } = useTournament();
 
     const [activeTab, setActiveTab] = useState<SubTab>('regular');
@@ -61,7 +60,6 @@ export function TournamentPage({ tournament }: Props) {
         { id: 'scorers', label: 'Estadísticas', icon: <Medal size={14} /> },
         { id: 'proyecciones', label: 'Proyecciones', icon: <BarChart3 size={14} /> },
         { id: 'simulacion', label: 'Simulación', icon: <Radio size={14} /> },
-        { id: 'envivo', label: 'En Vivo', icon: <Tv size={14} /> },
     ];
 
     return (
@@ -115,6 +113,7 @@ export function TournamentPage({ tournament }: Props) {
                         }}>
                         <FastForward size={14} /> Simular Todo
                     </button>
+
                     <button onClick={() => resetTournament()}
                         className="flex items-center gap-1.5 px-4 py-2 rounded-xl border text-xs font-bold transition-all hover:scale-[1.02]"
                         style={{
@@ -194,13 +193,6 @@ export function TournamentPage({ tournament }: Props) {
                         tournament={tournament}
                         currentRound={currentRound}
                         onMatchesUpdate={bulkUpdateMatches}
-                    />
-                )}
-
-                {activeTab === 'envivo' && (
-                    <PartidosEnVivo
-                        accentColor={accentColor}
-                        onSync={syncMatchesWithRealData}
                     />
                 )}
             </div>

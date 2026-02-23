@@ -42,6 +42,7 @@ interface FixturesResponse {
     fixtures: Fixture[];
     date: string;
     source: string;
+    isFallback?: boolean;
 }
 
 /**
