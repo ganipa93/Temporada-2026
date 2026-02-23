@@ -175,7 +175,7 @@ export function TournamentPage({ tournament }: Props) {
                 )}
 
                 {activeTab === 'scorers' && (
-                    <TopScorers teams={teams} />
+                    <TopScorers teams={standings.all} />
                 )}
 
                 {activeTab === 'proyecciones' && (
