@@ -35,6 +35,11 @@ export function useMonteCarloSimulation(
     tournament: 'apertura' | 'clausura'
 ): TeamProjection[] {
     return useMemo(() => {
+        // Defensive check: Ensure teams are unique by ID before starting
+        const uniqueTeams = teams.filter((t, index, self) =>
+            index === self.findIndex((temp) => temp.id === t.id)
+        );
+
         const tourneyMatches = matches.filter(m => m.tournament === tournament);
         const playedMatches = tourneyMatches.filter(m => m.isPlayed);
         const unplayedMatches = tourneyMatches.filter(m => !m.isPlayed);
@@ -43,7 +48,7 @@ export function useMonteCarloSimulation(
         if (tourneyMatches.length === 0) return [];
 
         const zoneTeams: Record<string, Team[]> = { A: [], B: [] };
-        teams.forEach(t => { if (zoneTeams[t.zone]) zoneTeams[t.zone].push(t); });
+        uniqueTeams.forEach(t => { if (zoneTeams[t.zone]) zoneTeams[t.zone].push(t); });
 
         const zoneSize = Math.max(zoneTeams.A.length, zoneTeams.B.length, 1);
 
@@ -57,7 +62,7 @@ export function useMonteCarloSimulation(
         const bottom3Count: Record<string, number> = {};
         const lastCount: Record<string, number> = {};
 
-        teams.forEach(t => {
+        uniqueTeams.forEach(t => {
             posCount[t.id] = new Array(zoneSize).fill(0);
             ptsSum[t.id] = 0;
             posSum[t.id] = 0;
@@ -70,7 +75,7 @@ export function useMonteCarloSimulation(
 
         // Pre-compute base stats from played matches
         const baseStats: Record<string, { pts: number; gd: number; gf: number }> = {};
-        teams.forEach(t => { baseStats[t.id] = { pts: 0, gd: 0, gf: 0 }; });
+        uniqueTeams.forEach(t => { baseStats[t.id] = { pts: 0, gd: 0, gf: 0 }; });
 
         playedMatches.forEach(m => {
             if (m.homeScore === null || m.awayScore === null) return;
@@ -94,7 +99,7 @@ export function useMonteCarloSimulation(
         for (let sim = 0; sim < NUM_SIMS; sim++) {
             // Clone base stats
             const simStats: Record<string, { pts: number; gd: number; gf: number }> = {};
-            teams.forEach(t => {
+            uniqueTeams.forEach(t => {
                 simStats[t.id] = { ...baseStats[t.id] };
             });
 
@@ -135,7 +140,7 @@ export function useMonteCarloSimulation(
         }
 
         // Build output
-        const projections: TeamProjection[] = teams.map(t => ({
+        const projections: TeamProjection[] = uniqueTeams.map(t => ({
             teamId: t.id,
             name: t.name,
             shortName: t.shortName,

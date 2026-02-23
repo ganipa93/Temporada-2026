@@ -13,11 +13,29 @@ export const useTournament = () => {
         const storedMatchesRaw = localStorage.getItem('tournament_matches_v3');
 
         if (storedTeamsRaw && storedMatchesRaw) {
-            const storedMatches = JSON.parse(storedMatchesRaw);
-            const storedTeams: Team[] = JSON.parse(storedTeamsRaw);
+            // 1. Migrate stale IDs (Mendoza was 'gimnasia-lp' in Zone A)
+            const migratedTeams = (JSON.parse(storedTeamsRaw) as Team[]).map(t => {
+                if (t.id === 'gimnasia-lp' && (t.zone === 'A' || t.name.includes('(M)') || t.shortName === 'GYM')) {
+                    return { ...t, id: 'gimnasia-m' };
+                }
+                return t;
+            });
 
-            // Merge with TEAMS to get new fields like apiId without losing current stats
-            const mergedTeams = storedTeams.map(st => {
+            // 2. Consistent matches with migrated IDs (Source of truth for IDs is OFFICIAL_FIXTURE)
+            const migratedMatches = (JSON.parse(storedMatchesRaw) as Match[]).map(m => {
+                const officialMatch = (OFFICIAL_FIXTURE as Match[]).find(om => om.id === m.id);
+                if (officialMatch) {
+                    return {
+                        ...m,
+                        homeTeamId: officialMatch.homeTeamId,
+                        awayTeamId: officialMatch.awayTeamId
+                    };
+                }
+                return m;
+            });
+
+            // 3. Merge with TEAMS to get new fields like apiId without losing current stats
+            const finalTeams = migratedTeams.map(st => {
                 const sourceTeam = TEAMS.find(t => t.id === st.id);
                 return {
                     ...st,
@@ -25,8 +43,8 @@ export const useTournament = () => {
                 };
             });
 
-            setTeams(mergedTeams);
-            setMatches(storedMatches);
+            setTeams(finalTeams);
+            setMatches(migratedMatches);
         } else {
             // Use Official Fixture
             setMatches(OFFICIAL_FIXTURE as Match[]);
