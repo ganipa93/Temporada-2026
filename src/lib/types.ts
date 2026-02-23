@@ -21,6 +21,7 @@ export interface AverageStats {
 
 export interface Team {
     id: string;
+    apiId?: number; // API-Football ID
     name: string;
     shortName: string;
     logo: string;

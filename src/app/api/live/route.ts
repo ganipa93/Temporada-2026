@@ -15,11 +15,18 @@ export async function GET() {
         });
 
         const data = await res.json();
+
+        if (data.errors && Object.keys(data.errors).length > 0) {
+            console.error('[API Live] API Error:', data.errors);
+            return NextResponse.json({ error: 'API Error', details: data.errors, fixtures: [] }, { status: 403 });
+        }
+
         return NextResponse.json({
             fixtures: data.response ?? [],
             source: 'api-football',
         });
-    } catch {
+    } catch (err) {
+        console.error('[API Live] Fetch Error:', err);
         return NextResponse.json({ error: 'Failed to fetch live', fixtures: [] }, { status: 500 });
     }
 }

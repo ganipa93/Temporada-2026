@@ -19,6 +19,7 @@ const INITIAL_STREAKS = {
 export const TEAMS: Team[] = [
     {
         id: 'boca',
+        apiId: 451,
         name: 'Boca Juniors',
         shortName: 'BOC',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/5.png',
@@ -34,7 +35,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":67,"pj2024":41,"pts2025":62,"pj2025":32},
+        averages: { "pts2024": 67, "pj2024": 41, "pts2025": 62, "pj2025": 32 },
         players: [
             { id: 'javier-garcia', name: 'Javier García', position: 'GK', age: 39, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'agustin-marchesin', name: 'Agustín Marchesín', position: 'GK', age: 37, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -78,6 +79,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'central-cba',
+        apiId: 477,
         name: 'Central Córdoba',
         shortName: 'CCO',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/11989.png',
@@ -93,7 +95,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":42,"pj2024":41,"pts2025":42,"pj2025":32},
+        averages: { "pts2024": 42, "pj2024": 41, "pts2025": 42, "pj2025": 32 },
         players: [
             { id: 'alan-aguerre', name: 'Alan Aguerre', position: 'GK', age: 35, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'lautaro-bursich', name: 'Lautaro Bursich', position: 'GK', age: 23, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -128,6 +130,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'defensa',
+        apiId: 445,
         name: 'Defensa y Justicia',
         shortName: 'DYJ',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/8950.png',
@@ -143,7 +146,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":58,"pj2024":41,"pts2025":38,"pj2025":32},
+        averages: { "pts2024": 58, "pj2024": 41, "pts2025": 38, "pj2025": 32 },
         players: [
             { id: 'marcos-ledesma', name: 'Marcos Ledesma', position: 'GK', age: 29, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'cristopher-fiermarin', name: 'Cristopher Fiermarin', position: 'GK', age: 28, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -183,6 +186,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'riestra',
+        apiId: 460,
         name: 'Dep. Riestra',
         shortName: 'RIE',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/17702.png',
@@ -198,7 +202,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":48,"pj2024":41,"pts2025":52,"pj2025":32},
+        averages: { "pts2024": 48, "pj2024": 41, "pts2025": 52, "pj2025": 32 },
         players: [
             { id: 'jorge-luque', name: 'Jorge Luque', position: 'GK', age: 22, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'ignacio-arce', name: 'Ignacio Arce', position: 'GK', age: 33, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -240,6 +244,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'estudiantes',
+        apiId: 437,
         name: 'Estudiantes (LP)',
         shortName: 'EST',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/8.png',
@@ -255,7 +260,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":63,"pj2024":41,"pts2025":42,"pj2025":32},
+        averages: { "pts2024": 63, "pj2024": 41, "pts2025": 42, "pj2025": 32 },
         players: [
             { id: 'fernando-muslera', name: 'Fernando Muslera', position: 'GK', age: 39, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'fabricio-iacovich', name: 'Fabricio Iacovich', position: 'GK', age: 24, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -294,6 +299,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'gimnasia-m',
+        apiId: 440,
         name: 'Gimnasia (M)',
         shortName: 'GIM',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/11972.png',
@@ -309,7 +315,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":null,"pj2024":0,"pts2025":null,"pj2025":0},
+        averages: { "pts2024": null, "pj2024": 0, "pts2025": null, "pj2025": 0 },
         players: [
             { id: 'cesar-rigamonti', name: 'César Rigamonti', position: 'GK', age: 38, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'lautaro-petruchi', name: 'Lautaro Petruchi', position: 'GK', age: 27, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -349,6 +355,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'independiente',
+        apiId: 434,
         name: 'Independiente',
         shortName: 'IND',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/11.png',
@@ -364,7 +371,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":63,"pj2024":41,"pts2025":47,"pj2025":32},
+        averages: { "pts2024": 63, "pj2024": 41, "pts2025": 47, "pj2025": 32 },
         players: [
             { id: 'rodrigo-rey', name: 'Rodrigo Rey', position: 'GK', age: 34, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'joaquin-blazquez', name: 'Joaquín Blázquez', position: 'GK', age: 25, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -402,6 +409,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'instituto',
+        apiId: 470,
         name: 'Instituto',
         shortName: 'INS',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/2975.png',
@@ -417,7 +425,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":53,"pj2024":41,"pts2025":34,"pj2025":32},
+        averages: { "pts2024": 53, "pj2024": 41, "pts2025": 34, "pj2025": 32 },
         players: [
             { id: 'manuel-roffo', name: 'Manuel Roffo', position: 'GK', age: 25, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'emanuel-sittaro', name: 'Emanuel Sittaro', position: 'GK', age: 26, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -460,6 +468,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'lanus',
+        apiId: 465,
         name: 'Lanús',
         shortName: 'LAN',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/12.png',
@@ -475,7 +484,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":59,"pj2024":41,"pts2025":50,"pj2025":32},
+        averages: { "pts2024": 59, "pj2024": 41, "pts2025": 50, "pj2025": 32 },
         players: [
             { id: 'nahuel-losada', name: 'Nahuel Losada', position: 'GK', age: 32, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'franco-petroli', name: 'Franco Petroli', position: 'GK', age: 27, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -519,6 +528,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'newells',
+        apiId: 474,
         name: 'Newell\'s Old Boys',
         shortName: 'NOB',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/14.png',
@@ -534,7 +544,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":49,"pj2024":41,"pts2025":33,"pj2025":32},
+        averages: { "pts2024": 49, "pj2024": 41, "pts2025": 33, "pj2025": 32 },
         players: [
             { id: 'gabriel-arias', name: 'Gabriel Arias', position: 'GK', age: 38, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'williams-barlasina', name: 'Williams Barlasina', position: 'GK', age: 27, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -574,6 +584,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'platense',
+        apiId: 468,
         name: 'Platense',
         shortName: 'PLA',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/7764.png',
@@ -589,7 +600,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":57,"pj2024":41,"pts2025":35,"pj2025":32},
+        averages: { "pts2024": 57, "pj2024": 41, "pts2025": 35, "pj2025": 32 },
         players: [
             { id: 'brian-bustos', name: 'Brian Bustos', position: 'GK', age: 29, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'matias-borgogno', name: 'Matias Borgogno', position: 'GK', age: 27, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -633,6 +644,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'san-lorenzo',
+        apiId: 458,
         name: 'San Lorenzo',
         shortName: 'SLO',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/18.png',
@@ -648,7 +660,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":45,"pj2024":41,"pts2025":51,"pj2025":32},
+        averages: { "pts2024": 45, "pj2024": 41, "pts2025": 51, "pj2025": 32 },
         players: [
             { id: 'jose-devecchi', name: 'José Devecchi', position: 'GK', age: 30, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'facundo-altamira', name: 'Facundo Altamira', position: 'FWD', age: 24, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -692,6 +704,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'talleres',
+        apiId: 462,
         name: 'Talleres (C)',
         shortName: 'TAL',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/19.png',
@@ -707,7 +720,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":72,"pj2024":41,"pts2025":34,"pj2025":32},
+        averages: { "pts2024": 72, "pj2024": 41, "pts2025": 34, "pj2025": 32 },
         players: [
             { id: 'guido-herrera', name: 'Guido Herrera', position: 'GK', age: 33, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'jeremias-florentin', name: 'Jeremías Florentín', position: 'GK', age: 19, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -743,6 +756,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'union',
+        apiId: 471,
         name: 'Unión',
         shortName: 'UNI',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/20.png',
@@ -758,7 +772,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":60,"pj2024":41,"pts2025":39,"pj2025":32},
+        averages: { "pts2024": 60, "pj2024": 41, "pts2025": 39, "pj2025": 32 },
         players: [
             { id: 'federico-gomes', name: 'Federico Gomes', position: 'GK', age: 21, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'matias-mansilla', name: 'Matias Mansilla', position: 'GK', age: 30, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -793,6 +807,7 @@ export const TEAMS: Team[] = [
     },
     {
         id: 'velez',
+        apiId: 478,
         name: 'Vélez Sarsfield',
         shortName: 'VEL',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/21.png',
@@ -808,7 +823,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":76,"pj2024":41,"pts2025":40,"pj2025":32},
+        averages: { "pts2024": 76, "pj2024": 41, "pts2025": 40, "pj2025": 32 },
         players: [
             { id: 'alvaro-montero', name: 'Álvaro Montero', position: 'GK', age: 30, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'tomas-marchiori', name: 'Tomás Marchiori', position: 'GK', age: 30, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -856,7 +871,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":null,"pj2024":0,"pts2025":33,"pj2025":32},
+        averages: { "pts2024": null, "pj2024": 0, "pts2025": 33, "pj2025": 32 },
         players: [
             { id: 'axel-werner', name: 'Axel Werner', position: 'GK', age: 29, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'sebastian-moyano', name: 'Sebastian Moyano', position: 'GK', age: 35, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -910,7 +925,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":56,"pj2024":41,"pts2025":57,"pj2025":32},
+        averages: { "pts2024": 56, "pj2024": 41, "pts2025": 57, "pj2025": 32 },
         players: [
             { id: 'diego-rodriguez', name: 'Diego Rodríguez', position: 'GK', age: 36, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'brayan-cortes', name: 'Brayan Cortés', position: 'GK', age: 30, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -978,7 +993,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":50,"pj2024":41,"pts2025":34,"pj2025":32},
+        averages: { "pts2024": 50, "pj2024": 41, "pts2025": 34, "pj2025": 32 },
         players: [
             { id: 'tomas-durso', name: 'Tomás Durso', position: 'GK', age: 26, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'luis-ingolotti', name: 'Luis Ingolotti', position: 'GK', age: 26, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1034,7 +1049,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":41,"pj2024":41,"pts2025":35,"pj2025":32},
+        averages: { "pts2024": 41, "pj2024": 41, "pts2025": 35, "pj2025": 32 },
         players: [
             { id: 'joaquin-molina', name: 'Joaquín Molina', position: 'GK', age: 21, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'facundo-sanguinetti', name: 'Facundo Sanguinetti', position: 'GK', age: 24, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1088,7 +1103,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":49,"pj2024":41,"pts2025":49,"pj2025":32},
+        averages: { "pts2024": 49, "pj2024": 41, "pts2025": 49, "pj2025": 32 },
         players: [
             { id: 'juan-espinola', name: 'Juan Espínola', position: 'GK', age: 31, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'marcelo-mino', name: 'Marcelo Miño', position: 'GK', age: 28, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1145,7 +1160,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":49,"pj2024":41,"pts2025":37,"pj2025":32},
+        averages: { "pts2024": 49, "pj2024": 41, "pts2025": 37, "pj2025": 32 },
         players: [
             { id: 'thiago-cardozo', name: 'Thiago Cardozo', position: 'GK', age: 29, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'manuel-vincentini', name: 'Manuel Vincentini', position: 'GK', age: 35, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1198,7 +1213,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":null,"pj2024":0,"pts2025":null,"pj2025":0},
+        averages: { "pts2024": null, "pj2024": 0, "pts2025": null, "pj2025": 0 },
         players: [
             { id: 'renzo-bacchia', name: 'Renzo Bacchia', position: 'GK', age: 27, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'agustin-lastra', name: 'Agustín Lastra', position: 'GK', age: 25, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1255,7 +1270,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":48,"pj2024":41,"pts2025":38,"pj2025":32},
+        averages: { "pts2024": 48, "pj2024": 41, "pts2025": 38, "pj2025": 32 },
         players: [
             { id: 'nelson-insfran', name: 'Nelson Insfran', position: 'GK', age: 30, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'julian-kadijevic', name: 'Julián Kadijevic', position: 'GK', age: 22, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1313,7 +1328,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":62,"pj2024":41,"pts2025":47,"pj2025":32},
+        averages: { "pts2024": 62, "pj2024": 41, "pts2025": 47, "pj2025": 32 },
         players: [
             { id: 'hernan-galindez', name: 'Hernán Galíndez', position: 'GK', age: 38, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'sebastian-meza', name: 'Sebastián Meza', position: 'GK', age: 25, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1364,7 +1379,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":46,"pj2024":41,"pts2025":43,"pj2025":32},
+        averages: { "pts2024": 46, "pj2024": 41, "pts2025": 43, "pj2025": 32 },
         players: [
             { id: 'ramiro-macagno', name: 'Ramiro Macagno', position: 'GK', age: 28, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'emmanuel-gomez-riga', name: 'Emmanuel Gómez Riga', position: 'GK', age: 24, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1417,7 +1432,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":70,"pj2024":41,"pts2025":53,"pj2025":32},
+        averages: { "pts2024": 70, "pj2024": 41, "pts2025": 53, "pj2025": 32 },
         players: [
             { id: 'facundo-cambeses', name: 'Facundo Cambeses', position: 'GK', age: 28, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'matias-tagliamonte', name: 'Matías Tagliamonte', position: 'GK', age: 28, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1470,7 +1485,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":70,"pj2024":41,"pts2025":53,"pj2025":32},
+        averages: { "pts2024": 70, "pj2024": 41, "pts2025": 53, "pj2025": 32 },
         players: [
             { id: 'franco-armani', name: 'Franco Armani', position: 'GK', age: 39, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'ezequiel-centurion', name: 'Ezequiel Centuríon', position: 'GK', age: 28, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1523,7 +1538,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":47,"pj2024":41,"pts2025":66,"pj2025":32},
+        averages: { "pts2024": 47, "pj2024": 41, "pts2025": 66, "pj2025": 32 },
         players: [
             { id: 'jorge-broun', name: 'Jorge Broun', position: 'GK', age: 39, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'leonardo-sosa', name: 'Leonardo Sosa', position: 'GK', age: 18, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1581,7 +1596,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":35,"pj2024":41,"pts2025":35,"pj2025":32},
+        averages: { "pts2024": 35, "pj2024": 41, "pts2025": 35, "pj2025": 32 },
         players: [
             { id: 'javier-burrai', name: 'Javier Burrai', position: 'GK', age: 35, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'thyago-ayala', name: 'Thyago Ayala', position: 'GK', age: 24, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
@@ -1639,7 +1654,7 @@ export const TEAMS: Team[] = [
         homeStats: { ...INITIAL_STATS },
         awayStats: { ...INITIAL_STATS },
         positionHistory: [],
-        averages: {"pts2024":39,"pj2024":41,"pts2025":49,"pj2025":32},
+        averages: { "pts2024": 39, "pj2024": 41, "pts2025": 49, "pj2025": 32 },
         players: [
             { id: 'tomas-sultani', name: 'Tomas Sultani', position: 'GK', age: 27, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },
             { id: 'felipe-zenobio', name: 'Felipe Zenobio', position: 'GK', age: 25, goals: 0, assists: 0, yellowCards: 0, redCards: 0, matchesPlayed: 0 },

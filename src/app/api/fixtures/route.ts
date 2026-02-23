@@ -119,12 +119,24 @@ export async function GET(req: NextRequest) {
         );
 
         const data = await res.json();
+
+        if (data.errors && Object.keys(data.errors).length > 0) {
+            console.error('[API Fixtures] API Error:', data.errors);
+            return NextResponse.json({
+                error: 'API Error',
+                details: data.errors,
+                fixtures: [],
+                source: 'api-football'
+            }, { status: 403 });
+        }
+
         return NextResponse.json({
             fixtures: (data.response ?? []).map(transformFixture),
             date,
             source: 'api-football',
         });
-    } catch {
+    } catch (err) {
+        console.error('[API Fixtures] Fetch Error:', err);
         return NextResponse.json({ error: 'Failed to fetch fixtures', fixtures: [] }, { status: 500 });
     }
 }
