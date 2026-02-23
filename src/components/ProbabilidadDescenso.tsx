@@ -57,7 +57,7 @@ export const ProbabilidadDescenso: React.FC<Props> = memo(({ projections }) => {
                         label={{ position: 'right', fill: '#EF4444', fontSize: 11, fontWeight: 900, formatter: (v: any) => `${v}%` }}>
                         {data.map((entry, i) => {
                             const intensity = Math.round(200 - (i / data.length) * 100);
-                            return <Cell key={entry.teamId} fill={`rgb(239,(${68 + i * 5}),${68 + i * 8})`}
+                            return <Cell key={entry.teamId} fill={`rgb(239, ${68 + i * 5}, ${68 + i * 8})`}
                                 style={{ opacity: intensity / 200 }} />;
                         })}
                     </Bar>
@@ -81,4 +81,3 @@ export const ProbabilidadDescenso: React.FC<Props> = memo(({ projections }) => {
 });
 
 ProbabilidadDescenso.displayName = 'ProbabilidadDescenso';
-

@@ -298,10 +298,10 @@ export const TEAMS: Team[] = [
         ]
     },
     {
-        id: 'gimnasia-lp',
-        apiId: 434,
-        name: 'Gimnasia (LP)',
-        shortName: 'GIM',
+        id: 'gimnasia-m',
+        apiId: 440,
+        name: 'Gimnasia (M)',
+        shortName: 'GYM',
         logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/11972.png',
         zone: 'A',
         coach: 'Ezequiel Medrán',

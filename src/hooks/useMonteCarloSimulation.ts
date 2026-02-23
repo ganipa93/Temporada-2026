@@ -75,6 +75,12 @@ export function useMonteCarloSimulation(
         playedMatches.forEach(m => {
             if (m.homeScore === null || m.awayScore === null) return;
             const hid = m.homeTeamId, aid = m.awayTeamId;
+
+            if (!baseStats[hid] || !baseStats[aid]) {
+                console.warn(`[MonteCarlo] Missing team ID in baseStats: ${!baseStats[hid] ? hid : aid}. Match ID: ${m.id}`);
+                return;
+            }
+
             baseStats[hid].gf += m.homeScore;
             baseStats[hid].gd += m.homeScore - m.awayScore;
             baseStats[aid].gf += m.awayScore;
@@ -96,13 +102,17 @@ export function useMonteCarloSimulation(
             unplayedMatches.forEach(m => {
                 const hs = Math.floor(Math.random() * 4); // 0–3 (same model as the app)
                 const as = Math.floor(Math.random() * 3); // 0–2
-                simStats[m.homeTeamId].gf += hs;
-                simStats[m.homeTeamId].gd += hs - as;
-                simStats[m.awayTeamId].gf += as;
-                simStats[m.awayTeamId].gd += as - hs;
-                if (hs > as) simStats[m.homeTeamId].pts += 3;
-                else if (hs === as) { simStats[m.homeTeamId].pts += 1; simStats[m.awayTeamId].pts += 1; }
-                else simStats[m.awayTeamId].pts += 3;
+                const hid = m.homeTeamId, aid = m.awayTeamId;
+
+                if (!simStats[hid] || !simStats[aid]) return;
+
+                simStats[hid].gf += hs;
+                simStats[hid].gd += hs - as;
+                simStats[aid].gf += as;
+                simStats[aid].gd += as - hs;
+                if (hs > as) simStats[hid].pts += 3;
+                else if (hs === as) { simStats[hid].pts += 1; simStats[aid].pts += 1; }
+                else simStats[aid].pts += 3;
             });
 
             // Rank by zone
