@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, ReactNode } from 'react';
 
-type League = 'primera' | 'nacional-b';
+type League = 'primera' | 'nacional-b' | 'b-metro';
 
 interface LeagueContextProps {
   league: League;

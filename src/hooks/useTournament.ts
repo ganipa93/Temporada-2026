@@ -4,12 +4,15 @@ import { TEAMS as PRIMERA_TEAMS } from '@/lib/data/primera/teams';
 import PRIMERA_FIXTURE from '@/lib/data/primera/official_fixture.json';
 import { TEAMS as NACIONAL_B_TEAMS } from '@/lib/data/nacional-b/teams';
 import NACIONAL_B_FIXTURE from '@/lib/data/nacional-b/official_fixture.json';
+import { TEAMS as B_METRO_TEAMS } from '@/lib/data/b-metro/teams';
+import B_METRO_FIXTURE from '@/lib/data/b-metro/official_fixture.json';
 
 import { useLeague } from '@/components/providers/LeagueProvider';
 
 const LEAGUES_DATA = {
     primera: { teams: PRIMERA_TEAMS, fixture: PRIMERA_FIXTURE as Match[] },
-    'nacional-b': { teams: NACIONAL_B_TEAMS, fixture: NACIONAL_B_FIXTURE as Match[] }
+    'nacional-b': { teams: NACIONAL_B_TEAMS, fixture: NACIONAL_B_FIXTURE as Match[] },
+    'b-metro': { teams: B_METRO_TEAMS, fixture: B_METRO_FIXTURE as Match[] }
 };
 
 export const useTournament = () => {

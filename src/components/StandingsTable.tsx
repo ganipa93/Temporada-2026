@@ -23,6 +23,12 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
         : 'linear-gradient(135deg, #2D1458 0%, #3B1873 100%)';
 
     const getPositionIndicator = (index: number, totalTeams: number) => {
+        if (league === 'b-metro') {
+            if (index === 0) return { bg: '#FBBF24', color: '#0A1A2F', glow: true }; // Ascenso Directo
+            if (index > 0 && index < 8) return { bg: accentHex, color: '#0A1A2F', glow: true }; // Reducido
+            if (index === totalTeams - 1) return { bg: 'var(--loss)', color: '#FFFFFF', glow: false }; // Descenso
+            return { bg: 'transparent', color: 'var(--text-faint)', glow: false };
+        }
         if (league === 'nacional-b') {
             if (index === 0) return { bg: '#FBBF24', color: '#0A1A2F', glow: true }; // Final
             if (index > 0 && index < 8) return { bg: accentHex, color: '#0A1A2F', glow: true }; // Reducido
@@ -67,7 +73,7 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-widest hidden sm:block"
                     style={{ color: 'rgba(255,255,255,0.4)' }}>
-                    {league === 'primera' ? 'Liga Profesional' : 'Primera Nacional'}
+                    {league === 'primera' ? 'Liga Profesional' : league === 'nacional-b' ? 'Primera Nacional' : 'Primera B Metropolitana'}
                 </span>
             </div>
 

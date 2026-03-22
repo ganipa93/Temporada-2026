@@ -18,12 +18,39 @@ export default function TournamentLayout({ children }: { children: React.ReactNo
     const router = useRouter();
 
     const { league, setLeague } = useLeague();
-    const isPrimera = league === 'primera';
     
-    const activeNavItems = isPrimera 
-        ? NAV_ITEMS
-        : NAV_ITEMS.filter(i => i.id !== 'clausura' && i.id !== 'annual' && i.id !== 'promedios')
-                   .map(i => i.id === 'apertura' ? { ...i, label: 'Torneo Anual' } : i);
+    const configs = {
+        'primera': {
+            title: 'Liga Profesional 2026',
+            subtitle: 'Primera División de Argentina',
+            theme: 'linear-gradient(90deg, #4FC3F7 0%, #007ACC 50%, #C084FC 100%)',
+            iconColor: 'var(--accent)',
+            nextLeague: 'nacional-b',
+            nextLabel: 'Nacional B',
+            navFilter: (items: typeof NAV_ITEMS) => items
+        },
+        'nacional-b': {
+            title: 'Primera Nacional 2026',
+            subtitle: 'Segunda División de Argentina',
+            theme: 'linear-gradient(90deg, #34d399 0%, #059669 50%, #10b981 100%)',
+            iconColor: '#10b981',
+            nextLeague: 'b-metro',
+            nextLabel: 'B Metropolitana',
+            navFilter: (items: typeof NAV_ITEMS) => items.filter(i => i.id !== 'clausura' && i.id !== 'annual' && i.id !== 'promedios').map(i => i.id === 'apertura' ? { ...i, label: 'Torneo Anual' } : i)
+        },
+        'b-metro': {
+            title: 'B Metropolitana 2026',
+            subtitle: 'Tercera División de Argentina',
+            theme: 'linear-gradient(90deg, #FBBF24 0%, #D97706 50%, #B45309 100%)',
+            iconColor: '#FBBF24',
+            nextLeague: 'primera',
+            nextLabel: 'Primera División',
+            navFilter: (items: typeof NAV_ITEMS) => items.filter(i => i.id !== 'clausura' && i.id !== 'annual' && i.id !== 'promedios').map(i => i.id === 'apertura' ? { ...i, label: 'Torneo Anual' } : i)
+        }
+    };
+
+    const c = configs[league as keyof typeof configs] || configs['primera'];
+    const activeNavItems = c.navFilter(NAV_ITEMS);
 
     // Determine active main view from path
     const currentView = activeNavItems.find(item =>
@@ -33,35 +60,35 @@ export default function TournamentLayout({ children }: { children: React.ReactNo
     return (
         <div className="min-h-screen font-sans theme-fade" style={{ background: 'var(--bg)', color: 'var(--text)' }}>
             {/* Top stripe */}
-            <div className="h-1 w-full" style={{ background: isPrimera ? 'linear-gradient(90deg, #4FC3F7 0%, #007ACC 50%, #C084FC 100%)' : 'linear-gradient(90deg, #34d399 0%, #059669 50%, #10b981 100%)' }} />
+            <div className="h-1 w-full" style={{ background: c.theme }} />
 
             <header className="max-w-7xl mx-auto px-3 md:px-6 py-3 md:py-4 flex flex-wrap items-center justify-between gap-3">
                 {/* Logo */}
                 <div className="flex items-center gap-3">
                     <div className="p-2 rounded-xl shadow-lg flex-shrink-0"
                         style={{ background: 'var(--accent-dim)', border: '1px solid var(--border-strong)' }}>
-                        <Trophy style={{ color: isPrimera ? 'var(--accent)' : '#10b981' }} size={22} />
+                        <Trophy style={{ color: c.iconColor }} size={22} />
                     </div>
                     <div className="flex flex-col">
                         <h1 className="text-lg md:text-2xl font-black tracking-tight uppercase leading-tight"
                             style={{ color: 'var(--text)' }}>
-                            {isPrimera ? 'Liga Profesional 2026' : 'Primera Nacional 2026'}
+                            {c.title}
                         </h1>
                         <span className="text-xs md:text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
-                            {isPrimera ? 'Primera División de Argentina' : 'Segunda División de Argentina'}
+                            {c.subtitle}
                         </span>
                     </div>
                     {/* League Switcher */}
                     <button 
-                        onClick={() => setLeague(isPrimera ? 'nacional-b' : 'primera')}
+                        onClick={() => setLeague(c.nextLeague as any)}
                         className="ml-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wide transition-all border hover:scale-105"
                         style={{ 
                             background: 'var(--surface-2)', 
                             borderColor: 'var(--border)', 
                             color: 'var(--text)' 
                         }}>
-                        <ArrowRightCircle size={14} style={{ color: isPrimera ? '#10b981' : 'var(--accent)' }}/>
-                        Cambiar a {isPrimera ? 'Nacional B' : 'Primera'}
+                        <ArrowRightCircle size={14} style={{ color: c.iconColor }}/>
+                        Cambiar a {c.nextLabel}
                     </button>
                 </div>
 
