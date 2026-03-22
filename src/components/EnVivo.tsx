@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import type { Team, Match } from '../types';
+import type { Team, Match } from '@/lib/types';
 import { useLiveSimulation, type LiveMatch } from '../hooks/useLiveSimulation';
 import { useMonteCarloWorker } from '../hooks/useMonteCarloWorker';
 import type { TeamProjection } from '../hooks/useMonteCarloSimulation';

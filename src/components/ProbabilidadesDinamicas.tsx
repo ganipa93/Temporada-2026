@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, memo } from 'react';
 import type { TeamProjection } from '../hooks/useMonteCarloSimulation';
-import { ImpactoEnTiempoReal } from './ImpactoEnTiempoReal';
+import { ImpactoEnTiempoReal } from './simulacion/ImpactoEnTiempoReal';
 import { TrendingUp, AlertTriangle, BarChart3, Zap } from 'lucide-react';
 
 /* Lazy-load Recharts-heavy components */

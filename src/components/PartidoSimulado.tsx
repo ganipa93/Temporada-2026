@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Team } from '../types';
+import type { Team } from '@/lib/types';
 import type { LiveMatch } from '../hooks/useLiveSimulation';
 import { Clock } from 'lucide-react';
 

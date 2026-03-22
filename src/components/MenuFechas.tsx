@@ -1,5 +1,5 @@
 import React, { useRef, useMemo, useEffect } from 'react';
-import type { Match } from '../types';
+import type { Match } from '@/lib/types';
 import { ChevronLeft, ChevronRight, Check, Clock } from 'lucide-react';
 
 interface Props {
