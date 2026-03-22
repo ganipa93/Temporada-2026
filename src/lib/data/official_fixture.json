@@ -946,17 +946,6 @@
     "round": 6
   },
   {
-    "id": "762849",
-    "homeTeamId": "argentinos",
-    "awayTeamId": "lanus",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-02-22T20:00Z",
-    "tournament": "apertura",
-    "round": 6
-  },
-  {
     "id": "762861",
     "homeTeamId": "san-lorenzo",
     "awayTeamId": "estudiantes-rc",
@@ -993,12 +982,12 @@
     "id": "762865",
     "homeTeamId": "platense",
     "awayTeamId": "defensa",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-02-24T20:00Z",
     "tournament": "apertura",
-    "round": 7
+    "round": 6
   },
   {
     "id": "762868",
@@ -1015,9 +1004,9 @@
     "id": "762874",
     "homeTeamId": "central-cba",
     "awayTeamId": "talleres",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-02-24T22:45Z",
     "tournament": "apertura",
     "round": 7
@@ -1026,9 +1015,9 @@
     "id": "762873",
     "homeTeamId": "belgrano",
     "awayTeamId": "atletico",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 3,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-02-25T00:30Z",
     "tournament": "apertura",
     "round": 7
@@ -1037,14 +1026,15 @@
     "id": "762877",
     "homeTeamId": "gimnasia-m",
     "awayTeamId": "independiente",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-02-25T01:00Z",
     "tournament": "apertura",
     "round": 7
   },
   {
+<<<<<<< HEAD:src/lib/data/official_fixture.json
     "id": "762871",
     "homeTeamId": "aldosivi",
     "awayTeamId": "argentinos",
@@ -1056,12 +1046,14 @@
     "round": 7
   },
   {
+=======
+>>>>>>> 8b71941 (Actualizar resultados y estadísticas al 21 de marzo de 2026):src/data/official_fixture.json
     "id": "762872",
     "homeTeamId": "barracas",
     "awayTeamId": "tigre",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-02-25T20:00Z",
     "tournament": "apertura",
     "round": 7
@@ -1070,9 +1062,9 @@
     "id": "762876",
     "homeTeamId": "gimnasia-lp",
     "awayTeamId": "rosario",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-02-25T20:00Z",
     "tournament": "apertura",
     "round": 7
@@ -1081,9 +1073,9 @@
     "id": "762864",
     "homeTeamId": "newells",
     "awayTeamId": "estudiantes",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-02-25T22:30Z",
     "tournament": "apertura",
     "round": 7
@@ -1092,7 +1084,11 @@
     "id": "762870",
     "homeTeamId": "velez",
     "awayTeamId": "riestra",
+<<<<<<< HEAD:src/lib/data/official_fixture.json
     "homeScore": 3,
+=======
+    "homeScore": 0,
+>>>>>>> 8b71941 (Actualizar resultados y estadísticas al 21 de marzo de 2026):src/data/official_fixture.json
     "awayScore": 0,
     "isPlayed": true,
     "date": "2026-02-25T22:30Z",
@@ -1103,9 +1099,9 @@
     "id": "762866",
     "homeTeamId": "racing",
     "awayTeamId": "ind-rivadavia",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-02-26T20:15Z",
     "tournament": "apertura",
     "round": 7
@@ -1114,9 +1110,9 @@
     "id": "762869",
     "homeTeamId": "sarmiento",
     "awayTeamId": "union",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 3,
+    "isPlayed": true,
     "date": "2026-02-26T20:15Z",
     "tournament": "apertura",
     "round": 7
@@ -1125,9 +1121,9 @@
     "id": "762875",
     "homeTeamId": "estudiantes-rc",
     "awayTeamId": "huracan",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-02-26T22:30Z",
     "tournament": "apertura",
     "round": 7
@@ -1136,9 +1132,9 @@
     "id": "762867",
     "homeTeamId": "river",
     "awayTeamId": "banfield",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 3,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-02-26T22:30Z",
     "tournament": "apertura",
     "round": 7
@@ -1147,9 +1143,9 @@
     "id": "762882",
     "homeTeamId": "boca",
     "awayTeamId": "gimnasia-m",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-02-28T20:45Z",
     "tournament": "apertura",
     "round": 7
@@ -1158,31 +1154,31 @@
     "id": "762887",
     "homeTeamId": "independiente",
     "awayTeamId": "central-cba",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-02-28T23:00Z",
     "tournament": "apertura",
-    "round": 8
+    "round": 7
   },
   {
     "id": "762892",
     "homeTeamId": "talleres",
     "awayTeamId": "san-lorenzo",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-01T01:15Z",
     "tournament": "apertura",
-    "round": 8
+    "round": 7
   },
   {
     "id": "762890",
     "homeTeamId": "newells",
     "awayTeamId": "rosario",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-01T20:00Z",
     "tournament": "apertura",
     "round": 8
@@ -1191,9 +1187,9 @@
     "id": "762879",
     "homeTeamId": "argentinos",
     "awayTeamId": "barracas",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-01T22:15Z",
     "tournament": "apertura",
     "round": 8
@@ -1202,9 +1198,9 @@
     "id": "762889",
     "homeTeamId": "instituto",
     "awayTeamId": "union",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-01T22:15Z",
     "tournament": "apertura",
     "round": 8
@@ -1213,9 +1209,9 @@
     "id": "762883",
     "homeTeamId": "defensa",
     "awayTeamId": "lanus",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-02T00:30Z",
     "tournament": "apertura",
     "round": 8
@@ -1224,9 +1220,9 @@
     "id": "762893",
     "homeTeamId": "tigre",
     "awayTeamId": "gimnasia-lp",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-02T00:30Z",
     "tournament": "apertura",
     "round": 8
@@ -1235,9 +1231,9 @@
     "id": "762884",
     "homeTeamId": "riestra",
     "awayTeamId": "platense",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-02T22:15Z",
     "tournament": "apertura",
     "round": 8
@@ -1246,9 +1242,9 @@
     "id": "762885",
     "homeTeamId": "estudiantes",
     "awayTeamId": "velez",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-02T22:15Z",
     "tournament": "apertura",
     "round": 8
@@ -1257,9 +1253,9 @@
     "id": "762881",
     "homeTeamId": "banfield",
     "awayTeamId": "aldosivi",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-03T00:30Z",
     "tournament": "apertura",
     "round": 8
@@ -1268,21 +1264,10 @@
     "id": "762888",
     "homeTeamId": "ind-rivadavia",
     "awayTeamId": "river",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-03T00:30Z",
-    "tournament": "apertura",
-    "round": 8
-  },
-  {
-    "id": "762886",
-    "homeTeamId": "huracan",
-    "awayTeamId": "belgrano",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-03T22:00Z",
     "tournament": "apertura",
     "round": 8
   },
@@ -1290,10 +1275,21 @@
     "id": "762891",
     "homeTeamId": "sarmiento",
     "awayTeamId": "estudiantes-rc",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-03T22:00Z",
+    "tournament": "apertura",
+    "round": 8
+  },
+  {
+    "id": "762886",
+    "homeTeamId": "huracan",
+    "awayTeamId": "belgrano",
+    "homeScore": 3,
+    "awayScore": 1,
+    "isPlayed": true,
+    "date": "2026-03-03T22:15Z",
     "tournament": "apertura",
     "round": 8
   },
@@ -1301,9 +1297,9 @@
     "id": "762880",
     "homeTeamId": "atletico",
     "awayTeamId": "racing",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 3,
+    "isPlayed": true,
     "date": "2026-03-04T00:15Z",
     "tournament": "apertura",
     "round": 8
@@ -1312,562 +1308,397 @@
     "id": "762878",
     "homeTeamId": "lanus",
     "awayTeamId": "boca",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 3,
+    "isPlayed": true,
     "date": "2026-03-05T00:00Z",
     "tournament": "apertura",
     "round": 8
   },
   {
-    "id": "762895",
-    "homeTeamId": "gimnasia-m",
-    "awayTeamId": "defensa",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-05T21:30Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762905",
-    "homeTeamId": "barracas",
-    "awayTeamId": "banfield",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-06T20:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762897",
-    "homeTeamId": "platense",
-    "awayTeamId": "estudiantes",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-06T20:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762903",
-    "homeTeamId": "velez",
-    "awayTeamId": "newells",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-06T22:45Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762900",
-    "homeTeamId": "rosario",
-    "awayTeamId": "tigre",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-07T01:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762902",
-    "homeTeamId": "union",
-    "awayTeamId": "talleres",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-07T01:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762904",
-    "homeTeamId": "aldosivi",
-    "awayTeamId": "ind-rivadavia",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-07T20:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762908",
-    "homeTeamId": "estudiantes-rc",
-    "awayTeamId": "instituto",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-07T20:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762901",
-    "homeTeamId": "san-lorenzo",
-    "awayTeamId": "independiente",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-07T22:15Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762906",
-    "homeTeamId": "belgrano",
-    "awayTeamId": "sarmiento",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-08T00:30Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762898",
-    "homeTeamId": "racing",
-    "awayTeamId": "huracan",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-08T00:30Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762894",
-    "homeTeamId": "gimnasia-lp",
-    "awayTeamId": "argentinos",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-08T20:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762896",
-    "homeTeamId": "lanus",
-    "awayTeamId": "riestra",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-08T20:00Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762907",
-    "homeTeamId": "central-cba",
-    "awayTeamId": "boca",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-08T22:15Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762899",
-    "homeTeamId": "river",
-    "awayTeamId": "atletico",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-09T00:15Z",
-    "tournament": "apertura",
-    "round": 9
-  },
-  {
-    "id": "762920",
-    "homeTeamId": "newells",
-    "awayTeamId": "platense",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-10T20:30Z",
-    "tournament": "apertura",
-    "round": 10
-  },
-  {
     "id": "762918",
     "homeTeamId": "independiente",
     "awayTeamId": "union",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 4,
+    "awayScore": 4,
+    "isPlayed": true,
     "date": "2026-03-10T22:45Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 8
   },
   {
     "id": "762914",
     "homeTeamId": "tigre",
     "awayTeamId": "velez",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-10T22:45Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 8
+  },
+  {
+    "id": "762920",
+    "homeTeamId": "newells",
+    "awayTeamId": "platense",
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
+    "date": "2026-03-11T01:00Z",
+    "tournament": "apertura",
+    "round": 9
   },
   {
     "id": "762921",
     "homeTeamId": "sarmiento",
     "awayTeamId": "racing",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-11T01:00Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762909",
     "homeTeamId": "argentinos",
     "awayTeamId": "rosario",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-11T20:30Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762911",
     "homeTeamId": "banfield",
     "awayTeamId": "gimnasia-lp",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-11T20:30Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762912",
     "homeTeamId": "boca",
     "awayTeamId": "san-lorenzo",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-11T22:45Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762923",
     "homeTeamId": "atletico",
     "awayTeamId": "aldosivi",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-12T01:00Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762919",
     "homeTeamId": "ind-rivadavia",
     "awayTeamId": "barracas",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-12T01:00Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762913",
     "homeTeamId": "defensa",
     "awayTeamId": "central-cba",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-12T20:00Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762910",
     "homeTeamId": "riestra",
     "awayTeamId": "gimnasia-m",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-12T20:00Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762915",
     "homeTeamId": "estudiantes-rc",
     "awayTeamId": "belgrano",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-12T22:15Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762922",
     "homeTeamId": "talleres",
     "awayTeamId": "instituto",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-12T22:15Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762917",
     "homeTeamId": "huracan",
     "awayTeamId": "river",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-13T00:30Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762916",
     "homeTeamId": "estudiantes",
     "awayTeamId": "lanus",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-13T23:00Z",
     "tournament": "apertura",
-    "round": 10
+    "round": 9
   },
   {
     "id": "762932",
     "homeTeamId": "platense",
     "awayTeamId": "velez",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-14T20:00Z",
+    "homeScore": 0,
+    "awayScore": 2,
+    "isPlayed": true,
+    "date": "2026-03-14T22:00Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 9
   },
   {
     "id": "762935",
     "homeTeamId": "rosario",
     "awayTeamId": "banfield",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-14T23:00Z",
+    "homeScore": 2,
+    "awayScore": 1,
+    "isPlayed": true,
+    "date": "2026-03-15T00:00Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 9
   },
   {
     "id": "762928",
     "homeTeamId": "gimnasia-lp",
     "awayTeamId": "ind-rivadavia",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 3,
+    "isPlayed": true,
     "date": "2026-03-15T18:15Z",
     "tournament": "apertura",
-    "round": 11
-  },
-  {
-    "id": "762937",
-    "homeTeamId": "tigre",
-    "awayTeamId": "argentinos",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
-    "date": "2026-03-15T18:15Z",
-    "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762926",
     "homeTeamId": "belgrano",
     "awayTeamId": "talleres",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-15T20:30Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762934",
     "homeTeamId": "river",
     "awayTeamId": "sarmiento",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-15T22:45Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
+  },
+  {
+    "id": "762937",
+    "homeTeamId": "tigre",
+    "awayTeamId": "argentinos",
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
+    "date": "2026-03-16T01:00Z",
+    "tournament": "apertura",
+    "round": 10
   },
   {
     "id": "762938",
     "homeTeamId": "union",
     "awayTeamId": "boca",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-16T01:00Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762924",
     "homeTeamId": "aldosivi",
     "awayTeamId": "huracan",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-16T18:30Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762925",
     "homeTeamId": "barracas",
     "awayTeamId": "atletico",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-16T18:30Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762936",
     "homeTeamId": "san-lorenzo",
     "awayTeamId": "defensa",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 5,
+    "isPlayed": true,
     "date": "2026-03-16T21:30Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762933",
     "homeTeamId": "racing",
     "awayTeamId": "estudiantes-rc",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-16T23:00Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762930",
     "homeTeamId": "instituto",
     "awayTeamId": "independiente",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-17T01:15Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762931",
     "homeTeamId": "lanus",
     "awayTeamId": "newells",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 5,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-17T22:00Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762927",
     "homeTeamId": "central-cba",
     "awayTeamId": "riestra",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-18T00:15Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762929",
     "homeTeamId": "gimnasia-m",
     "awayTeamId": "estudiantes",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 2,
+    "isPlayed": true,
     "date": "2026-03-18T00:15Z",
     "tournament": "apertura",
-    "round": 11
+    "round": 10
   },
   {
     "id": "762940",
     "homeTeamId": "atletico",
     "awayTeamId": "gimnasia-lp",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-21T00:00Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 10
   },
   {
     "id": "762941",
     "homeTeamId": "banfield",
     "awayTeamId": "tigre",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-21T00:00Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 10
   },
   {
     "id": "762953",
     "homeTeamId": "velez",
     "awayTeamId": "lanus",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 0,
+    "awayScore": 1,
+    "isPlayed": true,
     "date": "2026-03-21T18:30Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762944",
     "homeTeamId": "defensa",
     "awayTeamId": "union",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 2,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-21T20:45Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762951",
     "homeTeamId": "newells",
     "awayTeamId": "gimnasia-m",
-    "homeScore": null,
-    "awayScore": null,
-    "isPlayed": false,
+    "homeScore": 1,
+    "awayScore": 0,
+    "isPlayed": true,
     "date": "2026-03-21T20:45Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762949",
@@ -1878,7 +1709,7 @@
     "isPlayed": false,
     "date": "2026-03-21T23:00Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762942",
@@ -1889,7 +1720,7 @@
     "isPlayed": false,
     "date": "2026-03-22T01:15Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762952",
@@ -1900,7 +1731,7 @@
     "isPlayed": false,
     "date": "2026-03-22T18:30Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762946",
@@ -1911,7 +1742,7 @@
     "isPlayed": false,
     "date": "2026-03-22T20:45Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762943",
@@ -1922,7 +1753,7 @@
     "isPlayed": false,
     "date": "2026-03-22T23:00Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762939",
@@ -1933,7 +1764,7 @@
     "isPlayed": false,
     "date": "2026-03-23T01:15Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762950",
@@ -1944,7 +1775,7 @@
     "isPlayed": false,
     "date": "2026-03-23T01:15Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762947",
@@ -1955,7 +1786,7 @@
     "isPlayed": false,
     "date": "2026-03-23T22:00Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762948",
@@ -1966,7 +1797,7 @@
     "isPlayed": false,
     "date": "2026-03-24T00:15Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
   },
   {
     "id": "762945",
@@ -1977,7 +1808,29 @@
     "isPlayed": false,
     "date": "2026-03-25T22:00Z",
     "tournament": "apertura",
-    "round": 12
+    "round": 11
+  },
+  {
+    "id": "762849",
+    "homeTeamId": "argentinos",
+    "awayTeamId": "lanus",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-03-27T00:00Z",
+    "tournament": "apertura",
+    "round": 11
+  },
+  {
+    "id": "762871",
+    "homeTeamId": "aldosivi",
+    "awayTeamId": "argentinos",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-03-31T18:30Z",
+    "tournament": "apertura",
+    "round": 11
   },
   {
     "id": "762967",
@@ -1988,7 +1841,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762966",
@@ -1999,7 +1852,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762955",
@@ -2010,7 +1863,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762954",
@@ -2021,7 +1874,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762956",
@@ -2032,7 +1885,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762968",
@@ -2043,7 +1896,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762957",
@@ -2054,7 +1907,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762958",
@@ -2065,7 +1918,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762959",
@@ -2076,7 +1929,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762960",
@@ -2087,7 +1940,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762961",
@@ -2098,7 +1951,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762962",
@@ -2109,7 +1962,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762963",
@@ -2120,7 +1973,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762964",
@@ -2131,7 +1984,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762965",
@@ -2142,7 +1995,7 @@
     "isPlayed": false,
     "date": "2026-04-05T18:00Z",
     "tournament": "apertura",
-    "round": 13
+    "round": 12
   },
   {
     "id": "762982",
@@ -2153,7 +2006,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762969",
@@ -2164,7 +2017,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762970",
@@ -2175,7 +2028,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762971",
@@ -2186,7 +2039,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762972",
@@ -2197,7 +2050,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762981",
@@ -2208,7 +2061,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762973",
@@ -2219,7 +2072,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762983",
@@ -2230,7 +2083,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762980",
@@ -2241,7 +2094,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762979",
@@ -2252,7 +2105,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762978",
@@ -2263,7 +2116,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762977",
@@ -2274,7 +2127,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762976",
@@ -2285,7 +2138,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762975",
@@ -2296,7 +2149,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762974",
@@ -2307,7 +2160,7 @@
     "isPlayed": false,
     "date": "2026-04-12T18:00Z",
     "tournament": "apertura",
-    "round": 14
+    "round": 13
   },
   {
     "id": "762986",
@@ -2318,7 +2171,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762987",
@@ -2329,7 +2182,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762988",
@@ -2340,7 +2193,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762989",
@@ -2351,7 +2204,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762990",
@@ -2362,7 +2215,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762992",
@@ -2373,7 +2226,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762991",
@@ -2384,7 +2237,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762993",
@@ -2395,7 +2248,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762994",
@@ -2406,7 +2259,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762995",
@@ -2417,7 +2270,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762996",
@@ -2428,7 +2281,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762997",
@@ -2439,7 +2292,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762998",
@@ -2450,7 +2303,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762985",
@@ -2461,7 +2314,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762984",
@@ -2472,7 +2325,7 @@
     "isPlayed": false,
     "date": "2026-04-19T18:00Z",
     "tournament": "apertura",
-    "round": 15
+    "round": 14
   },
   {
     "id": "762999",
@@ -2482,8 +2335,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763000",
@@ -2493,8 +2346,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763011",
@@ -2504,8 +2357,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763010",
@@ -2515,8 +2368,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763008",
@@ -2526,8 +2379,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763009",
@@ -2537,8 +2390,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763007",
@@ -2548,8 +2401,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763006",
@@ -2559,8 +2412,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763005",
@@ -2570,8 +2423,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763004",
@@ -2581,8 +2434,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763012",
@@ -2592,8 +2445,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763013",
@@ -2603,8 +2456,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763001",
@@ -2614,8 +2467,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763002",
@@ -2625,8 +2478,8 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
-    "tournament": "clausura",
-    "round": 1
+    "tournament": "apertura",
+    "round": 15
   },
   {
     "id": "763003",
@@ -2636,6 +2489,171 @@
     "awayScore": null,
     "isPlayed": false,
     "date": "2026-04-26T18:00Z",
+    "tournament": "apertura",
+    "round": 15
+  },
+  {
+    "id": "762904",
+    "homeTeamId": "aldosivi",
+    "awayTeamId": "ind-rivadavia",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762905",
+    "homeTeamId": "barracas",
+    "awayTeamId": "banfield",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762906",
+    "homeTeamId": "belgrano",
+    "awayTeamId": "sarmiento",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762907",
+    "homeTeamId": "central-cba",
+    "awayTeamId": "boca",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762908",
+    "homeTeamId": "estudiantes-rc",
+    "awayTeamId": "instituto",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762895",
+    "homeTeamId": "gimnasia-m",
+    "awayTeamId": "defensa",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762894",
+    "homeTeamId": "gimnasia-lp",
+    "awayTeamId": "argentinos",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762896",
+    "homeTeamId": "lanus",
+    "awayTeamId": "riestra",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762897",
+    "homeTeamId": "platense",
+    "awayTeamId": "estudiantes",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762898",
+    "homeTeamId": "racing",
+    "awayTeamId": "huracan",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762899",
+    "homeTeamId": "river",
+    "awayTeamId": "atletico",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762900",
+    "homeTeamId": "rosario",
+    "awayTeamId": "tigre",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762901",
+    "homeTeamId": "san-lorenzo",
+    "awayTeamId": "independiente",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762902",
+    "homeTeamId": "union",
+    "awayTeamId": "talleres",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
+    "tournament": "clausura",
+    "round": 1
+  },
+  {
+    "id": "762903",
+    "homeTeamId": "velez",
+    "awayTeamId": "newells",
+    "homeScore": null,
+    "awayScore": null,
+    "isPlayed": false,
+    "date": "2026-05-03T18:00Z",
     "tournament": "clausura",
     "round": 1
   },
