@@ -31,8 +31,8 @@ export const useTournament = () => {
             setMatches([]); // Reset before loading new league
         }
 
-        const lsTeamsKey = `tournament_teams_${leagueId}_v8`;
-        const lsMatchesKey = `tournament_matches_${leagueId}_v8`;
+        const lsTeamsKey = `tournament_teams_${leagueId}_v9`;
+        const lsMatchesKey = `tournament_matches_${leagueId}_v9`;
         
         const storedTeamsRaw = localStorage.getItem(lsTeamsKey);
         const storedMatchesRaw = localStorage.getItem(lsMatchesKey);

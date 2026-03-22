@@ -8,13 +8,14 @@ const PROMIEDOS_DATA = {
         { name: 'Ivan Arbello', pos: 'DEF' }, { name: 'Gonzalo Pedrosa', pos: 'DEF' }, { name: 'Gerónimo Rodriguez', pos: 'DEF' }, { name: 'Horacio Igarzábal', pos: 'DEF' },
         { name: 'Antonio Paulides', pos: 'MID' }, { name: 'Alan Espeche', pos: 'MID' }, { name: 'Matías Fernández', pos: 'MID' }, { name: 'Miguel López', pos: 'MID' },
         { name: 'Mateo Cardozo', pos: 'MID' }, { name: 'Gian Zoratti', pos: 'MID' },
-        { name: 'Federico Haberkorn', pos: 'FWD' }, { name: 'Gabriel Tellas', pos: 'FWD' }, { name: 'Máximo Blanco', pos: 'FWD', goals: 4 }, { name: 'Francesco Celeste', pos: 'FWD' }
+        { name: 'Federico Haberkorn', pos: 'FWD' }, { name: 'Gabriel Tellas', pos: 'FWD' }, { name: 'Máximo Blanco', pos: 'FWD', goals: 4 },
+        { name: 'Adrián Lugones', pos: 'FWD', goals: 2 }, { name: 'Brian Martin', pos: 'FWD', goals: 2 }, { name: 'Máximo Guzmán', pos: 'FWD', goals: 2 }, { name: 'Francesco Celeste', pos: 'FWD' }
     ],
     'argentino_quilmes': [
         { name: 'Ramiro García', pos: 'GK' }, { name: 'Nahuel Yzaurralde', pos: 'GK' }, { name: 'Germán Cheppi', pos: 'GK' },
         { name: 'Demian Núñez', pos: 'DEF' }, { name: 'Nicolás Benavídez', pos: 'DEF' }, { name: 'Fernando Cosciuc', pos: 'DEF' }, { name: 'Facundo Lando', pos: 'DEF' }, { name: 'Lucio Nadalin', pos: 'DEF' },
         { name: 'Marcelo Vega', pos: 'MID' }, { name: 'Leandro Guzmán', pos: 'MID' }, { name: 'Tomás Bugallo', pos: 'MID' }, { name: 'Juan Ignacio Quattrocchi', pos: 'MID' },
-        { name: 'Franco Sosa', pos: 'FWD' }, { name: 'Joel Martínez', pos: 'FWD' }, { name: 'Dylan Oyarzún', pos: 'FWD' }, { name: 'Fabricio Filliol', pos: 'FWD' }
+        { name: 'Joel Martínez', pos: 'FWD', goals: 2 }, { name: 'Franco Sosa', pos: 'FWD' }, { name: 'Dylan Oyarzún', pos: 'FWD' }, { name: 'Fabricio Filliol', pos: 'FWD' }
     ],
     'deportivo_laferrere': [
         { name: 'Federico Haberkorn', pos: 'FWD' }, { name: 'Gabriel Tellas', pos: 'FWD' } 
@@ -23,6 +24,21 @@ const PROMIEDOS_DATA = {
         { name: 'Maximiliano Gagliardo', pos: 'GK' }, { name: 'Andrés Camacho', pos: 'DEF' },
         { name: 'Daniel González', pos: 'MID' }, { name: 'Agustín Prokop', pos: 'MID' },
         { name: 'Jonathan Palacio', pos: 'FWD' }, { name: 'Nazareno Diósquez', pos: 'FWD', goals: 3 }
+    ],
+    'arg.arsenal_de_sarandi': [
+        { name: 'Nahuel Pezzini', pos: 'GK' }, { name: 'Julián Lobelos', pos: 'GK' },
+        { name: 'Damián Pérez', pos: 'DEF' }, { name: 'Rodrigo Delvalle', pos: 'DEF' }, { name: 'Luca Franco', pos: 'DEF', goals: 2 }, { name: 'Thiago Schiavulli', pos: 'DEF' },
+        { name: 'Alexis Vega', pos: 'MID' }, { name: 'Joaquín Ochoa', pos: 'MID' }, { name: 'Rodrigo Salinas', pos: 'MID', goals: 2 },
+        { name: 'Martín Giménez', pos: 'FWD', goals: 3 }, { name: 'Uriel La Roza', pos: 'FWD' }, { name: 'Matías Sosa', pos: 'FWD' }
+    ],
+    'real_pilar': [
+        { name: 'Franco Romero', pos: 'FWD', goals: 2 }, { name: 'Ricardo Ramirez', pos: 'FWD', goals: 2 }
+    ],
+    'san_martn_burzaco': [
+        { name: 'Matias Samaniego', pos: 'FWD', goals: 2 }, { name: 'Nicolás Gauna', pos: 'FWD', goals: 2 }, { name: 'Franco Benítez', pos: 'FWD', goals: 2 }
+    ],
+    'club_sportivo_italiano': [
+        { name: 'Luca Franco', pos: 'DEF', goals: 2 }
     ],
     'arg.talleres_de_remedios_de_escalada': [
         { name: 'Mauro Casoli', pos: 'GK' }, { name: 'Agustín Galván', pos: 'GK' },
