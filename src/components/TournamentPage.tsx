@@ -42,7 +42,12 @@ export function TournamentPage({ tournament }: Props) {
 
     const standings = useMemo(() => getStandings(tournament), [matches, tournament]);
 
-    const qualifiedTeams = { A: standings.A.slice(0, 8), B: standings.B.slice(0, 8) };
+    const qualifiedTeams = useMemo(() => {
+        if (league === 'b-metro') {
+            return { A: standings.A.slice(1, 9), B: [] };
+        }
+        return { A: standings.A.slice(0, 8), B: standings.B.slice(0, 8) };
+    }, [standings, league]);
 
     const handleSimulateNextRound = () => {
         const unplayed = matches.filter(m => m.tournament === tournament && !m.isPlayed);

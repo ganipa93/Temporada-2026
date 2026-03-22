@@ -54,6 +54,10 @@ export const PlayoffBracket: React.FC<PlayoffBracketProps> = ({ qualifiedTeams, 
     if (league === 'nacional-b') {
         return <NacionalBBracket qualifiedTeams={qualifiedTeams} TeamSlot={TeamSlot} />;
     }
+
+    if (league === 'b-metro') {
+        return <BMetroBracket qualifiedTeams={qualifiedTeams} TeamSlot={TeamSlot} />;
+    }
     // Stage 1: Octavos (Round of 16) - 8 Matches
     // Cross: 1A vs 8B, 2A vs 7B, 3A vs 6B, 4A vs 5B...
 
@@ -228,3 +232,70 @@ const NacionalBBracket = ({ qualifiedTeams, TeamSlot }: { qualifiedTeams: Playof
     );
 };
 
+const BMetroBracket = ({ qualifiedTeams, TeamSlot }: { qualifiedTeams: PlayoffBracketProps['qualifiedTeams'], TeamSlot: any }) => {
+    const teams = qualifiedTeams.A; // 2nd to 9th
+    const [qWinners, setQWinners] = useState<(Team | null)[]>(Array(4).fill(null));
+    const [sWinners, setSWinners] = useState<(Team | null)[]>(Array(2).fill(null));
+    const [champion, setChampion] = useState<Team | null>(null);
+
+    const qMatches = [
+        { home: teams[0], away: teams[7] }, // 2 vs 9
+        { home: teams[3], away: teams[4] }, // 5 vs 6
+        { home: teams[1], away: teams[6] }, // 3 vs 8
+        { home: teams[2], away: teams[5] }, // 4 vs 7
+    ];
+
+    const handleAdvance = (stage: 'q' | 's' | 'f', i: number, w: Team) => {
+        if (stage === 'q') {
+            const next = [...qWinners]; next[i] = w; setQWinners(next);
+            setSWinners(Array(2).fill(null)); setChampion(null);
+        } else if (stage === 's') {
+            const next = [...sWinners]; next[i] = w; setSWinners(next);
+            setChampion(null);
+        } else {
+            setChampion(w);
+        }
+    };
+
+    return (
+        <div className="flex gap-8 overflow-x-auto p-4 min-w-[800px]">
+            <div className="flex flex-col justify-around gap-4">
+                <h3 className="text-center font-black text-xs uppercase mb-2" style={{ color: 'var(--text-faint)' }}>Cuartos</h3>
+                {qMatches.map((m, i) => (
+                    <div key={i} className="flex flex-col gap-1 relative">
+                        <TeamSlot team={m.home} isWinner={qWinners[i]?.id === m.home?.id} onClick={() => m.home && handleAdvance('q', i, m.home)} label="H" />
+                        <TeamSlot team={m.away} isWinner={qWinners[i]?.id === m.away?.id} onClick={() => m.away && handleAdvance('q', i, m.away)} label="A" />
+                        <div className="absolute -right-4 top-1/2 w-4 h-px" style={{ background: 'var(--border-strong)' }} />
+                    </div>
+                ))}
+            </div>
+            <div className="flex flex-col justify-around gap-4">
+                <h3 className="text-center font-black text-xs uppercase mb-2" style={{ color: 'var(--text-faint)' }}>Semi</h3>
+                {[0, 1].map(i => {
+                    const h = qWinners[i * 2]; const a = qWinners[i * 2 + 1];
+                    return (
+                        <div key={i} className="flex flex-col gap-1 relative">
+                            <TeamSlot team={h || undefined} isWinner={sWinners[i]?.id === h?.id} onClick={() => h && a && handleAdvance('s', i, h)} label="H" />
+                            <TeamSlot team={a || undefined} isWinner={sWinners[i]?.id === a?.id} onClick={() => h && a && handleAdvance('s', i, a)} label="A" />
+                            <div className="absolute -right-4 top-1/2 w-4 h-px" style={{ background: 'var(--border-strong)' }} />
+                        </div>
+                    );
+                })}
+            </div>
+            <div className="flex flex-col justify-around gap-4">
+                <h3 className="text-center font-black text-xs uppercase mb-2" style={{ color: 'var(--gold)' }}>Final Reducido</h3>
+                <div className="flex flex-col gap-1">
+                    <TeamSlot team={sWinners[0] || undefined} isWinner={champion?.id === sWinners[0]?.id} onClick={() => sWinners[0] && sWinners[1] && handleAdvance('f', 0, sWinners[0])} label="N" />
+                    <TeamSlot team={sWinners[1] || undefined} isWinner={champion?.id === sWinners[1]?.id} onClick={() => sWinners[0] && sWinners[1] && handleAdvance('f', 0, sWinners[1])} label="N" />
+                </div>
+                {champion && (
+                    <div className="text-center mt-4">
+                        <Trophy style={{ color: 'var(--gold)' }} className="mx-auto" size={24} />
+                        <div className="text-xs font-bold uppercase" style={{ color: 'var(--gold)' }}>Asciende</div>
+                        <div className="font-black text-sm">{champion.name}</div>
+                    </div>
+                )}
+            </div>
+        </div>
+    );
+};
