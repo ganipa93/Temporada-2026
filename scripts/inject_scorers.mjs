@@ -12,7 +12,7 @@ function inject() {
     ];
 
     injectionMap.forEach(ij => {
-        const regex = new RegExp(`name: '${ij.name}',(\\s+)position: '(?:GK|DEF|MID|FWD)' as 'GK' \\| 'DEF' \\| 'MID' \\| 'FWD',(\\s+)age: \\d+,(\\s+)goals: 0`, 'g');
+        const regex = new RegExp(`name: '${ij.name}',(\\s+)position: '(?:GK|DEF|MID|FWD)' as 'GK' \\| 'DEF' \\| 'MID' \\| 'FWD',(\\s+)age: \\d+(\\s+)goals: 0`, 'g');
         content = content.replace(regex, (match, s1, s2, s3) => {
             return match.replace('goals: 0', `goals: ${ij.goals}`);
         });

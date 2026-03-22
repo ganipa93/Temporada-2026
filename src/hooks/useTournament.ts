@@ -65,9 +65,17 @@ export const useTournament = () => {
             // 3. Merge with CURRENT_TEAMS to get new fields like apiId without losing current stats
             const finalTeams = migratedTeams.map(st => {
                 const sourceTeam = CURRENT_TEAMS.find(t => t.id === st.id);
+                if (!sourceTeam) return st;
+
+                // If stored team has no players, or we are in B Metro (just updated), 
+                // we might want to take the fresh roster and stats.
+                const shouldRefreshRoster = st.players.length === 0 || leagueId === 'b-metro';
+
                 return {
                     ...st,
-                    apiId: sourceTeam?.apiId ?? st.apiId
+                    apiId: sourceTeam.apiId,
+                    // If refreshing, take source players. Otherwise, keep current but maybe update metadata.
+                    players: shouldRefreshRoster ? sourceTeam.players : st.players
                 };
             });
 
