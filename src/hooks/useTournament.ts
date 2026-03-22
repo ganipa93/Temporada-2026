@@ -1,16 +1,41 @@
-import { useState, useEffect } from 'react';
-import { TEAMS } from '@/lib/data/teams';
+import { useState, useEffect, useRef } from 'react';
 import type { Team, Match } from '@/lib/types';
-import OFFICIAL_FIXTURE from '@/lib/data/official_fixture.json';
+import { TEAMS as PRIMERA_TEAMS } from '@/lib/data/primera/teams';
+import PRIMERA_FIXTURE from '@/lib/data/primera/official_fixture.json';
+import { TEAMS as NACIONAL_B_TEAMS } from '@/lib/data/nacional-b/teams';
+import NACIONAL_B_FIXTURE from '@/lib/data/nacional-b/official_fixture.json';
+
+import { useLeague } from '@/components/providers/LeagueProvider';
+
+const LEAGUES_DATA = {
+    primera: { teams: PRIMERA_TEAMS, fixture: PRIMERA_FIXTURE as Match[] },
+    'nacional-b': { teams: NACIONAL_B_TEAMS, fixture: NACIONAL_B_FIXTURE as Match[] }
+};
 
 export const useTournament = () => {
-    const [teams, setTeams] = useState<Team[]>(TEAMS);
+    const { league: leagueId } = useLeague();
+    const defaultData = LEAGUES_DATA[leagueId] || LEAGUES_DATA.primera;
+    const [teams, setTeams] = useState<Team[]>(defaultData.teams);
     const [matches, setMatches] = useState<Match[]>([]);
+    
+    // To ensure we reload if leagueId changes dynamically
+    const prevLeagueRef = useRef(leagueId);
 
     // Initialize/Load Data
     useEffect(() => {
-        const storedTeamsRaw = localStorage.getItem('tournament_teams_v3');
-        const storedMatchesRaw = localStorage.getItem('tournament_matches_v3');
+        if (prevLeagueRef.current !== leagueId) {
+            prevLeagueRef.current = leagueId;
+            setMatches([]); // Reset before loading new league
+        }
+
+        const lsTeamsKey = `tournament_teams_${leagueId}_v3`;
+        const lsMatchesKey = `tournament_matches_${leagueId}_v3`;
+        
+        const storedTeamsRaw = localStorage.getItem(lsTeamsKey);
+        const storedMatchesRaw = localStorage.getItem(lsMatchesKey);
+        
+        const CURRENT_TEAMS = LEAGUES_DATA[leagueId].teams;
+        const CURRENT_FIXTURE = LEAGUES_DATA[leagueId].fixture;
 
         if (storedTeamsRaw && storedMatchesRaw) {
             // 1. Migrate stale IDs (Mendoza was 'gimnasia-lp' in Zone A)
@@ -21,9 +46,9 @@ export const useTournament = () => {
                 return t;
             });
 
-            // 2. Consistent matches with migrated IDs (Source of truth for IDs is OFFICIAL_FIXTURE)
+            // 2. Consistent matches with migrated IDs (Source of truth for IDs is CURRENT_FIXTURE)
             const migratedMatches = (JSON.parse(storedMatchesRaw) as Match[]).map(m => {
-                const officialMatch = (OFFICIAL_FIXTURE as Match[]).find(om => om.id === m.id);
+                const officialMatch = CURRENT_FIXTURE.find(om => om.id === m.id);
                 if (officialMatch) {
                     return {
                         ...m,
@@ -34,9 +59,9 @@ export const useTournament = () => {
                 return m;
             });
 
-            // 3. Merge with TEAMS to get new fields like apiId without losing current stats
+            // 3. Merge with CURRENT_TEAMS to get new fields like apiId without losing current stats
             const finalTeams = migratedTeams.map(st => {
-                const sourceTeam = TEAMS.find(t => t.id === st.id);
+                const sourceTeam = CURRENT_TEAMS.find(t => t.id === st.id);
                 return {
                     ...st,
                     apiId: sourceTeam?.apiId ?? st.apiId
@@ -47,18 +72,18 @@ export const useTournament = () => {
             setMatches(migratedMatches);
         } else {
             // Use Official Fixture
-            setMatches(OFFICIAL_FIXTURE as Match[]);
-            setTeams(TEAMS);
+            setMatches(CURRENT_FIXTURE);
+            setTeams(CURRENT_TEAMS);
         }
-    }, []);
+    }, [leagueId]);
 
     // Persistence
     useEffect(() => {
         if (matches.length > 0) {
-            localStorage.setItem('tournament_teams_v3', JSON.stringify(teams));
-            localStorage.setItem('tournament_matches_v3', JSON.stringify(matches));
+            localStorage.setItem(`tournament_teams_${leagueId}_v3`, JSON.stringify(teams));
+            localStorage.setItem(`tournament_matches_${leagueId}_v3`, JSON.stringify(matches));
         }
-    }, [teams, matches]);
+    }, [teams, matches, leagueId]);
 
     // --- Simulation Logic ---
 
@@ -204,8 +229,8 @@ export const useTournament = () => {
     };
 
     const resetTournament = () => {
-        localStorage.removeItem('tournament_teams_v3');
-        localStorage.removeItem('tournament_matches_v3');
+        localStorage.removeItem(`tournament_teams_${leagueId}_v3`);
+        localStorage.removeItem(`tournament_matches_${leagueId}_v3`);
         window.location.reload();
     };
 

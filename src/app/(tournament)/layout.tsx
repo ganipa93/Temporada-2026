@@ -1,8 +1,9 @@
 'use client';
 
 import { usePathname, useRouter } from 'next/navigation';
-import { Trophy, ArrowRightLeft } from 'lucide-react';
+import { Trophy, ArrowRightLeft, ArrowRight, ArrowRightCircle } from 'lucide-react';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
+import { useLeague } from '@/components/providers/LeagueProvider';
 
 const NAV_ITEMS = [
     { id: 'equipos', path: '/equipos', label: 'Equipos', color: '#64748B' },
@@ -16,32 +17,48 @@ export default function TournamentLayout({ children }: { children: React.ReactNo
     const pathname = usePathname();
     const router = useRouter();
 
+    const { league, setLeague } = useLeague();
+    
     // Determine active main view from path
     const currentView = NAV_ITEMS.find(item =>
         pathname === item.path || pathname.startsWith(item.path + '/')
     )?.id || 'apertura';
 
+    const isPrimera = league === 'primera';
+
     return (
         <div className="min-h-screen font-sans theme-fade" style={{ background: 'var(--bg)', color: 'var(--text)' }}>
             {/* Top stripe */}
-            <div className="h-1 w-full" style={{ background: 'linear-gradient(90deg, #4FC3F7 0%, #007ACC 50%, #C084FC 100%)' }} />
+            <div className="h-1 w-full" style={{ background: isPrimera ? 'linear-gradient(90deg, #4FC3F7 0%, #007ACC 50%, #C084FC 100%)' : 'linear-gradient(90deg, #34d399 0%, #059669 50%, #10b981 100%)' }} />
 
             <header className="max-w-7xl mx-auto px-3 md:px-6 py-3 md:py-4 flex flex-wrap items-center justify-between gap-3">
                 {/* Logo */}
                 <div className="flex items-center gap-3">
                     <div className="p-2 rounded-xl shadow-lg flex-shrink-0"
                         style={{ background: 'var(--accent-dim)', border: '1px solid var(--border-strong)' }}>
-                        <Trophy style={{ color: 'var(--accent)' }} size={22} />
+                        <Trophy style={{ color: isPrimera ? 'var(--accent)' : '#10b981' }} size={22} />
                     </div>
                     <div className="flex flex-col">
                         <h1 className="text-lg md:text-2xl font-black tracking-tight uppercase leading-tight"
                             style={{ color: 'var(--text)' }}>
-                            Liga Profesional 2026
+                            {isPrimera ? 'Liga Profesional 2026' : 'Primera Nacional 2026'}
                         </h1>
                         <span className="text-xs md:text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
-                            Primera División de Argentina
+                            {isPrimera ? 'Primera División de Argentina' : 'Segunda División de Argentina'}
                         </span>
                     </div>
+                    {/* League Switcher */}
+                    <button 
+                        onClick={() => setLeague(isPrimera ? 'nacional-b' : 'primera')}
+                        className="ml-2 flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold uppercase tracking-wide transition-all border hover:scale-105"
+                        style={{ 
+                            background: 'var(--surface-2)', 
+                            borderColor: 'var(--border)', 
+                            color: 'var(--text)' 
+                        }}>
+                        <ArrowRightCircle size={14} style={{ color: isPrimera ? '#10b981' : 'var(--accent)' }}/>
+                        Cambiar a {isPrimera ? 'Nacional B' : 'Primera'}
+                    </button>
                 </div>
 
                 <ThemeToggle />

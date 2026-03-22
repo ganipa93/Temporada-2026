@@ -4,6 +4,7 @@ import React from 'react';
 import type { Team } from '@/lib/types';
 import clsx from 'clsx';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useLeague } from '@/components/providers/LeagueProvider';
 
 interface StandingsTableProps {
     zoneName: string;
@@ -13,17 +14,26 @@ interface StandingsTableProps {
 
 export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams, theme = 'blue' }) => {
     const isBlue = theme === 'blue';
-
+    const { league } = useLeague();
+    
     // Accent colours from design system (reflect CSS vars in JS for gradients)
     const accentHex = isBlue ? '#4FC3F7' : '#C084FC';
     const headerGradient = isBlue
         ? 'linear-gradient(135deg, #0D2240 0%, #1C3A5C 100%)'
         : 'linear-gradient(135deg, #2D1458 0%, #3B1873 100%)';
 
-    const getZoneStyle = (index: number, total: number) => {
-        if (index < 3) return 'perf-top';
-        if (index >= total - 3) return 'perf-bottom';
-        return 'perf-mid';
+    const getPositionIndicator = (index: number, totalTeams: number) => {
+        if (league === 'nacional-b') {
+            if (index === 0) return { bg: '#FBBF24', color: '#0A1A2F', glow: true }; // Final
+            if (index > 0 && index < 8) return { bg: accentHex, color: '#0A1A2F', glow: true }; // Reducido
+            if (index >= totalTeams - 2) return { bg: 'var(--loss)', color: '#FFFFFF', glow: false }; // Descenso
+            return { bg: 'transparent', color: 'var(--text-faint)', glow: false };
+        }
+        // Primera Division
+        const isPlayoffs = index < 8;
+        return isPlayoffs
+            ? { bg: accentHex, color: '#0A1A2F', glow: true }
+            : { bg: 'transparent', color: 'var(--text-faint)', glow: false };
     };
 
     const renderFormBadge = (res: string, i: number) => {
@@ -57,7 +67,7 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
                 </div>
                 <span className="text-xs font-semibold uppercase tracking-widest hidden sm:block"
                     style={{ color: 'rgba(255,255,255,0.4)' }}>
-                    Liga Profesional
+                    {league === 'primera' ? 'Liga Profesional' : 'Primera Nacional'}
                 </span>
             </div>
 
@@ -89,8 +99,8 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
                     <tbody>
                         <AnimatePresence>
                             {teams.map((team, index) => {
-                                const isQualified = index < 8;
                                 const gd = team.stats.gf - team.stats.gc;
+                                const indicator = getPositionIndicator(index, teams.length);
 
                                 return (
                                     <motion.tr
@@ -100,17 +110,17 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
                                         animate={{ opacity: 1, y: 0 }}
                                         exit={{ opacity: 0, y: 5 }}
                                         transition={{ duration: 0.22, delay: index * 0.025 }}
-                                        className={clsx(getZoneStyle(index, teams.length), 'group cursor-default theme-fade')}
+                                        className="group cursor-default theme-fade"
                                         style={{ borderBottom: '1px solid var(--border)' }}
                                     >
                                         {/* # */}
                                         <td className="px-3 py-2.5 text-center">
                                             <span
                                                 className="inline-flex items-center justify-center w-5 h-5 md:w-6 md:h-6 rounded-full text-[10px] md:text-xs font-bold"
-                                                style={isQualified
-                                                    ? { background: accentHex, color: '#0A1A2F' }
-                                                    : { color: 'var(--text-faint)' }
-                                                }
+                                                style={{ 
+                                                    background: indicator.bg, 
+                                                    color: indicator.color 
+                                                }}
                                             >
                                                 {index + 1}
                                             </span>
@@ -130,8 +140,8 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
                                                 <span className="hidden md:block text-sm font-medium truncate" style={{ color: 'var(--text)' }}>
                                                     {team.name}
                                                 </span>
-                                                {isQualified && (
-                                                    <span className="w-1 h-1 rounded-full flex-shrink-0 animate-pulse" style={{ background: accentHex }} />
+                                                {indicator.glow && (
+                                                    <span className="w-1 h-1 rounded-full flex-shrink-0 animate-pulse" style={{ background: indicator.bg }} />
                                                 )}
                                             </div>
                                         </td>

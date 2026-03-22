@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import type { Team } from '@/lib/types';
 import { Trophy } from 'lucide-react';
+import { useLeague } from '@/components/providers/LeagueProvider';
 
 
 interface PlayoffBracketProps {
@@ -14,6 +15,45 @@ interface PlayoffBracketProps {
 }
 
 export const PlayoffBracket: React.FC<PlayoffBracketProps> = ({ qualifiedTeams, theme = 'blue' }) => {
+    const { league } = useLeague();
+    
+    // Default slot component used by both bracket types
+    const TeamSlot = ({ team, isWinner, onClick, align = 'left', label }: { team?: Team, isWinner?: boolean, onClick: () => void, align?: string, label: string }) => {
+        const accentColor = theme === 'purple' ? '#C084FC' : '#4FC3F7';
+        const accentBg = theme === 'purple' ? 'rgba(192,132,252,0.12)' : 'rgba(79,195,247,0.12)';
+        const glowShadow = theme === 'purple'
+            ? '0 0 12px rgba(192,132,252,0.25)'
+            : '0 0 12px rgba(79,195,247,0.25)';
+
+        return (
+            <div
+                onClick={() => team && onClick()}
+                className="p-2 rounded-lg cursor-pointer border transition-all flex items-center gap-2 min-w-[140px] theme-fade"
+                style={!team
+                    ? { background: 'var(--surface-3)', borderColor: 'var(--border)', opacity: 0.5 }
+                    : isWinner
+                        ? { background: accentBg, borderColor: accentColor, boxShadow: glowShadow }
+                        : { background: 'var(--surface-2)', borderColor: 'var(--border-strong)' }
+                }
+            >
+                {team ? (
+                    <>
+                        <img src={team.logo} alt={team.name} className="w-6 h-6 object-contain shrink-0" />
+                        <div className={`flex flex-col leading-none ${align === 'right' ? 'items-end' : ''}`}>
+                            <span className="text-[10px] font-mono mb-0.5" style={{ color: 'var(--text-faint)' }}>{label}</span>
+                            <span className="font-bold text-xs md:text-sm truncate" style={{ color: isWinner ? accentColor : 'var(--text)' }}>{team.name}</span>
+                        </div>
+                    </>
+                ) : (
+                    <span className="text-xs italic" style={{ color: 'var(--text-faint)' }}>TBD</span>
+                )}
+            </div>
+        );
+    };
+
+    if (league === 'nacional-b') {
+        return <NacionalBBracket qualifiedTeams={qualifiedTeams} TeamSlot={TeamSlot} />;
+    }
     // Stage 1: Octavos (Round of 16) - 8 Matches
     // Cross: 1A vs 8B, 2A vs 7B, 3A vs 6B, 4A vs 5B...
 
@@ -61,38 +101,7 @@ export const PlayoffBracket: React.FC<PlayoffBracketProps> = ({ qualifiedTeams, 
         }
     };
 
-    const TeamSlot = ({ team, isWinner, onClick, align = 'left', label }: { team?: Team, isWinner?: boolean, onClick: () => void, align?: string, label: string }) => {
-        const accentColor = theme === 'purple' ? '#C084FC' : '#4FC3F7';
-        const accentBg = theme === 'purple' ? 'rgba(192,132,252,0.12)' : 'rgba(79,195,247,0.12)';
-        const glowShadow = theme === 'purple'
-            ? '0 0 12px rgba(192,132,252,0.25)'
-            : '0 0 12px rgba(79,195,247,0.25)';
 
-        return (
-            <div
-                onClick={() => team && onClick()}
-                className="p-2 rounded-lg cursor-pointer border transition-all flex items-center gap-2 min-w-[140px] theme-fade"
-                style={!team
-                    ? { background: 'var(--surface-3)', borderColor: 'var(--border)', opacity: 0.5 }
-                    : isWinner
-                        ? { background: accentBg, borderColor: accentColor, boxShadow: glowShadow }
-                        : { background: 'var(--surface-2)', borderColor: 'var(--border-strong)' }
-                }
-            >
-                {team ? (
-                    <>
-                        <img src={team.logo} alt={team.name} className="w-6 h-6 object-contain shrink-0" />
-                        <div className={`flex flex-col leading-none ${align === 'right' ? 'items-end' : ''}`}>
-                            <span className="text-[10px] font-mono mb-0.5" style={{ color: 'var(--text-faint)' }}>{label}</span>
-                            <span className="font-bold text-xs md:text-sm truncate" style={{ color: isWinner ? accentColor : 'var(--text)' }}>{team.name}</span>
-                        </div>
-                    </>
-                ) : (
-                    <span className="text-xs italic" style={{ color: 'var(--text-faint)' }}>TBD</span>
-                )}
-            </div>
-        );
-    };
 
     return (
         <div className="flex gap-8 overflow-x-auto p-4 min-w-[1000px]">
@@ -154,6 +163,66 @@ export const PlayoffBracket: React.FC<PlayoffBracketProps> = ({ qualifiedTeams, 
                         <div className="text-2xl font-black" style={{ color: 'var(--text)' }}>{champion.name}</div>
                     </div>
                 )}
+            </div>
+        </div>
+    );
+};
+
+const NacionalBBracket = ({ qualifiedTeams, TeamSlot }: { qualifiedTeams: PlayoffBracketProps['qualifiedTeams'], TeamSlot: any }) => {
+    const [champion, setChampion] = useState<Team | null>(null);
+    const [reducidoWinners, setReducidoWinners] = useState<(Team | null)[]>(Array(7).fill(null));
+
+    const finalAscenso = { home: qualifiedTeams.A[0], away: qualifiedTeams.B[0] };
+    const reducidoMatches = [
+        { home: qualifiedTeams.A[1], away: qualifiedTeams.B[7] }, // 2A vs 8B
+        { home: qualifiedTeams.B[1], away: qualifiedTeams.A[7] }, // 2B vs 8A
+        { home: qualifiedTeams.A[2], away: qualifiedTeams.B[6] }, // 3A vs 7B
+        { home: qualifiedTeams.B[2], away: qualifiedTeams.A[6] }, // 3B vs 7A
+        { home: qualifiedTeams.A[3], away: qualifiedTeams.B[5] }, // 4A vs 6B
+        { home: qualifiedTeams.B[3], away: qualifiedTeams.A[5] }, // 4B vs 6A
+        { home: qualifiedTeams.A[4], away: qualifiedTeams.B[4] }, // 5A vs 5B
+    ];
+
+    return (
+        <div className="flex flex-col gap-12 p-4">
+            {/* FINAL 1ER ASCENSO */}
+            <div className="flex flex-col gap-4">
+                <h3 className="text-center font-black text-sm uppercase tracking-widest" style={{ color: '#FBBF24' }}>
+                    Final por el 1er Ascenso
+                </h3>
+                <div className="flex justify-center items-center gap-6">
+                    <TeamSlot team={finalAscenso.home} isWinner={champion?.id === finalAscenso.home?.id} onClick={() => setChampion(finalAscenso.home)} label="1° Zona A" />
+                    <span className="text-xl font-bold" style={{ color: 'var(--text-muted)' }}>vs</span>
+                    <TeamSlot team={finalAscenso.away} isWinner={champion?.id === finalAscenso.away?.id} onClick={() => setChampion(finalAscenso.away)} label="1° Zona B" />
+                </div>
+                {champion && (
+                    <div className="mt-4 text-center animate-in fade-in zoom-in">
+                        <Trophy style={{ color: '#FBBF24' }} className="mx-auto mb-2 drop-shadow-[0_0_15px_rgba(251,191,36,0.5)]" size={36} />
+                        <div className="text-xs uppercase tracking-widest font-bold mb-1" style={{ color: '#FBBF24' }}>Campeón y Asciende</div>
+                        <div className="text-xl font-black" style={{ color: 'var(--text)' }}>{champion.name}</div>
+                    </div>
+                )}
+            </div>
+
+            <div className="h-px w-full" style={{ background: 'var(--border)' }} />
+
+            {/* REDUCIDO */}
+            <div>
+                <h3 className="text-center font-black text-sm uppercase mb-6 tracking-widest" style={{ color: 'var(--accent)' }}>
+                    Reducido (1ra Ronda)
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    {reducidoMatches.map((match, i) => (
+                        <div key={i} className="flex flex-col gap-1 p-2 border rounded-xl" style={{ background: 'var(--surface)', borderColor: 'var(--border-strong)' }}>
+                            <TeamSlot team={match.home} isWinner={reducidoWinners[i]?.id === match.home?.id} onClick={() => {
+                                const newW = [...reducidoWinners]; newW[i] = match.home; setReducidoWinners(newW);
+                            }} label="Local (+ V. Deportiva)" />
+                            <TeamSlot team={match.away} isWinner={reducidoWinners[i]?.id === match.away?.id} onClick={() => {
+                                const newW = [...reducidoWinners]; newW[i] = match.away; setReducidoWinners(newW);
+                            }} label="Visitante" />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

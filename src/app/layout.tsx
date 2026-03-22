@@ -7,6 +7,8 @@ export const metadata: Metadata = {
   description: 'Simulación y análisis predictivo del fútbol argentino. Probabilidades en tiempo real, Monte Carlo, y datos en vivo.',
 };
 
+import { LeagueProvider } from '@/components/providers/LeagueProvider';
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" suppressHydrationWarning>
@@ -18,7 +20,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen antialiased">
         <QueryProvider>
-          {children}
+          <LeagueProvider>
+            {children}
+          </LeagueProvider>
         </QueryProvider>
       </body>
     </html>
