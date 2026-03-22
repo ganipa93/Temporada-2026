@@ -22,7 +22,7 @@ export default function TournamentLayout({ children }: { children: React.ReactNo
     
     const activeNavItems = isPrimera 
         ? NAV_ITEMS
-        : NAV_ITEMS.filter(i => i.id !== 'clausura' && i.id !== 'annual')
+        : NAV_ITEMS.filter(i => i.id !== 'clausura' && i.id !== 'annual' && i.id !== 'promedios')
                    .map(i => i.id === 'apertura' ? { ...i, label: 'Torneo Anual' } : i);
 
     // Determine active main view from path
