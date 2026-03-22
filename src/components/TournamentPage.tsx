@@ -10,6 +10,8 @@ import { ProbabilityPanel } from '@/components/ProbabilityPanel';
 import { EnVivo } from '@/components/simulacion/EnVivo';
 import { LayoutGrid, Trophy, PlayCircle, FastForward, RotateCcw, Medal, BarChart3, Radio } from 'lucide-react';
 
+import { useLeague } from '@/components/providers/LeagueProvider';
+
 interface Props {
     tournament: 'apertura' | 'clausura';
 }
@@ -17,6 +19,7 @@ interface Props {
 type SubTab = 'regular' | 'playoffs' | 'scorers' | 'proyecciones' | 'simulacion';
 
 export function TournamentPage({ tournament }: Props) {
+    const { league } = useLeague();
     const {
         teams, matches,
         simulateMatch, simulateNextRound, simulateAll, resetTournament,
@@ -143,16 +146,26 @@ export function TournamentPage({ tournament }: Props) {
                 {activeTab === 'regular' && (
                     <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
                         <div className="xl:col-span-2 space-y-4">
-                            <StandingsTable
-                                zoneName="Zona A"
-                                teams={standings.A}
-                                theme={tournament === 'clausura' ? 'purple' : 'blue'}
-                            />
-                            <StandingsTable
-                                zoneName="Zona B"
-                                teams={standings.B}
-                                theme={tournament === 'clausura' ? 'purple' : 'blue'}
-                            />
+                            {league === 'b-metro' ? (
+                                <StandingsTable
+                                    zoneName="Tabla de Posiciones"
+                                    teams={standings.A}
+                                    theme={tournament === 'clausura' ? 'purple' : 'blue'}
+                                />
+                            ) : (
+                                <>
+                                    <StandingsTable
+                                        zoneName="Zona A"
+                                        teams={standings.A}
+                                        theme={tournament === 'clausura' ? 'purple' : 'blue'}
+                                    />
+                                    <StandingsTable
+                                        zoneName="Zona B"
+                                        teams={standings.B}
+                                        theme={tournament === 'clausura' ? 'purple' : 'blue'}
+                                    />
+                                </>
+                            )}
                         </div>
                         <div>
                             <MatchList
