@@ -28,8 +28,8 @@ export const useTournament = () => {
             setMatches([]); // Reset before loading new league
         }
 
-        const lsTeamsKey = `tournament_teams_${leagueId}_v6`;
-        const lsMatchesKey = `tournament_matches_${leagueId}_v6`;
+        const lsTeamsKey = `tournament_teams_${leagueId}_v7`;
+        const lsMatchesKey = `tournament_matches_${leagueId}_v7`;
         
         const storedTeamsRaw = localStorage.getItem(lsTeamsKey);
         const storedMatchesRaw = localStorage.getItem(lsMatchesKey);
@@ -80,8 +80,8 @@ export const useTournament = () => {
     // Persistence
     useEffect(() => {
         if (matches.length > 0) {
-            localStorage.setItem(`tournament_teams_${leagueId}_v6`, JSON.stringify(teams));
-            localStorage.setItem(`tournament_matches_${leagueId}_v6`, JSON.stringify(matches));
+            localStorage.setItem(`tournament_teams_${leagueId}_v7`, JSON.stringify(teams));
+            localStorage.setItem(`tournament_matches_${leagueId}_v7`, JSON.stringify(matches));
         }
     }, [teams, matches, leagueId]);
 
@@ -237,8 +237,8 @@ export const useTournament = () => {
     };
 
     const resetTournament = () => {
-        localStorage.removeItem(`tournament_teams_${leagueId}_v6`);
-        localStorage.removeItem(`tournament_matches_${leagueId}_v6`);
+        localStorage.removeItem(`tournament_teams_${leagueId}_v7`);
+        localStorage.removeItem(`tournament_matches_${leagueId}_v7`);
         window.location.reload();
     };
 

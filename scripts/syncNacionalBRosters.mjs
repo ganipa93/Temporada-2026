@@ -66,11 +66,10 @@ async function main() {
 
     console.log('Fetching match history to recalculate stats...');
     let allEvents = [];
-    const urls2025 = [
-        'https://site.api.espn.com/apis/site/v2/sports/soccer/arg.2/scoreboard?dates=20250101-20250630&limit=500',
-        'https://site.api.espn.com/apis/site/v2/sports/soccer/arg.2/scoreboard?dates=20250701-20251231&limit=500'
+    const urls2026 = [
+        'https://site.api.espn.com/apis/site/v2/sports/soccer/arg.2/scoreboard?dates=20260101-20261231&limit=1000'
     ];
-    for (const url of urls2025) {
+    for (const url of urls2026) {
         try {
             const res = await fetch(url);
             const data = await res.json();

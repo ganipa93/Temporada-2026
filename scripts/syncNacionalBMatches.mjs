@@ -23,24 +23,7 @@ async function main() {
         }
     }
 
-    // Try 2025 if 2026 is empty
-    if (allEvents.length < 50) {
-        console.log('Very few matches found for 2026, fetching 2025...');
-        allEvents = [];
-        const urls2025 = [
-            'https://site.api.espn.com/apis/site/v2/sports/soccer/arg.2/scoreboard?dates=20250101-20250630&limit=500',
-            'https://site.api.espn.com/apis/site/v2/sports/soccer/arg.2/scoreboard?dates=20250701-20251231&limit=500'
-        ];
-        for (const url of urls2025) {
-            try {
-                const res = await fetch(url);
-                const data = await res.json();
-                if (data.events) {
-                    allEvents = [...allEvents, ...data.events];
-                }
-            } catch (e) {}
-        }
-    }
+
 
     console.log(`Fetched ${allEvents.length} events.`);
 

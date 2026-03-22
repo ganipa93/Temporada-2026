@@ -28,7 +28,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -48,7 +48,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -58,7 +58,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -68,7 +68,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -76,9 +76,9 @@ export const TEAMS: Team[] = [
             name: 'Santiago Bellatti',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -88,8 +88,8 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '399753',
@@ -98,7 +98,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -138,8 +138,8 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 1,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '418922',
@@ -168,7 +168,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -176,7 +176,7 @@ export const TEAMS: Team[] = [
             name: 'David Escalante',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -186,9 +186,9 @@ export const TEAMS: Team[] = [
             name: 'Lázaro Romero',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 2,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -196,9 +196,9 @@ export const TEAMS: Team[] = [
             name: 'Tomás Rodríguez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -208,8 +208,8 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '351801',
@@ -226,7 +226,7 @@ export const TEAMS: Team[] = [
             name: 'Ramiro Reynoso',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 0,
+            goals: 3,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -236,7 +236,7 @@ export const TEAMS: Team[] = [
             name: 'Jonathan Raccio',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -246,7 +246,7 @@ export const TEAMS: Team[] = [
             name: 'Benjamín González',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 18,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -258,7 +258,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -366,9 +366,9 @@ export const TEAMS: Team[] = [
             name: 'Agustín Hermoso',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -437,9 +437,9 @@ export const TEAMS: Team[] = [
             name: 'Germán Salort',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -459,7 +459,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -469,7 +469,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -479,7 +479,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -489,7 +489,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -509,7 +509,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -517,9 +517,9 @@ export const TEAMS: Team[] = [
             name: 'Enzo Aguirre',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -549,7 +549,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -559,7 +559,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -567,19 +567,19 @@ export const TEAMS: Team[] = [
             name: 'Jorge Valdez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 12,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '314239',
             name: 'Antonio Napolitano',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -587,9 +587,9 @@ export const TEAMS: Team[] = [
             name: 'Rodrigo Mosqueira',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -597,9 +597,9 @@ export const TEAMS: Team[] = [
             name: 'Federico Pérez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -609,7 +609,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -617,9 +617,9 @@ export const TEAMS: Team[] = [
             name: 'Braian Aranda',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -657,9 +657,9 @@ export const TEAMS: Team[] = [
             name: 'Alejandro Gagliardi',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 18,
+            goals: 1,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -669,7 +669,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -677,10 +677,10 @@ export const TEAMS: Team[] = [
             name: 'Brian Blando',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '336484',
@@ -697,9 +697,9 @@ export const TEAMS: Team[] = [
             name: 'Diego Vasquez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 3,
+            goals: 1,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -707,9 +707,9 @@ export const TEAMS: Team[] = [
             name: 'Danilo Ruiz Díaz',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -770,7 +770,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -788,9 +788,9 @@ export const TEAMS: Team[] = [
             name: 'Hernán Grana',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 40,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -800,17 +800,17 @@ export const TEAMS: Team[] = [
             age: 36,
             goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '242612',
             name: 'Emiliano Purita',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 2,
+            goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -820,7 +820,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -838,7 +838,7 @@ export const TEAMS: Team[] = [
             name: 'Alejo Tabares',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -848,7 +848,7 @@ export const TEAMS: Team[] = [
             name: 'Ivan Zafarana',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 2,
             redCards: 0,
@@ -858,10 +858,10 @@ export const TEAMS: Team[] = [
             name: 'Alejo Rodríguez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 8,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '417947',
@@ -870,7 +870,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -888,9 +888,9 @@ export const TEAMS: Team[] = [
             name: 'Gustavo Turraca',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -898,9 +898,9 @@ export const TEAMS: Team[] = [
             name: 'Ricardo Blanco',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -918,9 +918,9 @@ export const TEAMS: Team[] = [
             name: 'Ignacio Palacio',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -928,7 +928,7 @@ export const TEAMS: Team[] = [
             name: 'Tomás Assennato',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -938,9 +938,9 @@ export const TEAMS: Team[] = [
             name: 'Thiago Calone',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -948,9 +948,9 @@ export const TEAMS: Team[] = [
             name: 'Santiago Apa',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -960,7 +960,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -971,16 +971,16 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '408183',
             name: 'Tobias Salas',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -988,9 +988,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Nouet',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1010,7 +1010,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1018,10 +1018,10 @@ export const TEAMS: Team[] = [
             name: 'Claudio Campostrini',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '317432',
@@ -1040,15 +1040,15 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '384752',
             name: 'Tiago Pucciarelli',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -1070,7 +1070,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -1101,8 +1101,8 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '309437',
@@ -1129,10 +1129,10 @@ export const TEAMS: Team[] = [
             name: 'Francisco Marco',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '188474',
@@ -1141,7 +1141,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1151,18 +1151,18 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 0,
+            yellowCards: 0,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '288389',
             name: 'Gino Barbieri',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '292053',
@@ -1171,7 +1171,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1181,7 +1181,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1189,9 +1189,9 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Tolosa',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1289,9 +1289,9 @@ export const TEAMS: Team[] = [
             name: 'Julián Vitale',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1299,9 +1299,9 @@ export const TEAMS: Team[] = [
             name: 'Santiago Úbeda',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1319,7 +1319,7 @@ export const TEAMS: Team[] = [
             name: 'David Puca',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -1331,7 +1331,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1341,7 +1341,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1351,8 +1351,8 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '417947',
@@ -1361,7 +1361,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1409,9 +1409,9 @@ export const TEAMS: Team[] = [
             name: 'Oscar Belinetz',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1421,7 +1421,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1429,19 +1429,19 @@ export const TEAMS: Team[] = [
             name: 'Tiziano Dornell',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '393536',
             name: 'Mateo Benegas',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1449,9 +1449,9 @@ export const TEAMS: Team[] = [
             name: 'Thiago López',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1461,7 +1461,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -1492,7 +1492,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1512,7 +1512,7 @@ export const TEAMS: Team[] = [
             age: 40,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1532,7 +1532,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1540,10 +1540,10 @@ export const TEAMS: Team[] = [
             name: 'Ulises Abreliano',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 3,
+            goals: 1,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '292025',
@@ -1552,7 +1552,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1562,8 +1562,8 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '315725',
@@ -1572,7 +1572,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1593,16 +1593,16 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '358544',
             name: 'Enzo Cardozo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1672,7 +1672,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1690,9 +1690,9 @@ export const TEAMS: Team[] = [
             name: 'Leandro Iglesias',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1722,7 +1722,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1730,10 +1730,10 @@ export const TEAMS: Team[] = [
             name: 'Santiago Gauna',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '384153',
@@ -1770,9 +1770,9 @@ export const TEAMS: Team[] = [
             name: 'Ramón Gonzalez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1792,7 +1792,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1810,10 +1810,10 @@ export const TEAMS: Team[] = [
             name: 'Matías Belloso',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '379608',
@@ -1822,7 +1822,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 2,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1830,9 +1830,9 @@ export const TEAMS: Team[] = [
             name: 'Javier Martínez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1852,7 +1852,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -1883,7 +1883,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1893,7 +1893,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1901,9 +1901,9 @@ export const TEAMS: Team[] = [
             name: 'Rodrigo Moreira',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1911,7 +1911,7 @@ export const TEAMS: Team[] = [
             name: 'Leonel Galeano',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -1921,10 +1921,10 @@ export const TEAMS: Team[] = [
             name: 'Tomas Rojas',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '278985',
@@ -1933,7 +1933,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1941,10 +1941,10 @@ export const TEAMS: Team[] = [
             name: 'Javier Osatchuk',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 13,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '325183',
@@ -1973,7 +1973,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1983,7 +1983,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -1993,7 +1993,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2011,9 +2011,9 @@ export const TEAMS: Team[] = [
             name: 'Cristian Bernardi',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2021,9 +2021,9 @@ export const TEAMS: Team[] = [
             name: 'Federico Álvarez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2041,9 +2041,9 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Previtali',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2053,7 +2053,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2061,9 +2061,9 @@ export const TEAMS: Team[] = [
             name: 'Federico Bisanz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 5,
+            goals: 2,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2071,9 +2071,9 @@ export const TEAMS: Team[] = [
             name: 'Jere Rodríguez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2123,7 +2123,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2131,9 +2131,9 @@ export const TEAMS: Team[] = [
             name: 'Alejandro Quintana',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 9,
+            goals: 1,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2141,19 +2141,19 @@ export const TEAMS: Team[] = [
             name: 'Federico Castro',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 7,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '285041',
             name: 'Lucas Ríos',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2161,10 +2161,10 @@ export const TEAMS: Team[] = [
             name: 'Lautaro Fedele',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '362799',
@@ -2181,9 +2181,9 @@ export const TEAMS: Team[] = [
             name: 'Ignacio Rodríguez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 10,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -2214,7 +2214,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 1,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2224,7 +2224,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2254,8 +2254,8 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '277647',
@@ -2264,7 +2264,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2284,7 +2284,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2294,7 +2294,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2334,7 +2334,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2385,7 +2385,7 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 0,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '242766',
@@ -2394,7 +2394,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2402,10 +2402,10 @@ export const TEAMS: Team[] = [
             name: 'Tomas Rojas',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '287689',
@@ -2444,7 +2444,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2464,8 +2464,8 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '152090',
@@ -2492,7 +2492,7 @@ export const TEAMS: Team[] = [
             name: 'Ijiel Protti',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -2504,7 +2504,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2532,9 +2532,9 @@ export const TEAMS: Team[] = [
             name: 'Martiniano Moreno',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 2,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2625,7 +2625,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2635,7 +2635,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2653,19 +2653,19 @@ export const TEAMS: Team[] = [
             name: 'Agustín Aleo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '316303',
             name: 'Leonardo Felissia',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2683,10 +2683,10 @@ export const TEAMS: Team[] = [
             name: 'Elías Calderón',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '368094',
@@ -2715,7 +2715,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2755,8 +2755,8 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '217548',
@@ -2765,7 +2765,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2775,8 +2775,8 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '264302',
@@ -2785,15 +2785,15 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '309493',
             name: 'Maximiliano Alvez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -2805,7 +2805,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2815,7 +2815,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2823,9 +2823,9 @@ export const TEAMS: Team[] = [
             name: 'Pedro Sanz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2833,9 +2833,9 @@ export const TEAMS: Team[] = [
             name: 'Tobias Salas',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2863,9 +2863,9 @@ export const TEAMS: Team[] = [
             name: 'Ramiro Costa',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2875,7 +2875,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2883,9 +2883,9 @@ export const TEAMS: Team[] = [
             name: 'Joaquin Mateo',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -2893,10 +2893,10 @@ export const TEAMS: Team[] = [
             name: 'Franco Vedoya',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '418851',
@@ -2996,7 +2996,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3006,7 +3006,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3014,7 +3014,7 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Chaves',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -3036,7 +3036,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3046,7 +3046,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3066,7 +3066,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3106,7 +3106,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3114,9 +3114,9 @@ export const TEAMS: Team[] = [
             name: 'Juan Cuevas',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3126,7 +3126,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3144,9 +3144,9 @@ export const TEAMS: Team[] = [
             name: 'Francisco Ramírez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3154,9 +3154,9 @@ export const TEAMS: Team[] = [
             name: 'Álvaro Cuello',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3184,9 +3184,9 @@ export const TEAMS: Team[] = [
             name: 'Maximiliano Meléndez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3204,9 +3204,9 @@ export const TEAMS: Team[] = [
             name: 'Gonzalo Dell Aquila',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3214,7 +3214,7 @@ export const TEAMS: Team[] = [
             name: 'Juan Ignacio Barbieri',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -3234,9 +3234,9 @@ export const TEAMS: Team[] = [
             name: 'Misael Jaime',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3246,7 +3246,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3254,7 +3254,7 @@ export const TEAMS: Team[] = [
             name: 'Francisco Cristaldo',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -3287,8 +3287,8 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 0,
+            yellowCards: 1,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '336229',
@@ -3315,10 +3315,10 @@ export const TEAMS: Team[] = [
             name: 'David Valdez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '255538',
@@ -3327,7 +3327,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3347,7 +3347,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3357,7 +3357,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3367,17 +3367,17 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '366099',
             name: 'Mathías Silvera',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3385,7 +3385,7 @@ export const TEAMS: Team[] = [
             name: 'Lucas Mihovilcevich',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -3407,7 +3407,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3415,17 +3415,17 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Ramírez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '250012',
             name: 'Agustín Alonso',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -3437,7 +3437,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3457,7 +3457,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3467,8 +3467,8 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '320138',
@@ -3477,7 +3477,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3495,19 +3495,19 @@ export const TEAMS: Team[] = [
             name: 'Leandro Ojeda',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '342241',
             name: 'Santiago Valenzuela',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3515,9 +3515,9 @@ export const TEAMS: Team[] = [
             name: 'Santiago Villalba',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3527,7 +3527,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3535,7 +3535,7 @@ export const TEAMS: Team[] = [
             name: 'Ezequiel Pacheco',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -3545,9 +3545,9 @@ export const TEAMS: Team[] = [
             name: 'Tomás Bolzicco',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3555,9 +3555,9 @@ export const TEAMS: Team[] = [
             name: 'Leonardo Marinucci',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 1,
+            goals: 3,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3565,10 +3565,10 @@ export const TEAMS: Team[] = [
             name: 'Matías Noble',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '272742',
@@ -3577,7 +3577,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3585,9 +3585,9 @@ export const TEAMS: Team[] = [
             name: 'Imanol Enriquez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3615,9 +3615,9 @@ export const TEAMS: Team[] = [
             name: 'Mateo Díaz Chaves',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -3648,7 +3648,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3688,8 +3688,8 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 1,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '287549',
@@ -3698,8 +3698,8 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 1,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '290541',
@@ -3708,7 +3708,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3758,7 +3758,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3778,7 +3778,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3788,7 +3788,7 @@ export const TEAMS: Team[] = [
             age: 36,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3798,7 +3798,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3808,8 +3808,8 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '241461',
@@ -3828,7 +3828,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3838,7 +3838,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3886,9 +3886,9 @@ export const TEAMS: Team[] = [
             name: 'Guillermo Sánchez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 2,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3916,9 +3916,9 @@ export const TEAMS: Team[] = [
             name: 'Braian Duarte',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3928,7 +3928,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -3936,9 +3936,9 @@ export const TEAMS: Team[] = [
             name: 'Lautaro Villegas',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 10,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4019,7 +4019,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4049,7 +4049,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4057,19 +4057,19 @@ export const TEAMS: Team[] = [
             name: 'Ezequiel Aguirre',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '200376',
             name: 'Leandro Martínez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 38,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4077,7 +4077,7 @@ export const TEAMS: Team[] = [
             name: 'Franco Malagueño',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 1,
             redCards: 0,
@@ -4087,9 +4087,9 @@ export const TEAMS: Team[] = [
             name: 'Facundo Rivero',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4097,9 +4097,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Hanashiro',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4129,7 +4129,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4139,7 +4139,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4149,8 +4149,8 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '270667',
@@ -4167,9 +4167,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Zicarelli',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4179,7 +4179,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 2,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4187,10 +4187,10 @@ export const TEAMS: Team[] = [
             name: 'Elías Ocampo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 1,
-            redCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '380033',
@@ -4207,9 +4207,9 @@ export const TEAMS: Team[] = [
             name: 'Facundo Montiel',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4247,9 +4247,9 @@ export const TEAMS: Team[] = [
             name: 'Mauro Albertengo',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4267,9 +4267,9 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Toloza',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4277,9 +4277,9 @@ export const TEAMS: Team[] = [
             name: 'Lucio Castillo',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4360,7 +4360,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4380,7 +4380,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4390,7 +4390,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4400,7 +4400,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4410,7 +4410,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4420,7 +4420,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4428,9 +4428,9 @@ export const TEAMS: Team[] = [
             name: 'Conrado Ibarra',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4470,7 +4470,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4488,9 +4488,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Muñoz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 13,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4500,7 +4500,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4508,9 +4508,9 @@ export const TEAMS: Team[] = [
             name: 'Agustín Toledo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4518,19 +4518,19 @@ export const TEAMS: Team[] = [
             name: 'Leandro Allende',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '392522',
             name: 'Zahir Yunis',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4540,7 +4540,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4548,7 +4548,7 @@ export const TEAMS: Team[] = [
             name: 'Matías Córdoba',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 18,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -4570,7 +4570,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4588,9 +4588,9 @@ export const TEAMS: Team[] = [
             name: 'Facundo Castro',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4598,10 +4598,10 @@ export const TEAMS: Team[] = [
             name: 'Alan Bonansea',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 11,
+            goals: 1,
             assists: 0,
-            yellowCards: 8,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '272678',
@@ -4618,7 +4618,7 @@ export const TEAMS: Team[] = [
             name: 'Julián Marcioni',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 6,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -4640,7 +4640,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4681,7 +4681,7 @@ export const TEAMS: Team[] = [
             age: 39,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4711,7 +4711,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4751,7 +4751,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4759,9 +4759,9 @@ export const TEAMS: Team[] = [
             name: 'Patricio Moyano',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4779,9 +4779,9 @@ export const TEAMS: Team[] = [
             name: 'Diego Garcia',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 39,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4791,8 +4791,8 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 13,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '202484',
@@ -4801,7 +4801,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4809,9 +4809,9 @@ export const TEAMS: Team[] = [
             name: 'Leandro Ciccollni',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4821,7 +4821,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4829,9 +4829,9 @@ export const TEAMS: Team[] = [
             name: 'Jonathan Dellarossa',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4839,9 +4839,9 @@ export const TEAMS: Team[] = [
             name: 'Agustín Benítez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4849,9 +4849,9 @@ export const TEAMS: Team[] = [
             name: 'Gonzalo Gamarra',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4861,7 +4861,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4871,7 +4871,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4879,9 +4879,9 @@ export const TEAMS: Team[] = [
             name: 'Enzo González',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 6,
+            goals: 4,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 1,
             matchesPlayed: 0
         },{
@@ -4889,10 +4889,10 @@ export const TEAMS: Team[] = [
             name: 'Ezequiel Aguirre',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '261515',
@@ -4901,7 +4901,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4911,7 +4911,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -4919,9 +4919,9 @@ export const TEAMS: Team[] = [
             name: 'Francisco Tcherkaski',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -4952,7 +4952,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5000,9 +5000,9 @@ export const TEAMS: Team[] = [
             name: 'Diego Martínez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5012,7 +5012,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 1,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5030,9 +5030,9 @@ export const TEAMS: Team[] = [
             name: 'Rodrigo Ayala',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5042,17 +5042,17 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '240433',
             name: 'Alejandro Gutiérrez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5072,17 +5072,17 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '301759',
             name: 'Facundo Giacopuzzi',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5092,7 +5092,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5112,7 +5112,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5120,9 +5120,9 @@ export const TEAMS: Team[] = [
             name: 'Nazareno Solis',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5130,10 +5130,10 @@ export const TEAMS: Team[] = [
             name: 'Federico Recalde',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '240403',
@@ -5142,7 +5142,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5150,19 +5150,19 @@ export const TEAMS: Team[] = [
             name: 'Camilo Machado',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '302220',
             name: 'Yvo Calleros',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5180,9 +5180,9 @@ export const TEAMS: Team[] = [
             name: 'Elías Ayala',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5202,7 +5202,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5210,9 +5210,9 @@ export const TEAMS: Team[] = [
             name: 'Luis Silba',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 8,
+            goals: 1,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5220,9 +5220,9 @@ export const TEAMS: Team[] = [
             name: 'Ezequiel Montagna',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5232,7 +5232,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 1,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5252,7 +5252,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5260,9 +5260,9 @@ export const TEAMS: Team[] = [
             name: 'Pio Bonacci',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 8,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5313,7 +5313,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5331,7 +5331,7 @@ export const TEAMS: Team[] = [
             name: 'Juan De La Reta',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 2,
             redCards: 0,
@@ -5341,9 +5341,9 @@ export const TEAMS: Team[] = [
             name: 'Lucas Faggioli',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 2,
+            goals: 1,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5363,7 +5363,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5373,7 +5373,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5381,9 +5381,9 @@ export const TEAMS: Team[] = [
             name: 'Juan Arno',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5413,7 +5413,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5421,9 +5421,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Viguet',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5433,17 +5433,17 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 3,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '318323',
             name: 'Aron Agüero',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5451,9 +5451,9 @@ export const TEAMS: Team[] = [
             name: 'Gastón Mansilla',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5461,10 +5461,10 @@ export const TEAMS: Team[] = [
             name: 'Marcelo Eggel',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 5,
+            goals: 1,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '379692',
@@ -5481,7 +5481,7 @@ export const TEAMS: Team[] = [
             name: 'Mirko Bonfigli',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 2,
+            goals: 1,
             assists: 0,
             yellowCards: 1,
             redCards: 0,
@@ -5491,9 +5491,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Saccone',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5531,9 +5531,9 @@ export const TEAMS: Team[] = [
             name: 'Tomás Silva',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5604,7 +5604,7 @@ export const TEAMS: Team[] = [
             age: 38,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5624,7 +5624,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 1,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5632,9 +5632,9 @@ export const TEAMS: Team[] = [
             name: 'Mariano Bíttolo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5654,7 +5654,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5694,7 +5694,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5702,10 +5702,10 @@ export const TEAMS: Team[] = [
             name: 'Joaquín Livera',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '186779',
@@ -5722,9 +5722,9 @@ export const TEAMS: Team[] = [
             name: 'Juan Manuel Olivares',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 1,
+            goals: 2,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5732,9 +5732,9 @@ export const TEAMS: Team[] = [
             name: 'Gaston González',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 38,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5744,7 +5744,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5752,30 +5752,30 @@ export const TEAMS: Team[] = [
             name: 'Elías Contreras',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 2,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '318097',
             name: 'Franco Fagúndez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 0,
+            goals: 2,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 2,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '318769',
             name: 'Santiago Kubiszyn',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 5,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '337436',
@@ -5812,9 +5812,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Toloza',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 0,
+            goals: 3,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5832,9 +5832,9 @@ export const TEAMS: Team[] = [
             name: 'Gonzalo Berterame',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5844,17 +5844,17 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '285702',
             name: 'Juan Cruz Esquivel',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5874,7 +5874,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -5926,16 +5926,16 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '205227',
             name: 'Jorge Benítez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5945,7 +5945,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5955,7 +5955,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -5973,10 +5973,10 @@ export const TEAMS: Team[] = [
             name: 'Martín Albarracín',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '361516',
@@ -5995,7 +5995,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6003,10 +6003,10 @@ export const TEAMS: Team[] = [
             name: 'Tomás Squie',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '417819',
@@ -6025,7 +6025,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6036,16 +6036,16 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 1,
-            redCards: 0,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '264820',
             name: 'Santiago Camacho',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6055,7 +6055,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6083,9 +6083,9 @@ export const TEAMS: Team[] = [
             name: 'Román Rodríguez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6105,7 +6105,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6115,7 +6115,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6125,7 +6125,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6135,7 +6135,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6153,9 +6153,9 @@ export const TEAMS: Team[] = [
             name: 'Tobias Salas',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6163,19 +6163,19 @@ export const TEAMS: Team[] = [
             name: 'Jorge Correa',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '187476',
             name: 'Eduardo Melo',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6183,9 +6183,9 @@ export const TEAMS: Team[] = [
             name: 'Darío Rostagno',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6193,9 +6193,9 @@ export const TEAMS: Team[] = [
             name: 'Ezequiel Almirón',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6256,7 +6256,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6276,7 +6276,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6286,7 +6286,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6294,9 +6294,9 @@ export const TEAMS: Team[] = [
             name: 'Fernando Torrent',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6304,19 +6304,19 @@ export const TEAMS: Team[] = [
             name: 'Sebastian Corda',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '315730',
             name: 'Misael Taron',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6344,9 +6344,9 @@ export const TEAMS: Team[] = [
             name: 'Nazareno Kihm',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6376,7 +6376,7 @@ export const TEAMS: Team[] = [
             age: 38,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6394,9 +6394,9 @@ export const TEAMS: Team[] = [
             name: 'Emiliano Ozuna',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6404,9 +6404,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Kabalin',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 3,
+            goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6424,7 +6424,7 @@ export const TEAMS: Team[] = [
             name: 'Gino Olguín',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -6434,9 +6434,9 @@ export const TEAMS: Team[] = [
             name: 'Martín Campos',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6444,7 +6444,7 @@ export const TEAMS: Team[] = [
             name: 'Tiago Esidin Gonzalez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -6454,9 +6454,9 @@ export const TEAMS: Team[] = [
             name: 'Laureano Marra',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6464,7 +6464,7 @@ export const TEAMS: Team[] = [
             name: 'Felipe Obradovich',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 1,
             redCards: 0,
@@ -6484,19 +6484,19 @@ export const TEAMS: Team[] = [
             name: 'Emanuel Dening',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 0,
+            yellowCards: 1,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '137060',
             name: 'Ángel González',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6514,9 +6514,9 @@ export const TEAMS: Team[] = [
             name: 'Mateo Acosta',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 14,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6524,9 +6524,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Garcia',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 6,
+            goals: 2,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6534,9 +6534,9 @@ export const TEAMS: Team[] = [
             name: 'Lautaro Parisi',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -6567,8 +6567,8 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '264094',
@@ -6597,7 +6597,7 @@ export const TEAMS: Team[] = [
             age: 38,
             goals: 0,
             assists: 0,
-            yellowCards: 11,
+            yellowCards: 2,
             redCards: 1,
             matchesPlayed: 0
         },{
@@ -6607,7 +6607,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6615,9 +6615,9 @@ export const TEAMS: Team[] = [
             name: 'Diego Lopez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6627,8 +6627,8 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '200346',
@@ -6637,7 +6637,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6655,10 +6655,10 @@ export const TEAMS: Team[] = [
             name: 'Delfor Minervino',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 8,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '342802',
@@ -6667,7 +6667,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6715,9 +6715,9 @@ export const TEAMS: Team[] = [
             name: 'Hugo Soria',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 11,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6725,9 +6725,9 @@ export const TEAMS: Team[] = [
             name: 'Claudio Pombo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6735,9 +6735,9 @@ export const TEAMS: Team[] = [
             name: 'Francisco Molina',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 2,
+            goals: 1,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6755,10 +6755,10 @@ export const TEAMS: Team[] = [
             name: 'Francisco Maidana',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '318786',
@@ -6767,7 +6767,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6805,10 +6805,10 @@ export const TEAMS: Team[] = [
             name: 'Cristian Menéndez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 7,
+            goals: 3,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '209669',
@@ -6825,9 +6825,9 @@ export const TEAMS: Team[] = [
             name: 'Maximiliano Casa',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6845,7 +6845,7 @@ export const TEAMS: Team[] = [
             name: 'Pablo Argañaraz',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -6857,7 +6857,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6938,7 +6938,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6946,9 +6946,9 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Díaz',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 13,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6966,9 +6966,9 @@ export const TEAMS: Team[] = [
             name: 'Manuel Guanini',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 11,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6976,9 +6976,9 @@ export const TEAMS: Team[] = [
             name: 'Lautaro Montoya',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6986,9 +6986,9 @@ export const TEAMS: Team[] = [
             name: 'Juan Galetto',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -6998,7 +6998,7 @@ export const TEAMS: Team[] = [
             age: 38,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7006,7 +7006,7 @@ export const TEAMS: Team[] = [
             name: 'Rubén Villarreal',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 1,
             redCards: 0,
@@ -7016,9 +7016,9 @@ export const TEAMS: Team[] = [
             name: 'Roberto Birge',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7026,7 +7026,7 @@ export const TEAMS: Team[] = [
             name: 'Jonás Aguirre',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 3,
+            goals: 1,
             assists: 0,
             yellowCards: 1,
             redCards: 0,
@@ -7036,10 +7036,10 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Rinaldi',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 9,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '195715',
@@ -7048,7 +7048,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7056,9 +7056,9 @@ export const TEAMS: Team[] = [
             name: 'Ivo Chaves',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7068,7 +7068,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7076,9 +7076,9 @@ export const TEAMS: Team[] = [
             name: 'Tiago Banega',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7106,9 +7106,9 @@ export const TEAMS: Team[] = [
             name: 'Leandro Contin',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 7,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7118,7 +7118,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 5,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7126,7 +7126,7 @@ export const TEAMS: Team[] = [
             name: 'Juan Rocca',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -7136,9 +7136,9 @@ export const TEAMS: Team[] = [
             name: 'Fabricio Rojas',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7146,9 +7146,9 @@ export const TEAMS: Team[] = [
             name: 'Juan Capano',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7199,7 +7199,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7229,7 +7229,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7247,10 +7247,10 @@ export const TEAMS: Team[] = [
             name: 'Federico Milo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '199840',
@@ -7259,7 +7259,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7289,7 +7289,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7339,7 +7339,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7357,9 +7357,9 @@ export const TEAMS: Team[] = [
             name: 'Brian Orosco',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7367,9 +7367,9 @@ export const TEAMS: Team[] = [
             name: 'Tomás Pozzo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7377,9 +7377,9 @@ export const TEAMS: Team[] = [
             name: 'Vicente Poggi',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7399,7 +7399,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7409,7 +7409,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7419,7 +7419,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7459,7 +7459,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7467,9 +7467,9 @@ export const TEAMS: Team[] = [
             name: 'Axel Rodriguez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 17,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7477,9 +7477,9 @@ export const TEAMS: Team[] = [
             name: 'Martín Pino',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 8,
+            goals: 2,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7487,7 +7487,7 @@ export const TEAMS: Team[] = [
             name: 'Silvio Ulariaga',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -7560,8 +7560,8 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '309492',
@@ -7588,9 +7588,9 @@ export const TEAMS: Team[] = [
             name: 'Marcelo Benítez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7600,7 +7600,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7610,8 +7610,8 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 9,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '287653',
@@ -7640,7 +7640,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7650,8 +7650,8 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 1,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '419123',
@@ -7670,7 +7670,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7680,7 +7680,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7690,7 +7690,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7698,19 +7698,19 @@ export const TEAMS: Team[] = [
             name: 'David Veliz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '357419',
             name: 'Gianfranco Baier',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7720,7 +7720,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 10,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7728,9 +7728,9 @@ export const TEAMS: Team[] = [
             name: 'Milton Gerez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7740,7 +7740,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7781,7 +7781,7 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '200428',
@@ -7808,7 +7808,7 @@ export const TEAMS: Team[] = [
             name: 'Thomas Amilivia',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -7828,9 +7828,9 @@ export const TEAMS: Team[] = [
             name: 'Santiago Gabriel Sala',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -7861,7 +7861,7 @@ export const TEAMS: Team[] = [
             age: 40,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7891,7 +7891,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7901,7 +7901,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7911,15 +7911,15 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 0,
+            yellowCards: 1,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '254140',
             name: 'Gabriel Carrasco',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -7931,8 +7931,8 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '301758',
@@ -7941,17 +7941,17 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '335967',
             name: 'Peter Martínez Grance',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7979,9 +7979,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Rodriguez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -7991,7 +7991,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8011,7 +8011,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8029,20 +8029,20 @@ export const TEAMS: Team[] = [
             name: 'Sergio Ortíz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '354980',
             name: 'Matias Gomez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 2,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '379722',
@@ -8059,9 +8059,9 @@ export const TEAMS: Team[] = [
             name: 'Facundo Villarreal',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8089,10 +8089,10 @@ export const TEAMS: Team[] = [
             name: 'Mauricio Asenjo',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 6,
+            goals: 1,
             assists: 0,
-            yellowCards: 9,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '279075',
@@ -8101,7 +8101,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8109,7 +8109,7 @@ export const TEAMS: Team[] = [
             name: 'Facundo Echevarría',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -8129,9 +8129,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Gonzalez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8139,7 +8139,7 @@ export const TEAMS: Team[] = [
             name: 'Camilo Viganoni',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 5,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -8182,7 +8182,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8212,7 +8212,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8220,7 +8220,7 @@ export const TEAMS: Team[] = [
             name: 'Emilio Porro',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -8232,7 +8232,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8242,7 +8242,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8272,7 +8272,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8350,7 +8350,7 @@ export const TEAMS: Team[] = [
             name: 'Maximiliano Rogoski',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -8360,9 +8360,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Flores',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8400,7 +8400,7 @@ export const TEAMS: Team[] = [
             name: 'Lautaro Díaz Laharque',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -8410,7 +8410,7 @@ export const TEAMS: Team[] = [
             name: 'Juan Cruz Vega',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -8460,10 +8460,10 @@ export const TEAMS: Team[] = [
             name: 'Amos Perales',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '316285',
@@ -8472,7 +8472,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8563,7 +8563,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8583,7 +8583,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8593,7 +8593,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8601,7 +8601,7 @@ export const TEAMS: Team[] = [
             name: 'Daniel Abello',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 2,
             redCards: 0,
@@ -8613,8 +8613,8 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '292174',
@@ -8623,7 +8623,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8633,7 +8633,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 1,
             matchesPlayed: 0
         },{
@@ -8641,9 +8641,9 @@ export const TEAMS: Team[] = [
             name: 'Gonzalo Valdivia',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8651,10 +8651,10 @@ export const TEAMS: Team[] = [
             name: 'Maximiliano Romero',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '379726',
@@ -8663,8 +8663,8 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 2,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '384253',
@@ -8681,10 +8681,10 @@ export const TEAMS: Team[] = [
             name: 'Luciano Correa',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '402259',
@@ -8703,7 +8703,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8713,7 +8713,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8733,7 +8733,7 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8753,7 +8753,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8771,7 +8771,7 @@ export const TEAMS: Team[] = [
             name: 'Marcos Machado',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 4,
+            goals: 1,
             assists: 0,
             yellowCards: 2,
             redCards: 0,
@@ -8781,9 +8781,9 @@ export const TEAMS: Team[] = [
             name: 'Gustavo Fernández',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8791,10 +8791,10 @@ export const TEAMS: Team[] = [
             name: 'Santiago Rosales',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 5,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '228263',
@@ -8803,7 +8803,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8821,9 +8821,9 @@ export const TEAMS: Team[] = [
             name: 'Agustín Ramírez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8833,7 +8833,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8841,9 +8841,9 @@ export const TEAMS: Team[] = [
             name: 'Rodrigo González',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8853,7 +8853,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -8925,7 +8925,7 @@ export const TEAMS: Team[] = [
             goals: 0,
             assists: 0,
             yellowCards: 0,
-            redCards: 0,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '172778',
@@ -8944,7 +8944,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8954,7 +8954,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8972,9 +8972,9 @@ export const TEAMS: Team[] = [
             name: 'Rodrigo Rámirez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -8984,7 +8984,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9012,9 +9012,9 @@ export const TEAMS: Team[] = [
             name: 'Diego Arroyo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9024,8 +9024,8 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '401384',
@@ -9062,10 +9062,10 @@ export const TEAMS: Team[] = [
             name: 'Emiliano Méndez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '154912',
@@ -9112,9 +9112,9 @@ export const TEAMS: Team[] = [
             name: 'Tomás Rodríguez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9142,10 +9142,10 @@ export const TEAMS: Team[] = [
             name: 'Sergio Ortíz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '399731',
@@ -9194,7 +9194,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9202,9 +9202,9 @@ export const TEAMS: Team[] = [
             name: 'Leonel Ortiz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9214,7 +9214,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9232,19 +9232,19 @@ export const TEAMS: Team[] = [
             name: 'Lucas Ambrogio',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '301957',
             name: 'Sebastián Cocimano',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 9,
+            goals: 2,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9252,9 +9252,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Romero',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 11,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9272,9 +9272,9 @@ export const TEAMS: Team[] = [
             name: 'Tobias Salas',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -9305,7 +9305,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9345,7 +9345,7 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9363,10 +9363,10 @@ export const TEAMS: Team[] = [
             name: 'Juan Salas',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 9,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '292179',
@@ -9375,7 +9375,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9383,9 +9383,9 @@ export const TEAMS: Team[] = [
             name: 'Nahuel Genez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9393,9 +9393,9 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Díaz',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9403,9 +9403,9 @@ export const TEAMS: Team[] = [
             name: 'Federico Bravo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 11,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9413,9 +9413,9 @@ export const TEAMS: Team[] = [
             name: 'Agustín Araujo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9423,9 +9423,9 @@ export const TEAMS: Team[] = [
             name: 'Facundo Díaz',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9433,19 +9433,19 @@ export const TEAMS: Team[] = [
             name: 'Juan Barinaga',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '287301',
             name: 'Brandon Cortés',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9455,7 +9455,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9463,9 +9463,9 @@ export const TEAMS: Team[] = [
             name: 'Marcos Enrique',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9473,9 +9473,9 @@ export const TEAMS: Team[] = [
             name: 'Valentín Pereyra',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9525,7 +9525,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9543,7 +9543,7 @@ export const TEAMS: Team[] = [
             name: 'Franco Soldano',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9553,9 +9553,9 @@ export const TEAMS: Team[] = [
             name: 'Hernán Rivero',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9573,9 +9573,9 @@ export const TEAMS: Team[] = [
             name: 'Renzo Reynaga',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9585,7 +9585,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9593,9 +9593,9 @@ export const TEAMS: Team[] = [
             name: 'Joaquín Barolín',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9605,7 +9605,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9666,7 +9666,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9684,9 +9684,9 @@ export const TEAMS: Team[] = [
             name: 'Ariel Kippes',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9696,7 +9696,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9716,7 +9716,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9724,9 +9724,9 @@ export const TEAMS: Team[] = [
             name: 'Ian Rasso',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9736,7 +9736,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9776,7 +9776,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9796,7 +9796,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 1,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9804,9 +9804,9 @@ export const TEAMS: Team[] = [
             name: 'Agustin Bolivar',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9814,9 +9814,9 @@ export const TEAMS: Team[] = [
             name: 'Agustín Lavezzi',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 4,
+            goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9836,15 +9836,15 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '351880',
             name: 'Joaquin Postigo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9856,7 +9856,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9866,8 +9866,8 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '410593',
@@ -9876,7 +9876,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9886,7 +9886,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9894,9 +9894,9 @@ export const TEAMS: Team[] = [
             name: 'Mauro Fernandez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -9904,7 +9904,7 @@ export const TEAMS: Team[] = [
             name: 'Alexis Dominguez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 7,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9914,7 +9914,7 @@ export const TEAMS: Team[] = [
             name: 'Aaron Spetale',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9924,7 +9924,7 @@ export const TEAMS: Team[] = [
             name: 'Axel Batista',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 4,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9934,7 +9934,7 @@ export const TEAMS: Team[] = [
             name: 'Jano Coronel',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 4,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9944,7 +9944,7 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Vázquez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 17,
-            goals: 2,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -9975,9 +9975,9 @@ export const TEAMS: Team[] = [
             name: 'Brian Olivera',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10007,7 +10007,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10017,8 +10017,8 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '200374',
@@ -10027,17 +10027,17 @@ export const TEAMS: Team[] = [
             age: 37,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '233445',
             name: 'Emanuel Díaz',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10045,9 +10045,9 @@ export const TEAMS: Team[] = [
             name: 'Raúl Chamorro',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10055,10 +10055,10 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Aranda',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 10,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '331831',
@@ -10067,8 +10067,8 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 8,
-            redCards: 2,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '342800',
@@ -10077,7 +10077,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 10,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10097,7 +10097,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10107,7 +10107,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10125,9 +10125,9 @@ export const TEAMS: Team[] = [
             name: 'Matías Machado',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 8,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10157,7 +10157,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10175,9 +10175,9 @@ export const TEAMS: Team[] = [
             name: 'Abel Bustos',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10197,7 +10197,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10205,9 +10205,9 @@ export const TEAMS: Team[] = [
             name: 'Francisco Monticelli',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10245,9 +10245,9 @@ export const TEAMS: Team[] = [
             name: 'Pablo Chavarría',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 38,
-            goals: 8,
+            goals: 1,
             assists: 0,
-            yellowCards: 8,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10275,9 +10275,9 @@ export const TEAMS: Team[] = [
             name: 'Sergio González',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10287,7 +10287,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10295,9 +10295,9 @@ export const TEAMS: Team[] = [
             name: 'Alan Olinick',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10305,7 +10305,7 @@ export const TEAMS: Team[] = [
             name: 'Leandro Córdoba',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
-            goals: 0,
+            goals: 3,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -10416,19 +10416,19 @@ export const TEAMS: Team[] = [
             name: 'Federico Murillo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 9,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '259442',
             name: 'Mauro Osores',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10438,7 +10438,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10448,7 +10448,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10488,7 +10488,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10498,7 +10498,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10508,8 +10508,8 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 9,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '268844',
@@ -10518,7 +10518,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10566,9 +10566,9 @@ export const TEAMS: Team[] = [
             name: 'Manuel Cocca',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10598,8 +10598,8 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '317952',
@@ -10618,7 +10618,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10626,9 +10626,9 @@ export const TEAMS: Team[] = [
             name: 'Nazareno Funez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 0,
+            goals: 3,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10638,7 +10638,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10687,9 +10687,9 @@ export const TEAMS: Team[] = [
             name: 'Darío Sand',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 38,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10707,9 +10707,9 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Ferreyra',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10719,7 +10719,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10739,8 +10739,8 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '267577',
@@ -10767,10 +10767,10 @@ export const TEAMS: Team[] = [
             name: 'Jorge Emanuel Juárez',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 9,
-            redCards: 1,
+            yellowCards: 2,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '358111',
@@ -10779,7 +10779,7 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10789,7 +10789,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 9,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10799,7 +10799,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10807,9 +10807,9 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Castro',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10837,10 +10837,10 @@ export const TEAMS: Team[] = [
             name: 'Jesús Soraire',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '287726',
@@ -10849,7 +10849,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10857,9 +10857,9 @@ export const TEAMS: Team[] = [
             name: 'Luciano Ferreyra',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 7,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10867,7 +10867,7 @@ export const TEAMS: Team[] = [
             name: 'Kevin López',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 0,
+            goals: 1,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -10899,7 +10899,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10909,7 +10909,7 @@ export const TEAMS: Team[] = [
             age: 32,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -10919,28 +10919,28 @@ export const TEAMS: Team[] = [
             age: 35,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '277209',
             name: 'Santiago Briñone',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 4,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 2,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '278506',
             name: 'Facundo Pons',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 7,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 3,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '315803',
@@ -10957,7 +10957,7 @@ export const TEAMS: Team[] = [
             name: 'Lautaro Ovando',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 3,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -11038,10 +11038,10 @@ export const TEAMS: Team[] = [
             name: 'Facundo Cardozo',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '235732',
@@ -11050,7 +11050,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11060,7 +11060,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11070,15 +11070,15 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '302054',
             name: 'Franco Aguirre',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -11090,7 +11090,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11100,7 +11100,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11110,7 +11110,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11140,7 +11140,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 10,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11158,9 +11158,9 @@ export const TEAMS: Team[] = [
             name: 'Jorge Ferrero',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 5,
+            goals: 1,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11198,9 +11198,9 @@ export const TEAMS: Team[] = [
             name: 'Fabricio Almeida',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11248,9 +11248,9 @@ export const TEAMS: Team[] = [
             name: 'Bruno Nasta',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 33,
-            goals: 7,
+            goals: 2,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 4,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11258,7 +11258,7 @@ export const TEAMS: Team[] = [
             name: 'Lucas Delgado',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 0,
+            goals: 2,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -11270,7 +11270,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11290,7 +11290,7 @@ export const TEAMS: Team[] = [
             age: 20,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -11329,9 +11329,9 @@ export const TEAMS: Team[] = [
             name: 'Joaquín Enrico',
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11359,9 +11359,9 @@ export const TEAMS: Team[] = [
             name: 'Emanuel Díaz',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11381,7 +11381,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 1,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11411,7 +11411,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11421,7 +11421,7 @@ export const TEAMS: Team[] = [
             age: 30,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11431,7 +11431,7 @@ export const TEAMS: Team[] = [
             age: 31,
             goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11449,7 +11449,7 @@ export const TEAMS: Team[] = [
             name: 'Juan Zurbriggen',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 2,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -11459,9 +11459,9 @@ export const TEAMS: Team[] = [
             name: 'Iñaki Lartirigoyen',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11469,9 +11469,9 @@ export const TEAMS: Team[] = [
             name: 'Elías Britez',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11479,9 +11479,9 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Paredes',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11499,9 +11499,9 @@ export const TEAMS: Team[] = [
             name: 'Leonel Pollacchi',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11531,7 +11531,7 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11551,7 +11551,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11559,9 +11559,9 @@ export const TEAMS: Team[] = [
             name: 'Jeronimo Porto',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11569,9 +11569,9 @@ export const TEAMS: Team[] = [
             name: 'Martín Batallini',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
-            goals: 2,
+            goals: 1,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11589,9 +11589,9 @@ export const TEAMS: Team[] = [
             name: 'Franco Tissera',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
-            goals: 2,
+            goals: 1,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11601,15 +11601,15 @@ export const TEAMS: Team[] = [
             age: 22,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
-            redCards: 0,
+            yellowCards: 2,
+            redCards: 1,
             matchesPlayed: 0
         },{
             id: '380045',
             name: 'Matías Salerno',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -11642,7 +11642,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11652,7 +11652,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11702,7 +11702,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11710,9 +11710,9 @@ export const TEAMS: Team[] = [
             name: 'Lucas Angelini',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 10,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11742,7 +11742,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11750,10 +11750,10 @@ export const TEAMS: Team[] = [
             name: 'Valentin Aguiñagalde',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
-            goals: 2,
+            goals: 0,
             assists: 0,
-            yellowCards: 7,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '380090',
@@ -11762,7 +11762,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11780,10 +11780,10 @@ export const TEAMS: Team[] = [
             name: 'Luciano Nieto',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 3,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '184039',
@@ -11792,7 +11792,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 1,
             assists: 0,
-            yellowCards: 12,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11802,7 +11802,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11812,7 +11812,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11832,17 +11832,17 @@ export const TEAMS: Team[] = [
             age: 21,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
-            redCards: 1,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '399705',
             name: 'Lorenzo Monti Azpiazu',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11850,9 +11850,9 @@ export const TEAMS: Team[] = [
             name: 'Gabriel Hauche',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 39,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 2,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11860,10 +11860,10 @@ export const TEAMS: Team[] = [
             name: 'Brandán Fernando',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '124734',
@@ -11882,7 +11882,7 @@ export const TEAMS: Team[] = [
             age: 33,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11890,9 +11890,9 @@ export const TEAMS: Team[] = [
             name: 'Marcos Echeverría',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 6,
+            goals: 0,
             assists: 0,
-            yellowCards: 5,
+            yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -11930,9 +11930,9 @@ export const TEAMS: Team[] = [
             name: 'Julian Carrasco',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         }]
@@ -11983,7 +11983,7 @@ export const TEAMS: Team[] = [
             age: 27,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12013,7 +12013,7 @@ export const TEAMS: Team[] = [
             age: 28,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12023,7 +12023,7 @@ export const TEAMS: Team[] = [
             age: 25,
             goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12033,7 +12033,7 @@ export const TEAMS: Team[] = [
             age: 26,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12043,7 +12043,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12061,9 +12061,9 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Fernández',
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12083,7 +12083,7 @@ export const TEAMS: Team[] = [
             age: 24,
             goals: 0,
             assists: 0,
-            yellowCards: 4,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12093,7 +12093,7 @@ export const TEAMS: Team[] = [
             age: 34,
             goals: 0,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12101,7 +12101,7 @@ export const TEAMS: Team[] = [
             name: 'Diego Becker',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
-            goals: 1,
+            goals: 0,
             assists: 0,
             yellowCards: 0,
             redCards: 0,
@@ -12111,19 +12111,19 @@ export const TEAMS: Team[] = [
             name: 'Nicolás Del Priore',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 4,
-            redCards: 1,
+            yellowCards: 1,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '276060',
             name: 'Joaquín Trasante',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12133,7 +12133,7 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12141,9 +12141,9 @@ export const TEAMS: Team[] = [
             name: 'Maximiliano Luayza',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 6,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12151,9 +12151,9 @@ export const TEAMS: Team[] = [
             name: 'Ángel Almada',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12161,9 +12161,9 @@ export const TEAMS: Team[] = [
             name: 'Walter Berrondo',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
-            goals: 1,
+            goals: 0,
             assists: 0,
-            yellowCards: 1,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12181,9 +12181,9 @@ export const TEAMS: Team[] = [
             name: 'Kevin Colli',
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
-            goals: 0,
+            goals: 1,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12213,7 +12213,7 @@ export const TEAMS: Team[] = [
             age: 19,
             goals: 0,
             assists: 0,
-            yellowCards: 0,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12223,7 +12223,7 @@ export const TEAMS: Team[] = [
             age: 29,
             goals: 3,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12231,9 +12231,9 @@ export const TEAMS: Team[] = [
             name: 'Álvaro Veliez',
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
-            goals: 7,
+            goals: 0,
             assists: 0,
-            yellowCards: 3,
+            yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
         },{
@@ -12253,8 +12253,8 @@ export const TEAMS: Team[] = [
             age: 23,
             goals: 1,
             assists: 0,
-            yellowCards: 8,
-            redCards: 2,
+            yellowCards: 0,
+            redCards: 0,
             matchesPlayed: 0
         },{
             id: '381649',
