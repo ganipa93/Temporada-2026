@@ -115,22 +115,30 @@ export const useTournament = () => {
             }
         }
 
-        const yellowCount = Math.floor(Math.random() * 4);
-        for (let i = 0; i < yellowCount; i++) {
-            const p = newTeam.players[Math.floor(Math.random() * newTeam.players.length)];
-            p.yellowCards += 1;
-        }
+        if (newTeam.players.length > 0) {
+            const yellowCount = Math.floor(Math.random() * 4);
+            for (let i = 0; i < yellowCount; i++) {
+                const p = newTeam.players[Math.floor(Math.random() * newTeam.players.length)];
+                p.yellowCards += 1;
+            }
 
-        if (Math.random() < 0.05) {
-            const p = newTeam.players[Math.floor(Math.random() * newTeam.players.length)];
-            p.redCards += 1;
+            if (Math.random() < 0.05) {
+                const p = newTeam.players[Math.floor(Math.random() * newTeam.players.length)];
+                p.redCards += 1;
+            }
         }
 
         return newTeam;
     };
 
-    const simulateMatch = (matchId: string) => {
-        const matchIndex = matches.findIndex(m => m.id === matchId);
+    const simulateMatch = (matchIdOrTournament: string) => {
+        let matchIndex = matches.findIndex(m => m.id === matchIdOrTournament);
+        
+        // If passed a tournament string instead of an ID, find the next unplayed match
+        if (matchIndex === -1 && ['apertura', 'clausura', 'anual'].includes(matchIdOrTournament)) {
+            matchIndex = matches.findIndex(m => m.tournament === matchIdOrTournament && !m.isPlayed);
+        }
+
         if (matchIndex === -1) return;
 
         const match = matches[matchIndex];
