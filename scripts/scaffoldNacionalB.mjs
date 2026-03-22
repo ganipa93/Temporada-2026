@@ -71,7 +71,7 @@ async function main() {
                 date: `2026-${String(Math.floor((round-1)/4)+2).padStart(2,'0')}-${String((round%4)*7 + 1).padStart(2,'0')}T15:00:00Z`,
                 status: 'NS',
                 round: round,
-                tournament: round <= 18 ? 'apertura' : 'clausura', // To reuse the Apertura/Clausura UI mechanics seamlessly
+                tournament: 'apertura', // Used under the hood, but labeled "Torneo Anual" in UI
                 homeTeamId: h.slug,
                 awayTeamId: a.slug,
                 homeScore: null,

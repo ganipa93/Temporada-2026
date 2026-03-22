@@ -18,13 +18,17 @@ export default function TournamentLayout({ children }: { children: React.ReactNo
     const router = useRouter();
 
     const { league, setLeague } = useLeague();
+    const isPrimera = league === 'primera';
     
+    const activeNavItems = isPrimera 
+        ? NAV_ITEMS
+        : NAV_ITEMS.filter(i => i.id !== 'clausura' && i.id !== 'annual')
+                   .map(i => i.id === 'apertura' ? { ...i, label: 'Torneo Anual' } : i);
+
     // Determine active main view from path
-    const currentView = NAV_ITEMS.find(item =>
+    const currentView = activeNavItems.find(item =>
         pathname === item.path || pathname.startsWith(item.path + '/')
     )?.id || 'apertura';
-
-    const isPrimera = league === 'primera';
 
     return (
         <div className="min-h-screen font-sans theme-fade" style={{ background: 'var(--bg)', color: 'var(--text)' }}>
@@ -66,7 +70,7 @@ export default function TournamentLayout({ children }: { children: React.ReactNo
                 {/* Main nav */}
                 <nav className="flex flex-wrap p-1 gap-1 rounded-xl border theme-fade"
                     style={{ background: 'var(--surface)', borderColor: 'var(--border)' }}>
-                    {NAV_ITEMS.map(({ id, path, label, color, icon }) => {
+                    {activeNavItems.map(({ id, path, label, color, icon }) => {
                         const active = currentView === id;
                         return (
                             <button key={id}
