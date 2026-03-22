@@ -359,12 +359,16 @@ export const useTournament = () => {
             const h = currentStatsMap[homeId];
             if (h) {
                 h.played++; h.gf += m.homeScore; h.gc += m.awayScore; h.goalDiff = h.gf - h.gc;
-                if (m.homeScore > m.awayScore) { h.pts += 3; } else if (m.homeScore === m.awayScore) { h.pts += 1; }
+                if (m.homeScore > m.awayScore) { h.pts += 3; h.won++; } 
+                else if (m.homeScore === m.awayScore) { h.pts += 1; h.drawn++; }
+                else { h.lost++; }
             }
             const a = currentStatsMap[awayId];
             if (a) {
                 a.played++; a.gf += m.awayScore; a.gc += m.homeScore; a.goalDiff = a.gf - a.gc;
-                if (m.awayScore > m.homeScore) { a.pts += 3; } else if (m.awayScore === m.homeScore) { a.pts += 1; }
+                if (m.awayScore > m.homeScore) { a.pts += 3; a.won++; } 
+                else if (m.awayScore === m.homeScore) { a.pts += 1; a.drawn++; }
+                else { a.lost++; }
             }
         });
 
