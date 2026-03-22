@@ -12,7 +12,7 @@ interface TopScorersProps {
 }
 
 export const TopScorers: React.FC<TopScorersProps> = ({ teams, theme = 'blue' }) => {
-    const [activeStat, setActiveStat] = React.useState<'goals' | 'assists' | 'yellowCards' | 'redCards' | 'streaks' | 'teams' | 'history'>('goals');
+    const [activeStat, setActiveStat] = React.useState<'goals' | 'assists' | 'streaks' | 'teams' | 'history'>('goals');
     const [streakType, setStreakType] = React.useState<'win' | 'unbeaten' | 'loss'>('win');
     const [teamStatType, setTeamStatType] = React.useState<'home' | 'away' | 'avgGoals'>('home');
 
@@ -69,8 +69,6 @@ export const TopScorers: React.FC<TopScorersProps> = ({ teams, theme = 'blue' })
     const statLabels: Record<string, string> = {
         goals: 'Goles',
         assists: 'Asistencias',
-        yellowCards: 'Amarillas',
-        redCards: 'Rojas',
         streaks: 'Rachas',
         teams: 'Equipos',
         history: 'Historial'
@@ -95,7 +93,7 @@ export const TopScorers: React.FC<TopScorersProps> = ({ teams, theme = 'blue' })
                 style={{ background: 'var(--surface-2)', borderColor: 'var(--border)' }}>
                 <div className="flex flex-wrap gap-2">
                     <div className="flex gap-2 p-1 bg-black/40 rounded-lg w-fit">
-                        {(['goals', 'assists', 'yellowCards', 'redCards', 'streaks', 'teams', 'history'] as const).map(stat => (
+                        {(['goals', 'assists', 'streaks', 'teams', 'history'] as const).map(stat => (
                             <button
                                 key={stat}
                                 onClick={() => setActiveStat(stat)}
