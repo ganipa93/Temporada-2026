@@ -1,6 +1,7 @@
 import type { Team } from '@/lib/types';
 
 export const TEAMS: Team[] = [
+
     {
         id: 'arg.acassuso',
         apiId: 10145,
@@ -20,7 +21,397 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '194552',
+            name: 'Mariano Monllor',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335522',
+            name: 'César Atamañuk',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '186446',
+            name: 'Alex Ruíz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335526',
+            name: 'Joel Ghirardello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358542',
+            name: 'Juan Ponce',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361567',
+            name: 'Santiago Bellatti',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379606',
+            name: 'Natán Acosta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399753',
+            name: 'Santiago Borges',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399796',
+            name: 'Nicolás Stepanovitch',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418912',
+            name: 'Bruno Dordoni',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418920',
+            name: 'Franco Riente',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418921',
+            name: 'Lucas Pioli',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418922',
+            name: 'Matías Favale',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418927',
+            name: 'Román Etcheverri',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '128323',
+            name: 'Patricio Pérez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '139560',
+            name: 'David Escalante',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '225439',
+            name: 'Lázaro Romero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '288563',
+            name: 'Tomás Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '320529',
+            name: 'Franco Cortés',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '351801',
+            name: 'Germán García',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364863',
+            name: 'Ramiro Reynoso',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365636',
+            name: 'Jonathan Raccio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '387733',
+            name: 'Benjamín González',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399769',
+            name: 'Joaquín Cancio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401380',
+            name: 'Diego Roberts',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418919',
+            name: 'Federico Nicolaievsky',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418923',
+            name: 'Matías Gutiérrez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418925',
+            name: 'Nahuel Petillo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418926',
+            name: 'Pedro Mamed',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418928',
+            name: 'Teo Santaliz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '241616',
+            name: 'Kevin Dubini',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364848',
+            name: 'Felipe Senn',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400015',
+            name: 'Lautaro Rodríguez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401388',
+            name: 'Lucas Rey',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418911',
+            name: 'Agustín Hermoso',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418913',
+            name: 'David De Estéfano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418915',
+            name: 'Francisco Lara Marín',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418924',
+            name: 'Martín Schlotthauer',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418929',
+            name: 'Yair Gómez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.agropecuario_argentino',
@@ -41,7 +432,297 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '264826',
+            name: 'Germán Salort',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400050',
+            name: 'Luciano Acosta',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '173176',
+            name: 'Alan Aguirre',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '184979',
+            name: 'Matías Molina',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '204739',
+            name: 'Milton Gonzalo Ramos',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '297045',
+            name: 'Tomas Lecanda',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361513',
+            name: 'Facundo Sanchez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '381071',
+            name: 'Jorge Cabello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400048',
+            name: 'Enzo Aguirre',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418914',
+            name: 'Danilo Actis',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '83309',
+            name: 'Rodrigo Castro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '118743',
+            name: 'Damián Lemos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '159753',
+            name: 'Santiago Gallucci',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '186183',
+            name: 'Jorge Valdez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '314239',
+            name: 'Antonio Napolitano',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379582',
+            name: 'Rodrigo Mosqueira',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379731',
+            name: 'Federico Pérez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '383955',
+            name: 'Brian Rojas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400046',
+            name: 'Braian Aranda',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '404800',
+            name: 'Jarol Heritier',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418917',
+            name: 'Martín Corda',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '47784',
+            name: 'Marcos Benítez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '118574',
+            name: 'Alejandro Gagliardi',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '143289',
+            name: 'Carlos Auzqui',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264816',
+            name: 'Brian Blando',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336484',
+            name: 'Mauro Dávila',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358646',
+            name: 'Diego Vasquez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402894',
+            name: 'Danilo Ruiz Díaz',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418916',
+            name: 'Lorenzo Barrera',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.all_boys',
@@ -62,7 +743,337 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '233936',
+            name: 'Juan Pablo Noce',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '242673',
+            name: 'Nicolás Carrizo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '398815',
+            name: 'Lukas Ramil Sauer',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402984',
+            name: 'Adriano Sofio',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '120821',
+            name: 'Hernán Grana',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 40,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '130868',
+            name: 'Maximiliano Coronel',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '242612',
+            name: 'Emiliano Purita',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '261167',
+            name: 'Franco Quiroz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290583',
+            name: 'Yago De Vito',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309459',
+            name: 'Alejo Tabares',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '326081',
+            name: 'Ivan Zafarana',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '362068',
+            name: 'Alejo Rodríguez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '84127',
+            name: 'Matías Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216803',
+            name: 'Gustavo Turraca',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233393',
+            name: 'Ricardo Blanco',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '246845',
+            name: 'Santiago Caseres',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '300635',
+            name: 'Ignacio Palacio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302118',
+            name: 'Tomás Assennato',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315170',
+            name: 'Thiago Calone',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316926',
+            name: 'Santiago Apa',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '341239',
+            name: 'Alexis Melo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '395849',
+            name: 'Lionel Jara',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408183',
+            name: 'Tobias Salas',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '212278',
+            name: 'Matías Nouet',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268777',
+            name: 'Bruno Medina',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309539',
+            name: 'Brandon López',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316293',
+            name: 'Claudio Campostrini',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317432',
+            name: 'Nicolas Villagra',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '323238',
+            name: 'Agustin Gallo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384752',
+            name: 'Tiago Pucciarelli',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403451',
+            name: 'Luciano Leguizamón',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408102',
+            name: 'Agustín Fernández',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.almagro',
@@ -83,7 +1094,377 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '15039',
+            name: 'Emiliano Gonzalez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309437',
+            name: 'Juan Zozaya',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418869',
+            name: 'Franco Mangudo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '95007',
+            name: 'Francisco Marco',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '188474',
+            name: 'Matías Cortave',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '252201',
+            name: 'Gonzalo Asis',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '288389',
+            name: 'Gino Barbieri',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292053',
+            name: 'Laureano Puñet',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316387',
+            name: 'Enzo Silcan',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335364',
+            name: 'Nicolás Tolosa',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '360999',
+            name: 'Joaquín Flores',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384753',
+            name: 'Gianfranco Joannaz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '390845',
+            name: 'Lautaro Busto',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399759',
+            name: 'Aldo Rimbelitti',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418868',
+            name: 'Facundo Faija',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418870',
+            name: 'Leonel Retamar',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418871',
+            name: 'Pedro Blanco',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418873',
+            name: 'Santiago Chamorro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200106',
+            name: 'Julián Marchioni',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216522',
+            name: 'Julián Vitale',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '271134',
+            name: 'Santiago Úbeda',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '279420',
+            name: 'Franco Bustamante',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317433',
+            name: 'David Puca',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336526',
+            name: 'Tobias Macies',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '363058',
+            name: 'Joel Orlando',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365457',
+            name: 'Juan Fernández Pinto',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418872',
+            name: 'Román Sánchez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418874',
+            name: 'Santino Colángelo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418875',
+            name: 'Tobías Canale',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418876',
+            name: 'Uriel Villalobos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '224324',
+            name: 'Oscar Belinetz',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285966',
+            name: 'Pablo Palacio',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '357493',
+            name: 'Tiziano Dornell',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '393536',
+            name: 'Mateo Benegas',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399035',
+            name: 'Thiago López',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403151',
+            name: 'Enzo Martínez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.almirante_brown',
@@ -104,7 +1485,377 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '159373',
+            name: 'Bruno Galván',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '257455',
+            name: 'Augusto Bottini',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '44473',
+            name: 'Gustavo Cabral',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 40,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '136146',
+            name: 'Leonardo Jara',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269781',
+            name: 'Máximo Levi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '272621',
+            name: 'Ulises Abreliano',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292025',
+            name: 'Ramiro Fernández',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310776',
+            name: 'Tomás Villoldo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315725',
+            name: 'Agustín Dattola',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '319124',
+            name: 'Leonardo Escalante',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339801',
+            name: 'Gerardo Alegre',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358544',
+            name: 'Enzo Cardozo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401284',
+            name: 'Giovanni Ferraina',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402091',
+            name: 'Franco Almanza',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418952',
+            name: 'Alan Ramírez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '145290',
+            name: 'Jonathan Goya',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200937',
+            name: 'Facundo Quignón',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '265520',
+            name: 'Santiago Vera',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '311030',
+            name: 'Gaston Moreyra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318202',
+            name: 'Gabriel Altamirano',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318293',
+            name: 'Leandro Iglesias',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '330574',
+            name: 'Pedro Velurtas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '347345',
+            name: 'Hernán Perrone',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365454',
+            name: 'Joaquín Borja',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379604',
+            name: 'Santiago Gauna',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384153',
+            name: 'Tobias Quinteros',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408224',
+            name: 'Carlos Gugenheim',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418954',
+            name: 'Uriel Arena',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '82547',
+            name: 'Ramón Gonzalez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '256876',
+            name: 'Facundo Garcia',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268713',
+            name: 'Nazareno Bazán',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302025',
+            name: 'Tobías Zarate',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309120',
+            name: 'Matías Belloso',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379608',
+            name: 'Tomas Almada',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399852',
+            name: 'Javier Martínez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403313',
+            name: 'Lucas Vega',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418953',
+            name: 'Milton Zanotti',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.atlanta',
@@ -125,7 +1876,317 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '290585',
+            name: 'Lautaro López',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292024',
+            name: 'Juan Rago',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '75513',
+            name: 'Rodrigo Moreira',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '144796',
+            name: 'Leonel Galeano',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '250473',
+            name: 'Tomas Rojas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '278985',
+            name: 'Martín García',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '311144',
+            name: 'Javier Osatchuk',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '325183',
+            name: 'Román Herrera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '348283',
+            name: 'Valentín Gelos',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400087',
+            name: 'Dylan Argüello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400379',
+            name: 'Rodrigo Sosa',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '128872',
+            name: 'Gustavo Mendoza',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '157276',
+            name: 'Kevin Benitez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '176695',
+            name: 'Cristian Bernardi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '186572',
+            name: 'Federico Álvarez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '227767',
+            name: 'Braian Rivero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '265782',
+            name: 'Nicolás Previtali',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '307335',
+            name: 'Tomás Castro Ponce',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318417',
+            name: 'Federico Bisanz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335548',
+            name: 'Jere Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '341450',
+            name: 'Nahuel Urtasun',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '381024',
+            name: 'Mateo Araujo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '394112',
+            name: 'Thiago Ruiz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403701',
+            name: 'Tiago Romero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '143456',
+            name: 'Alejandro Quintana',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216219',
+            name: 'Federico Castro',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285041',
+            name: 'Lucas Ríos',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '319128',
+            name: 'Lautaro Fedele',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '362799',
+            name: 'Vito Fernando',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382973',
+            name: 'Ignacio Rodríguez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.atletico_rafaela',
@@ -146,7 +2207,367 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '208646',
+            name: 'Ramiro Martínez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335669',
+            name: 'Mayco Bergia',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418859',
+            name: 'Máximo Spesso',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '106721',
+            name: 'Gabriel Fernández',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '201060',
+            name: 'Leonardo Flores',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277647',
+            name: 'Fernando Ponce',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285700',
+            name: 'Roque Ramirez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '321128',
+            name: 'Nicolás Ramos',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335392',
+            name: 'Agustín Solveyra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '353188',
+            name: 'Ariel Gonzalez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364974',
+            name: 'Nicolás Utrera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384521',
+            name: 'Luciano Echeverría',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '385118',
+            name: 'Enzo Wattier',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418858',
+            name: 'Ignacio Grandoli',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418860',
+            name: 'Nicolás Wabeke',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418862',
+            name: 'Valentín Mondino',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '129098',
+            name: 'Marcos Fernández',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '187889',
+            name: 'Juan Capurro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '242766',
+            name: 'Facundo Soloa',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '250473',
+            name: 'Tomas Rojas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287689',
+            name: 'Nahuel Cainelli',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '356352',
+            name: 'Pablo Nicolás Furtado Giménez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '390093',
+            name: 'Damiano Jaime',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418861',
+            name: 'Valentino Arro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '141788',
+            name: 'Matias Pardo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '152090',
+            name: 'Mauro Quiroga',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '172403',
+            name: 'Lucas Albertengo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '207341',
+            name: 'Ijiel Protti',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264961',
+            name: 'Francisco Nouet',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269800',
+            name: 'Agustín Obando',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '340646',
+            name: 'Agustin Alfano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361521',
+            name: 'Martiniano Moreno',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '362798',
+            name: 'Valentín Luciani',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '383015',
+            name: 'Lorenzo Moscoloni',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418857',
+            name: 'Ciro Leineker',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.central_norte',
@@ -167,7 +2588,347 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '285472',
+            name: 'Joaquin Hass',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378739',
+            name: 'Enzo Vázquez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418855',
+            name: 'Tobías Pantoja',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '154736',
+            name: 'Pablo Rosales',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '159264',
+            name: 'Maximiliano Padilla',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240435',
+            name: 'Arián Pucheta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '271734',
+            name: 'Agustín Aleo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316303',
+            name: 'Leonardo Felissia',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339193',
+            name: 'Joaquín Vaquero',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358892',
+            name: 'Elías Calderón',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '368094',
+            name: 'Ramiro Enríquez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382618',
+            name: 'Mauro Matorras',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382625',
+            name: 'Cristian Chavarria',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399847',
+            name: 'Gonzalo Romero',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399848',
+            name: 'Gonzalo Castilla',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418852',
+            name: 'Martín Lucero',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '138388',
+            name: 'Matías Villareal',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '217548',
+            name: 'Kevin Fernández',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '228383',
+            name: 'Gianluca Mancuso',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264302',
+            name: 'Maximiliano Ribero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309493',
+            name: 'Maximiliano Alvez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315614',
+            name: 'Agustín Lamosa',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399846',
+            name: 'Matías Moravec',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399850',
+            name: 'Pedro Sanz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408183',
+            name: 'Tobias Salas',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418850',
+            name: 'Enzo Abondetto',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418854',
+            name: 'Tiziano Cabrera',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '154555',
+            name: 'Ramiro Costa',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287263',
+            name: 'Kevin Isa',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '289736',
+            name: 'Joaquin Mateo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358736',
+            name: 'Franco Vedoya',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418851',
+            name: 'Francisco Borda',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418853',
+            name: 'Paolo Dorini',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418856',
+            name: 'Tiago Taobas',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.chacarita_juniors',
@@ -188,7 +2949,317 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '44391',
+            name: 'Enrique Bologna',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 44,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240426',
+            name: 'Sebastián Anchoverri',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292095',
+            name: 'Federico Losas',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336668',
+            name: 'Gastón Fernández',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '178279',
+            name: 'Julian Velázquez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '185978',
+            name: 'Nicolás Pantaleone',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '286368',
+            name: 'Nicolás Chaves',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292928',
+            name: 'Gonzalo Mottes',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309466',
+            name: 'Brian Calderara',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317075',
+            name: 'Milton Leyendeker',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336894',
+            name: 'Santiago Acosta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '344501',
+            name: 'Tomás Pérez Serra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '366525',
+            name: 'Francisco Facello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388087',
+            name: 'Dylan Duran',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '389318',
+            name: 'Ezequiel Moya',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400044',
+            name: 'Tomás Migliore',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '78935',
+            name: 'Juan Cuevas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '179971',
+            name: 'Miguel Mellado',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '229854',
+            name: 'Luciano Perdomo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '256538',
+            name: 'Francisco Ramírez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287685',
+            name: 'Álvaro Cuello',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '343775',
+            name: 'Mario Sanabria',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358310',
+            name: 'Lisandro Montenegro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380588',
+            name: 'Maximiliano Meléndez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382883',
+            name: 'Lucas Bustos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399735',
+            name: 'Gonzalo Dell Aquila',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290714',
+            name: 'Juan Ignacio Barbieri',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301983',
+            name: 'Favio Cabral',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317870',
+            name: 'Misael Jaime',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '394466',
+            name: 'Exequiel Geréz',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418951',
+            name: 'Francisco Cristaldo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.chaco_for_ever',
@@ -209,7 +3280,347 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '335540',
+            name: 'Gastón Canuto',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336229',
+            name: 'Nicolás Andrés Caprio',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380046',
+            name: 'Eduardo Garcete',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '181101',
+            name: 'David Valdez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '255538',
+            name: 'Lucas Pruzzo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '263217',
+            name: 'Jorge Zules',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269810',
+            name: 'Alan Luque',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '274045',
+            name: 'Ricardo Garay',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '357924',
+            name: 'Bahiano Garcia',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '366099',
+            name: 'Mathías Silvera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '385070',
+            name: 'Lucas Mihovilcevich',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418930',
+            name: 'Gonzalo Melgarejo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '128160',
+            name: 'Juan Carrizo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240432',
+            name: 'Gabriel Ramírez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '250012',
+            name: 'Agustín Alonso',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '256172',
+            name: 'Brian Guerra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269814',
+            name: 'Andrés Lioi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '286987',
+            name: 'Brian Nievas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '295054',
+            name: 'Matías Ferrari',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '320138',
+            name: 'Joaquín Jara',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335101',
+            name: 'Leandro Espejo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338893',
+            name: 'Leandro Ojeda',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342241',
+            name: 'Santiago Valenzuela',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364831',
+            name: 'Santiago Villalba',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '385184',
+            name: 'Tiago Chamorro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418995',
+            name: 'Ezequiel Pacheco',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '203850',
+            name: 'Tomás Bolzicco',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '211937',
+            name: 'Leonardo Marinucci',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '227460',
+            name: 'Matías Noble',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '272742',
+            name: 'Jesús Amarilla',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302518',
+            name: 'Imanol Enriquez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318295',
+            name: 'Juan Cruz Cerrudo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358189',
+            name: 'Agustín Zabaleta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361413',
+            name: 'Mateo Díaz Chaves',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'ciudad_de_bolivar',
@@ -230,7 +3641,357 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '285024',
+            name: 'Agustín Rufinetti',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401858',
+            name: 'Enzo Álvarez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419057',
+            name: 'Jorge Ruiz',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '141089',
+            name: 'Jonathan Chacón',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200261',
+            name: 'Nahuel Yeri',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287549',
+            name: 'Elías Martínez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290541',
+            name: 'Ezequiel Navarro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '331907',
+            name: 'Axel Carrión',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364837',
+            name: 'Facundo Mucignat',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378754',
+            name: 'Federico Peralta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401863',
+            name: 'Joel Ledesma',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418881',
+            name: 'Carlos Cuello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418882',
+            name: 'Gonzalo Valderrama',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '116821',
+            name: 'Cristian Vega',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '128437',
+            name: 'Arnaldo González',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '196645',
+            name: 'Álex Díaz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '208650',
+            name: 'Maximiliano Gutiérrez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '241461',
+            name: 'Elias Romero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '343235',
+            name: 'Tobias Fernandez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379316',
+            name: 'Brian Quintana',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '381393',
+            name: 'Thiago Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401841',
+            name: 'Agustín Paredes',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401866',
+            name: 'Tomás Alegre',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '411998',
+            name: 'Marcos Sotelo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '138385',
+            name: 'Guillermo Sánchez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '150102',
+            name: 'Camilo García',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '155416',
+            name: 'Jonathan Maciel',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '254174',
+            name: 'Braian Duarte',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290716',
+            name: 'Khalil Caraballo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317814',
+            name: 'Lautaro Villegas',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338870',
+            name: 'Tomás Rambert',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379508',
+            name: 'Agustín Díaz',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401859',
+            name: 'Facundo Beretta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401862',
+            name: 'José Abentín',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419058',
+            name: 'Valentin Lachalde',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.colegiales',
@@ -251,7 +4012,317 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '199208',
+            name: 'Emilio Di Fulvio',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '313872',
+            name: 'Augusto Alcorcel',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '383103',
+            name: 'Gustavo Calderari',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '173175',
+            name: 'Emanuel Insúa',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '193883',
+            name: 'Ezequiel Aguirre',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200376',
+            name: 'Leandro Martínez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '262883',
+            name: 'Franco Malagueño',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342799',
+            name: 'Facundo Rivero',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399766',
+            name: 'Franco Hanashiro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402813',
+            name: 'Leo Ortiz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '420476',
+            name: 'Gaston Cortes',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '198685',
+            name: 'Fernando Miranda',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '202727',
+            name: 'Enzo Trinidad',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240420',
+            name: 'Federico Marín',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '270667',
+            name: 'Gonzalo Baglivo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378755',
+            name: 'Franco Zicarelli',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379608',
+            name: 'Tomas Almada',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379734',
+            name: 'Elías Ocampo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380033',
+            name: 'Alejandro Chiavetto',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399767',
+            name: 'Facundo Montiel',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418885',
+            name: 'Ignacio Buenrostro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418888',
+            name: 'Tomás Buenrostro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '72413',
+            name: 'Leonardo Gonzalez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '234720',
+            name: 'Mauro Albertengo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309491',
+            name: 'Mateo Jose Mamani',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324346',
+            name: 'Nicolás Toloza',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339795',
+            name: 'Lucio Castillo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388469',
+            name: 'Rodrigo Monserrat',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '409850',
+            name: 'Tomás Perri',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418886',
+            name: 'Lucas Juárez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418887',
+            name: 'Lucas Ricciotti',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.colon_de_santa_fe',
@@ -272,7 +4343,317 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '263163',
+            name: 'Tomás Giménez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316029',
+            name: 'Matías Budiño',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401621',
+            name: 'Tomás Paredes',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '118760',
+            name: 'Pier Barrios',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '164494',
+            name: 'Federico Rasmussen',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '228711',
+            name: 'Nicolás Thaller',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264959',
+            name: 'Facundo Castet',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '271442',
+            name: 'Emanuel Beltran',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309420',
+            name: 'Conrado Ibarra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318427',
+            name: 'Mauro Peinipil',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '345550',
+            name: 'Sebastián Olmedo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380146',
+            name: 'Lucas Picech',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400126',
+            name: 'Zahir Ibarra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '127873',
+            name: 'Federico Lértora',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '205116',
+            name: 'Matías Muñoz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '207570',
+            name: 'Ignacio Antonio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316388',
+            name: 'Agustín Toledo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335537',
+            name: 'Leandro Allende',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '392522',
+            name: 'Zahir Yunis',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399799',
+            name: 'Agustín Giménez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402917',
+            name: 'Matías Córdoba',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403128',
+            name: 'Bautista Maillier',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '406992',
+            name: 'Lautaro Gaitan',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '170731',
+            name: 'Lucas Cano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '202487',
+            name: 'Facundo Castro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264797',
+            name: 'Alan Bonansea',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '272678',
+            name: 'Matias Godoy',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276022',
+            name: 'Julián Marcioni',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '296304',
+            name: 'Dario Sarmiento',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309132',
+            name: 'Ignacio Lagos',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '404799',
+            name: 'Iván Ojeda',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.defensores_de_belgrano',
@@ -293,7 +4674,257 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '188062',
+            name: 'Alejandro Medina',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 39,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '289057',
+            name: 'Alexis Nocetti',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '341274',
+            name: 'Lautaro Daus',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '145382',
+            name: 'Alan Pérez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216163',
+            name: 'Juan Cruz Monteagudo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292016',
+            name: 'Ian Pérez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316028',
+            name: 'Nicolás Vaquer',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342273',
+            name: 'Diego Magallanes',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364613',
+            name: 'Patricio Moyano',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418908',
+            name: 'Valentín Pisacreta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '114255',
+            name: 'Diego Garcia',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 39,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '144688',
+            name: 'Luis Jerez Silva',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '202484',
+            name: 'Juan De Tomasso',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '241549',
+            name: 'Leandro Ciccollni',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '307614',
+            name: 'Sergio Sánchez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '320075',
+            name: 'Jonathan Dellarossa',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335518',
+            name: 'Agustín Benítez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358534',
+            name: 'Gonzalo Gamarra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '359397',
+            name: 'Ignacio Gutiérrez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380148',
+            name: 'Nicolás Borsotti',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '120673',
+            name: 'Enzo González',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '193883',
+            name: 'Ezequiel Aguirre',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '261515',
+            name: 'Brian Gomez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276005',
+            name: 'Gonzalo Aquilino',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380069',
+            name: 'Francisco Tcherkaski',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'deportivo_madryn',
@@ -314,7 +4945,337 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '195658',
+            name: 'Yair Bonnín',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276853',
+            name: 'Mauricio Nievas',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '278509',
+            name: 'Matias Montero',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316427',
+            name: 'Roberto Leon',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382937',
+            name: 'Lucas Toffoletti',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '112845',
+            name: 'Diego Martínez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '193424',
+            name: 'Alex Cossi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '199723',
+            name: 'Víctor Cabrera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216059',
+            name: 'Rodrigo Ayala',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '235168',
+            name: 'Nicolás Ortíz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240433',
+            name: 'Alejandro Gutiérrez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '258300',
+            name: 'Franco Godoy',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269820',
+            name: 'Agustín Sosa',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301759',
+            name: 'Facundo Giacopuzzi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364975',
+            name: 'Thiago Yossen',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '180908',
+            name: 'Marcelo Meli',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '195004',
+            name: 'Facundo Ospitaleche',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200954',
+            name: 'Nazareno Solis',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '217433',
+            name: 'Federico Recalde',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240403',
+            name: 'Gabriel Gudiño',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '282860',
+            name: 'Camilo Machado',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302220',
+            name: 'Yvo Calleros',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317728',
+            name: 'Estanislao Jara',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318073',
+            name: 'Elías Ayala',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358714',
+            name: 'Álvaro Dionisio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '168276',
+            name: 'Mauricio Cuero',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '206636',
+            name: 'Luis Silba',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216152',
+            name: 'Ezequiel Montagna',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '235731',
+            name: 'Nicolás Servetto',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317017',
+            name: 'Nicolas Barrientos',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318246',
+            name: 'Juan Peinipil',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358116',
+            name: 'Pio Bonacci',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418934',
+            name: 'Yamil García',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.deportivo_maip',
@@ -335,7 +5296,287 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '309457',
+            name: 'Luciano Peraggini',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399889',
+            name: 'Nahuel Galardi',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418592',
+            name: 'Agustín Pavón',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '330564',
+            name: 'Juan De La Reta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335552',
+            name: 'Lucas Faggioli',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336445',
+            name: 'Nicolas Fernandez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358134',
+            name: 'Mateo Ortale',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '362412',
+            name: 'Luciano Arnijas',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379690',
+            name: 'Juan Arno',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408103',
+            name: 'Agustín Leiva',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '411155',
+            name: 'Víctor Barrera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '135976',
+            name: 'Fausto Montero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290449',
+            name: 'Matías Viguet',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310755',
+            name: 'Juan Pablo Gobetto',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318323',
+            name: 'Aron Agüero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '321820',
+            name: 'Gastón Mansilla',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335549',
+            name: 'Marcelo Eggel',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379692',
+            name: 'Santiago Paulini',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '389573',
+            name: 'Mirko Bonfigli',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399886',
+            name: 'Franco Saccone',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418710',
+            name: 'Julián Vera',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '420813',
+            name: 'Aaron Vera',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276299',
+            name: 'Lisandro Cabrera',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335371',
+            name: 'Tomás Silva',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '348284',
+            name: 'Juan Cruz Giacone',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '383025',
+            name: 'Luca Landriel',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '393464',
+            name: 'Juan Sánchez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418593',
+            name: 'Felipe Rivarola',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.deportivo_morn',
@@ -356,7 +5597,287 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '224132',
+            name: 'Julio César Salvá',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233423',
+            name: 'Federico Díaz',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '118787',
+            name: 'Franco Vázquez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '132071',
+            name: 'Mariano Bíttolo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '243087',
+            name: 'Brian Salvareschi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '297053',
+            name: 'Francisco Flores',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '322702',
+            name: 'Sergio Ulibarri',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364850',
+            name: 'Leonel Ramírez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379673',
+            name: 'Iván Vaquero',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388599',
+            name: 'Leonel Cardozo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399890',
+            name: 'Joaquín Livera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '186779',
+            name: 'Maximiliano González',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200313',
+            name: 'Juan Manuel Olivares',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233686',
+            name: 'Gaston González',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '279418',
+            name: 'Mauro Burruchaga',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292092',
+            name: 'Elías Contreras',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318097',
+            name: 'Franco Fagúndez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318769',
+            name: 'Santiago Kubiszyn',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '337436',
+            name: 'Tomás Ramírez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379995',
+            name: 'Thiago Lauro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403004',
+            name: 'Valentino Huertas',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '213878',
+            name: 'Franco Toloza',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '217506',
+            name: 'Matías Benítez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233949',
+            name: 'Gonzalo Berterame',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '234460',
+            name: 'Facundo Báez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285702',
+            name: 'Juan Cruz Esquivel',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418905',
+            name: 'Joaquín Zappacosta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418906',
+            name: 'David Bulacio',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'estudiantes_de_caseros',
@@ -377,7 +5898,337 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '206616',
+            name: 'Dante Campisi',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '312833',
+            name: 'Rodrigo Fumo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317817',
+            name: 'Facundo Vila',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '205227',
+            name: 'Jorge Benítez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '270890',
+            name: 'Franco Quinteros',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310718',
+            name: 'Facundo Ardiles',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324039',
+            name: 'Balthazar Bernardi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '356397',
+            name: 'Martín Albarracín',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361516',
+            name: 'Tomás Núñez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '366523',
+            name: 'Andrés Berizovsky',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399755',
+            name: 'Tomás Squie',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417819',
+            name: 'Gabriel Barca',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '130933',
+            name: 'Rodrigo Melo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233940',
+            name: 'Enzo Acosta',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264820',
+            name: 'Santiago Camacho',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '286111',
+            name: 'Juan Sánchez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '307474',
+            name: 'Matías Núñez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338923',
+            name: 'Juan Giménez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361618',
+            name: 'Román Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '372011',
+            name: 'Lucas Silva',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '373788',
+            name: 'Valentino Pereyra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378753',
+            name: 'Fernando Duré',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378763',
+            name: 'Federico Sena',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399752',
+            name: 'Bautista Degregorio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399754',
+            name: 'Teo Cohen',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408183',
+            name: 'Tobias Salas',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '153112',
+            name: 'Jorge Correa',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '187476',
+            name: 'Eduardo Melo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302031',
+            name: 'Darío Rostagno',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324040',
+            name: 'Ezequiel Almirón',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364471',
+            name: 'Ian Vera',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379987',
+            name: 'Felipe Gorla',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417820',
+            name: 'Joel Lucero',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.ferro_carril_oeste',
@@ -398,7 +6249,297 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '88689',
+            name: 'Fernando Monetti',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '167587',
+            name: 'Lucas Ruiz',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216217',
+            name: 'Gustavo Canto',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '248630',
+            name: 'Juan Orellana',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '263207',
+            name: 'Fernando Torrent',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310749',
+            name: 'Sebastian Corda',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315730',
+            name: 'Misael Taron',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '331594',
+            name: 'Federico Tévez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388470',
+            name: 'Matías Zubowicz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402541',
+            name: 'Nazareno Kihm',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418918',
+            name: 'Leandro Pena Biafore',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '116335',
+            name: 'Santiago García',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '118581',
+            name: 'Gonzalo Castellani',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '185940',
+            name: 'Nicolás Gómez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '222704',
+            name: 'Emiliano Ozuna',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '257457',
+            name: 'Matías Kabalin',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287501',
+            name: 'Enzo Hoyos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310982',
+            name: 'Gino Olguín',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '345261',
+            name: 'Martín Campos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '386342',
+            name: 'Tiago Esidin Gonzalez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399770',
+            name: 'Laureano Marra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408875',
+            name: 'Felipe Obradovich',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '411593',
+            name: 'Francisco Cuzzani',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '136458',
+            name: 'Emanuel Dening',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '137060',
+            name: 'Ángel González',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '196343',
+            name: 'Jonathan Menéndez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216741',
+            name: 'Mateo Acosta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '254035',
+            name: 'Franco Garcia',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277732',
+            name: 'Lautaro Parisi',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.gimnasia_y_esgrima_de_jujuy',
@@ -419,7 +6560,337 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '241171',
+            name: 'Milton Álvarez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264094',
+            name: 'Gonzalo Gómez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '311619',
+            name: 'Matías Ramos Mingo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '155865',
+            name: 'Nicolás Dematei',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '170854',
+            name: 'Guillermo Cosaro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200277',
+            name: 'Diego Lopez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200280',
+            name: 'Sebastián Sánchez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200346',
+            name: 'Jesús Endrizzi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268511',
+            name: 'Héctor Varela',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '279970',
+            name: 'Delfor Minervino',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342802',
+            name: 'Juan Pablo Córdoba',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '345252',
+            name: 'Franco Camargo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '393534',
+            name: 'Martin Lazarte',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '398310',
+            name: 'Gonzalo Villarreal',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418830',
+            name: 'Facundo Maldonado',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '173424',
+            name: 'Hugo Soria',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216723',
+            name: 'Claudio Pombo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276910',
+            name: 'Francisco Molina',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '286370',
+            name: 'Axel Pinto',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317016',
+            name: 'Francisco Maidana',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318786',
+            name: 'Federico Paradela',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399844',
+            name: 'Héctor Zapatiel',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399845',
+            name: 'Pablo Toledo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402407',
+            name: 'Emiliano Zambrano',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '119030',
+            name: 'Cristian Menéndez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '209669',
+            name: 'David Gallardo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '217597',
+            name: 'Maximiliano Casa',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '263088',
+            name: 'Juan Franzoni',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301954',
+            name: 'Pablo Argañaraz',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310735',
+            name: 'Mauro Daniel Cachi',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335964',
+            name: 'Octavio Bianchi',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '340649',
+            name: 'Rodrigo Velázquez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '386071',
+            name: 'Gonzalo Puntano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.gimnasia_y_trio',
@@ -440,7 +6911,267 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '123194',
+            name: 'Federico Cosentino',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '209608',
+            name: 'Joaquin Papaleo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '126195',
+            name: 'Gonzalo Soto',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '127840',
+            name: 'Gabriel Díaz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '205293',
+            name: 'Juan Oviedo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '219665',
+            name: 'Manuel Guanini',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233944',
+            name: 'Lautaro Montoya',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276228',
+            name: 'Juan Galetto',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318324',
+            name: 'Adolfo Tallura',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '77271',
+            name: 'Rubén Villarreal',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '126981',
+            name: 'Roberto Birge',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '157570',
+            name: 'Jonás Aguirre',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '193481',
+            name: 'Nicolás Rinaldi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '195715',
+            name: 'Walter Montoya',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '211671',
+            name: 'Ivo Chaves',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276288',
+            name: 'Franco Sivetti',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301756',
+            name: 'Tiago Banega',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399775',
+            name: 'Lucas Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402168',
+            name: 'Tiago Borquez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '211309',
+            name: 'Leandro Contin',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '272497',
+            name: 'Lautaro Gordillo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335504',
+            name: 'Juan Rocca',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378740',
+            name: 'Fabricio Rojas',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '387388',
+            name: 'Juan Capano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402167',
+            name: 'Camilo Pantoja',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419251',
+            name: 'Juan Turletti',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.godoy_cruz_de_mendoza',
@@ -461,7 +7192,337 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '184686',
+            name: 'Roberto Ramirez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318296',
+            name: 'Juan Strumia',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339798',
+            name: 'Nicolás Cláa',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '72265',
+            name: 'Juan Morán',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '188469',
+            name: 'Esteban Burgos',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '189809',
+            name: 'Federico Milo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '199840',
+            name: 'Mateo Mendoza',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301987',
+            name: 'Francisco Gerometta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309425',
+            name: 'Leandro Quiroz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315950',
+            name: 'Lucas Arce',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316307',
+            name: 'Tomas Rossi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335742',
+            name: 'Nahuel Brunet',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402609',
+            name: 'Matías Funes',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402612',
+            name: 'Gonzalo Quinteros',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '195639',
+            name: 'Gastón Gil Romero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '240419',
+            name: 'Juan Andrada',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277606',
+            name: 'Brian Orosco',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309451',
+            name: 'Tomás Pozzo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '320741',
+            name: 'Vicente Poggi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '345712',
+            name: 'Mariano Santiago',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '362073',
+            name: 'Claudio Valverde',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '363481',
+            name: 'Luciano Pascual',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379691',
+            name: 'Misael Sosa',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '392255',
+            name: 'Santiago Martínez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400829',
+            name: 'Camilo Alessandría',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402611',
+            name: 'Ezequiel Tejada',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '195525',
+            name: 'Matías Ramírez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '227035',
+            name: 'Axel Rodriguez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '251839',
+            name: 'Martín Pino',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309445',
+            name: 'Silvio Ulariaga',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402615',
+            name: 'Enzo Barrionuevo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402618',
+            name: 'Óscar González',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418867',
+            name: 'Willian Riquelme',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'gemes',
@@ -482,7 +7543,297 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '248825',
+            name: 'Alan González',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '252366',
+            name: 'Leonardo Finochietto',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309492',
+            name: 'Laureano Lezcano',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418945',
+            name: 'Tomás Palleres',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200214',
+            name: 'Marcelo Benítez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '250921',
+            name: 'Facundo Rizzi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '272379',
+            name: 'Facundo Melillan',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287653',
+            name: 'Axel Bordón',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301571',
+            name: 'Oscar Vanegas',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302173',
+            name: 'Tomás Oneto',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '360995',
+            name: 'Emilio Lazza',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419123',
+            name: 'Rodrigo Arnay',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '118848',
+            name: 'Fernando Godoy',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '307985',
+            name: 'Maico Quiróz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316026',
+            name: 'Nicolás Juárez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324329',
+            name: 'David Veliz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '357419',
+            name: 'Gianfranco Baier',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379686',
+            name: 'Walter Juárez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379889',
+            name: 'Milton Gerez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379996',
+            name: 'Franco Bergés',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382945',
+            name: 'Santiago Farrera',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419124',
+            name: 'Jonás Carranza',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419125',
+            name: 'Julián Juárez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '156824',
+            name: 'Juan Mendoza',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200428',
+            name: 'Juan Sánchez Sotelo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276010',
+            name: 'Gianluca Pugliese',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '283893',
+            name: 'Thomas Amilivia',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292048',
+            name: 'Gaston Espósito',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310769',
+            name: 'Santiago Gabriel Sala',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.los_andes',
@@ -503,7 +7854,297 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '88276',
+            name: 'Sebastián López',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 40,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269798',
+            name: 'Javier Bustillos',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399788',
+            name: 'Marko Brey',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '172029',
+            name: 'Julian Rodriguez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200005',
+            name: 'Daniel Franco',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '234360',
+            name: 'Julián Navas',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '254140',
+            name: 'Gabriel Carrasco',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277733',
+            name: 'Nazareno Fernandez Colombo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301758',
+            name: 'Brian Leizza',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335967',
+            name: 'Peter Martínez Grance',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '412043',
+            name: 'Cristian Linares',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '135232',
+            name: 'Gonzalo Cozzoni',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '153285',
+            name: 'Franco Rodriguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '176176',
+            name: 'Aaron Sandoval',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '208627',
+            name: 'Juan Manuel Vazquez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '294448',
+            name: 'Gabriel Cañete',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324042',
+            name: 'Tomás Díaz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338871',
+            name: 'Sergio Ortíz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '354980',
+            name: 'Matias Gomez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379722',
+            name: 'Francisco Funes',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399782',
+            name: 'Facundo Villarreal',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '420920',
+            name: 'Leandro Alegre',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '201195',
+            name: 'Mauricio Asenjo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '279075',
+            name: 'Tomás Blanco',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '311745',
+            name: 'Facundo Echevarría',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '313993',
+            name: 'Mario Galeano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335965',
+            name: 'Matías Gonzalez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361655',
+            name: 'Camilo Viganoni',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '383109',
+            name: 'Alex Chamorro',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.midland',
@@ -524,7 +8165,357 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '147550',
+            name: 'Mauro Leguiza',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339194',
+            name: 'Lucas Escobar',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417991',
+            name: 'Santiago García',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200231',
+            name: 'Fernando González',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '242653',
+            name: 'Emilio Porro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336818',
+            name: 'Pablo Casarico',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338142',
+            name: 'Mariano Penepil',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358138',
+            name: 'Valentín Gargiulo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364826',
+            name: 'Rodrigo Figueroa',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379683',
+            name: 'Leonel González',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400814',
+            name: 'Mirko Olavarría',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400818',
+            name: 'Pedro Castoran',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401406',
+            name: 'Genaro Cepeda',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417989',
+            name: 'Tomás Muia',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417990',
+            name: 'Joel Canalda',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '146346',
+            name: 'Mauro Frattini',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264094',
+            name: 'Gonzalo Gómez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '313871',
+            name: 'Maximiliano Rogoski',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316070',
+            name: 'Matías Flores',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316151',
+            name: 'Agustín Campana',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '345262',
+            name: 'Jesus Camaño',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358730',
+            name: 'Matías Abbruzzese',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378768',
+            name: 'Lautaro Díaz Laharque',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '390497',
+            name: 'Juan Cruz Vega',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400809',
+            name: 'Dylan Aguilar',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '400817',
+            name: 'Nicolás Violini',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216768',
+            name: 'Lucas Vico',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302052',
+            name: 'Rodrigo Cao',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309405',
+            name: 'Amos Perales',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316285',
+            name: 'Marcos Roseti',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '360193',
+            name: 'Matteo Cucinotta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '366147',
+            name: 'Elías Torancio',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388462',
+            name: 'Santino Primante',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417992',
+            name: 'Uriel Guzmán',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417993',
+            name: 'Valentino Madalón',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.mitre_se',
@@ -545,7 +8536,317 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '216661',
+            name: 'Joaquín Ledesma',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310773',
+            name: 'Ignacio Pietrobono',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399851',
+            name: 'Gastón Unrein',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '158935',
+            name: 'Franco Ferrari',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233947',
+            name: 'Brian Mieres',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264832',
+            name: 'Daniel Abello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '284861',
+            name: 'Iván Antunes',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292174',
+            name: 'Martín Rodríguez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301951',
+            name: 'Pablo Minissale',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336414',
+            name: 'Gonzalo Valdivia',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378645',
+            name: 'Maximiliano Romero',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379726',
+            name: 'Tiago Ferreyra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384253',
+            name: 'Matías Godoy',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399860',
+            name: 'Luciano Correa',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402259',
+            name: 'Segundo Rodríguez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418932',
+            name: 'Mateo Maldonado',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418933',
+            name: 'Martín Vázquez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216669',
+            name: 'Mauro Barraza',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216772',
+            name: 'Juan Alessandroni',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269812',
+            name: 'Gonzalo Córdoba',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '299987',
+            name: 'Mateo Montenegro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418931',
+            name: 'Alan López',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '130888',
+            name: 'Marcos Machado',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '199149',
+            name: 'Gustavo Fernández',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '213154',
+            name: 'Santiago Rosales',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '228263',
+            name: 'Claudio Salto',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '270888',
+            name: 'Juan Zárate',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287352',
+            name: 'Agustín Ramírez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315707',
+            name: 'Enzo Avaro',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316071',
+            name: 'Rodrigo González',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '363095',
+            name: 'Vicente Barberini',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.nueva_chicago',
@@ -566,7 +8867,407 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '278512',
+            name: 'Luciano Jachfe',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302298',
+            name: 'Juan Carranza',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309423',
+            name: 'Facundo Masuero',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419604',
+            name: 'Lucas Bersce',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '150232',
+            name: 'Dylan Gissi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '172778',
+            name: 'Federico Moreno',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '189913',
+            name: 'Guillermo Ferracuti',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '218440',
+            name: 'Matías Vera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301757',
+            name: 'Elias Machuca',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309576',
+            name: 'Rodrigo Rámirez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '312145',
+            name: 'Bruno Palazzo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315927',
+            name: 'Gonzalo Paz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '360997',
+            name: 'Gonzalo Trindade',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '363096',
+            name: 'Diego Arroyo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '396963',
+            name: 'Roman Zalazar',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401384',
+            name: 'Gerónimo Velozo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418946',
+            name: 'Gabriel Reta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418947',
+            name: 'Emerson Silveira',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '147487',
+            name: 'Emiliano Méndez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '154912',
+            name: 'Alan Ruíz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '186458',
+            name: 'Lucas López',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216671',
+            name: 'Mauro Pérez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285034',
+            name: 'Evelio Cardozo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '288563',
+            name: 'Tomás Rodríguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310223',
+            name: 'Ramiro Balbuena',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324041',
+            name: 'Gabriel Vega',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338871',
+            name: 'Sergio Ortíz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399731',
+            name: 'Lucas Vázquez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399732',
+            name: 'Germán Mansilla',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399734',
+            name: 'Tomás Orqueida',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401864',
+            name: 'Javier Pereyra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403341',
+            name: 'Braian Toloza',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408793',
+            name: 'Leonel Ortiz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408795',
+            name: 'Nazareno Petrecca',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418948',
+            name: 'Joaquín González',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290713',
+            name: 'Lucas Ambrogio',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301957',
+            name: 'Sebastián Cocimano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335539',
+            name: 'Matías Romero',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382941',
+            name: 'Diego Barros',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '408183',
+            name: 'Tobias Salas',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.patronato',
@@ -587,7 +9288,337 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '204737',
+            name: 'Alan Sosa',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '312418',
+            name: 'Franco Rivasseau',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379941',
+            name: 'Matías Caballero',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403423',
+            name: 'Román Peralta',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '165356',
+            name: 'Fernando Moreyra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '178046',
+            name: 'Fernando Evangelista',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290729',
+            name: 'Juan Salas',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292179',
+            name: 'Franco Meritello',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324032',
+            name: 'Nahuel Genez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '367190',
+            name: 'Gabriel Díaz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '183279',
+            name: 'Federico Bravo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '245772',
+            name: 'Agustín Araujo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '260679',
+            name: 'Facundo Díaz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285026',
+            name: 'Juan Barinaga',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287301',
+            name: 'Brandon Cortés',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292021',
+            name: 'Walter Rueda',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301993',
+            name: 'Marcos Enrique',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336508',
+            name: 'Valentín Pereyra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '341940',
+            name: 'Santiago Piccioni',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '343828',
+            name: 'Benjamín Bravo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365016',
+            name: 'Bartolomé Velásquez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365051',
+            name: 'Alejo Miró',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365161',
+            name: 'Augusto Picco',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399778',
+            name: 'Luciano Pacco',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '212338',
+            name: 'Franco Soldano',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '217368',
+            name: 'Hernán Rivero',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '251085',
+            name: 'Tomás Attis',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268224',
+            name: 'Renzo Reynaga',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316143',
+            name: 'Facundo Heredia',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '346903',
+            name: 'Joaquín Barolín',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '365162',
+            name: 'Ramon Villarreal',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399777',
+            name: 'Agustín Cardoso',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '420364',
+            name: 'Luciano Strey',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.quilmes',
@@ -608,7 +9639,307 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '128752',
+            name: 'Gonzalo Marinelli',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285703',
+            name: 'Esteban Glellel',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '91536',
+            name: 'Leonel Vangioni',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '212861',
+            name: 'Ariel Kippes',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '234983',
+            name: 'Luciano Recalde',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '278516',
+            name: 'Agustín Bindella',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301964',
+            name: 'Thomas Ortega',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '312363',
+            name: 'Ian Rasso',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335369',
+            name: 'Martín Vallejos',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388730',
+            name: 'Lucas Romeo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388732',
+            name: 'Julián Gurzi',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '395346',
+            name: 'Tiago Marghetich',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403201',
+            name: 'Santiago Luna',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '74008',
+            name: 'Pedro Paredes',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '208646',
+            name: 'Ramiro Martínez',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '262488',
+            name: 'Agustin Bolivar',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '278609',
+            name: 'Agustín Lavezzi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309121',
+            name: 'Ramiro Luna',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335866',
+            name: 'Juan Yangali',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '351880',
+            name: 'Joaquin Postigo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358117',
+            name: 'Ulises Vera',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380004',
+            name: 'Mirko Juárez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '410593',
+            name: 'Ragnheidur Jónsdóttir',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '116326',
+            name: 'José Barreto',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '162587',
+            name: 'Mauro Fernandez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302718',
+            name: 'Alexis Dominguez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '332517',
+            name: 'Aaron Spetale',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338689',
+            name: 'Axel Batista',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '401598',
+            name: 'Jano Coronel',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403737',
+            name: 'Gabriel Vázquez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'racing_de_cordoba',
@@ -629,7 +9960,347 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '184782',
+            name: 'Brian Olivera',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '242668',
+            name: 'Gonzalo Laborda',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318765',
+            name: 'Lucas Soto',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '129379',
+            name: 'Lucas Flores',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200374',
+            name: 'Alejandro Rébola',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233445',
+            name: 'Emanuel Díaz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301967',
+            name: 'Raúl Chamorro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324038',
+            name: 'Gabriel Aranda',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '331831',
+            name: 'Matías Sánchez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342800',
+            name: 'Santiago Rinaudo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342808',
+            name: 'Marcio Gómez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358333',
+            name: 'Tomás Kummer',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '387397',
+            name: 'Fabrizio Ghiggia',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399878',
+            name: 'Guido Pache',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399880',
+            name: 'Matías Machado',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418957',
+            name: 'Ciro Rivas',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418958',
+            name: 'Francisco Martín',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '195690',
+            name: 'Gaspar Íñiguez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '261469',
+            name: 'Facundo Juárez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301493',
+            name: 'Abel Bustos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380035',
+            name: 'Exequiel Oviedo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '385919',
+            name: 'Luciano Viano',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399876',
+            name: 'Francisco Monticelli',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399877',
+            name: 'Franco Tossen',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418959',
+            name: 'Fernando Ortíz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '419245',
+            name: 'Catriel Peña',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '150230',
+            name: 'Pablo Chavarría',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '193851',
+            name: 'Ricardo Centurion',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '205209',
+            name: 'Ignacio Valsangiacomo',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216523',
+            name: 'Sergio González',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233683',
+            name: 'Facundo Taborda',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '364835',
+            name: 'Alan Olinick',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418960',
+            name: 'Leandro Córdoba',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.san_martin_de_san_juan',
@@ -650,7 +10321,327 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '204911',
+            name: 'Sebastián Díaz',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216786',
+            name: 'Federico Bonansea',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233941',
+            name: 'Maximiliano Velazco',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339192',
+            name: 'Lautaro Garzón',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '149462',
+            name: 'Emanuel Aguilera',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200106',
+            name: 'Julián Marchioni',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '206579',
+            name: 'Matías Orihuela',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '235161',
+            name: 'Leonel Álvarez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '251837',
+            name: 'Federico Murillo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '259442',
+            name: 'Mauro Osores',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268605',
+            name: 'Facundo Nadalín',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335366',
+            name: 'Hernán Zuliani',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418949',
+            name: 'Lucas Verón',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '128222',
+            name: 'Sebastián Emmanuel González',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '181820',
+            name: 'Guillermo Acosta',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '199805',
+            name: 'Leonardo Monje',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '200290',
+            name: 'Nicolas Pelaitay',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '223078',
+            name: 'Carlo Lattanzio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268844',
+            name: 'Diego Mercado',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276912',
+            name: 'Gonzalo Lucero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277735',
+            name: 'Sebastián Jaurena',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285037',
+            name: 'Alex Salcedo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '316130',
+            name: 'Ramiro Rumbolo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '354627',
+            name: 'Manuel Cocca',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380147',
+            name: 'Luciano Riveros',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418950',
+            name: 'Nicolás Iachetti',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '169177',
+            name: 'Gabriel Hachen',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317952',
+            name: 'Nahuel Acosta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318278',
+            name: 'Genaro Rossi',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318281',
+            name: 'Nazareno Funez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '368338',
+            name: 'Bruno Juncos',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382530',
+            name: 'Santiago Barrera',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'san_martin_de_tucuman',
@@ -671,7 +10662,307 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '118892',
+            name: 'Juan Jaime',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264825',
+            name: 'Darío Sand',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 38,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '301956',
+            name: 'Nahuel Manganelli',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '180904',
+            name: 'Nicolás Ferreyra',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '184044',
+            name: 'Victor Salazar',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '187334',
+            name: 'Lucas Diarte',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '199029',
+            name: 'Ezequiel Parnisari',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '267577',
+            name: 'Nahuel Gallardo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '290173',
+            name: 'Elías López',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '310760',
+            name: 'Jorge Emanuel Juárez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358111',
+            name: 'Thiago Penalba',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '359185',
+            name: 'Guillermo Rodríguez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379680',
+            name: 'Laureano Rodríguez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '57149',
+            name: 'Nicolás Castro',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '176235',
+            name: 'Matias Ariel Garcia',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '241623',
+            name: 'Leonardo Monroy',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '278505',
+            name: 'Jesús Soraire',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 37,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287726',
+            name: 'Benjamín Borasi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '297046',
+            name: 'Luciano Ferreyra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324349',
+            name: 'Kevin López',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '393465',
+            name: 'Alan Cisnero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399776',
+            name: 'Agustín Graneros',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '180322',
+            name: 'Diego Diellos',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 32,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '242669',
+            name: 'Gonzalo Rodríguez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277209',
+            name: 'Santiago Briñone',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '278506',
+            name: 'Facundo Pons',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315803',
+            name: 'Nicolás Moreno',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318178',
+            name: 'Lautaro Ovando',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '402556',
+            name: 'Luca Arfaras',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.san_miguel',
@@ -692,7 +10983,307 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '183285',
+            name: 'Juan Manuel Lungarzo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '353401',
+            name: 'Matias Escobar',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358278',
+            name: 'Andrés Sosa',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378771',
+            name: 'Mateo Reynoso',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '159375',
+            name: 'Facundo Cardozo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '235732',
+            name: 'Kevin Ceceri',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '271793',
+            name: 'Damián Adín',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285192',
+            name: 'Dixon Rentería',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302054',
+            name: 'Franco Aguirre',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318280',
+            name: 'Felipe Coronel',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380049',
+            name: 'Lucio Pérez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418849',
+            name: 'Alexis Cruz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '122371',
+            name: 'David Müller',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '141079',
+            name: 'Leandro Ortiz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 18,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '181660',
+            name: 'Iván Ramírez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '186450',
+            name: 'Leandro Desábato',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '189021',
+            name: 'Jorge Ferrero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '302510',
+            name: 'Tomas Diaz Grassano',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '378769',
+            name: 'Matías Benítez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '395264',
+            name: 'Mateo Serra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399818',
+            name: 'Fabricio Almeida',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399870',
+            name: 'Thomas Carosio',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '411594',
+            name: 'Tiago Gordillo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 17,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '412311',
+            name: 'Elian De La Cruz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '68339',
+            name: 'Daniel Juárez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '216714',
+            name: 'Bruno Nasta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '268527',
+            name: 'Lucas Delgado',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309123',
+            name: 'Lucas Brochero',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '379991',
+            name: 'Tomás Jerez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '382901',
+            name: 'Máximo Oses',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.san_telmo',
@@ -713,7 +11304,307 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '107409',
+            name: 'Juan Rial',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '338909',
+            name: 'Joaquín Enrico',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418907',
+            name: 'Gabriel Ratalín Bertoli',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '99484',
+            name: 'Facundo Roncaglia',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 39,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '233445',
+            name: 'Emanuel Díaz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336487',
+            name: 'Martín González',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399733',
+            name: 'Juan Motroni',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418909',
+            name: 'Lázaro Britez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418910',
+            name: 'Rodrigo Dinocco',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '146902',
+            name: 'Matias Laba',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '227699',
+            name: 'Fabián Henríquez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '249224',
+            name: 'Javier Iritier',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '262486',
+            name: 'Matías Ledesma',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '269804',
+            name: 'Juan Zurbriggen',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '324011',
+            name: 'Iñaki Lartirigoyen',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '333704',
+            name: 'Elías Britez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342199',
+            name: 'Gabriel Paredes',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '342277',
+            name: 'Ian Pardo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358394',
+            name: 'Leonel Pollacchi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '368687',
+            name: 'Evan Álvarez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '385918',
+            name: 'Román Gamarra',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399738',
+            name: 'Renzo Uriburu',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '170703',
+            name: 'Joel Gonzalez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '185736',
+            name: 'Lucas Baldunciel',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315618',
+            name: 'Jeronimo Porto',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '315727',
+            name: 'Martín Batallini',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '327005',
+            name: 'Gastón Viera',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335500',
+            name: 'Franco Tissera',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 36,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361414',
+            name: 'Elias Peralta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380045',
+            name: 'Matías Salerno',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.temperley',
@@ -734,7 +11625,307 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
+        players: [{
+            id: '195684',
+            name: 'Ezequiel Mastriola',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '254138',
+            name: 'Jerónimo Pourtau',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380091',
+            name: 'Valentin Diaz',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '395651',
+            name: 'Lisandro Morrone',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '188381',
+            name: 'Nicolás Molina',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '188942',
+            name: 'Rodrigo Mazur',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287502',
+            name: 'Pedro Souto',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292133',
+            name: 'Lucas Angelini',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 31,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309124',
+            name: 'Gian Nardelli',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '309434',
+            name: 'Santiago Flores',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '339019',
+            name: 'Valentino Werro',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '340892',
+            name: 'Valentin Aguiñagalde',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '380090',
+            name: 'Iván Peralta',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384972',
+            name: 'Matías Calzón',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 20,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '126566',
+            name: 'Luciano Nieto',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '184039',
+            name: 'Adrián Arregui',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '285025',
+            name: 'Gerónimo Tomasetti',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '287505',
+            name: 'Franco Diaz',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '336415',
+            name: 'Nicolás Ávalos',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '384053',
+            name: 'Lucas Richarte',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399705',
+            name: 'Lorenzo Monti Azpiazu',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '83587',
+            name: 'Gabriel Hauche',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 39,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '84281',
+            name: 'Brandán Fernando',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 35,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '124734',
+            name: 'Jonathan Díaz',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '192431',
+            name: 'Cristian Esparza',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 33,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '197040',
+            name: 'Marcos Echeverría',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '206644',
+            name: 'Franco Benítez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358113',
+            name: 'Oswaldo Pacheco',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358118',
+            name: 'Facundo Krüger',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '359444',
+            name: 'Julian Carrasco',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
     },
     {
         id: 'arg.tristn_surez',
@@ -755,6 +11946,316 @@ export const TEAMS: Team[] = [
         awayStats: { played: 0, won: 0, drawn: 0, lost: 0, gf: 0, gc: 0, pts: 0, goalDiff: 0 },
         positionHistory: [],
         averages: { pts2024: 0, pj2024: 0, pts2025: 0, pj2025: 0 },
-        players: []
-    }
+        players: [{
+            id: '206706',
+            name: 'Daniel Monllor',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 41,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '253971',
+            name: 'Joaquín Mendive',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292104',
+            name: 'Joaquín Bigo',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '418935',
+            name: 'Marcos Funes',
+            position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '255645',
+            name: 'Nicolás Henry',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '264954',
+            name: 'Alejandro Molina',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '289049',
+            name: 'Matías Olguín',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '303580',
+            name: 'Mauricio Guzmán',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '317219',
+            name: 'Mateo Perez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318298',
+            name: 'Brian Caraballo',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '319601',
+            name: 'Nicolás Fernández',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335493',
+            name: 'Ayrton Sánchez',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '361002',
+            name: 'Manuel Agustin Guillen',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 24,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '83555',
+            name: 'Nicolás Sánchez',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 34,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '255930',
+            name: 'Diego Becker',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 28,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276006',
+            name: 'Nicolás Del Priore',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '276060',
+            name: 'Joaquín Trasante',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 27,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '292058',
+            name: 'Agustín Baldi',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '307318',
+            name: 'Maximiliano Luayza',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '335356',
+            name: 'Ángel Almada',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358889',
+            name: 'Walter Berrondo',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 26,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '358895',
+            name: 'Máximo Ferulano',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '388341',
+            name: 'Kevin Colli',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '399793',
+            name: 'Santiago Aquino',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 21,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '403333',
+            name: 'César Romero',
+            position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '417947',
+            name: 'Desconocido',
+            position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 19,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '140673',
+            name: 'Maximiliano Álvarez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 29,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '277731',
+            name: 'Álvaro Veliez',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 30,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '318180',
+            name: 'Renzo Conechny',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 25,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '346965',
+            name: 'Jonathan Berón',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 23,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        },{
+            id: '381649',
+            name: 'Santiago Magnotta',
+            position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
+            age: 22,
+            goals: 0,
+            assists: 0,
+            yellowCards: 0,
+            redCards: 0,
+            matchesPlayed: 0
+        }]
+    },
 ];
