@@ -25,8 +25,8 @@ export const StandingsTable: React.FC<StandingsTableProps> = ({ zoneName, teams,
     const getPositionIndicator = (index: number, totalTeams: number) => {
         if (league === 'b-metro') {
             if (index === 0) return { bg: '#FBBF24', color: '#0A1A2F', glow: true }; // Ascenso Directo
-            if (index > 0 && index < 8) return { bg: accentHex, color: '#0A1A2F', glow: true }; // Reducido
-            if (index === totalTeams - 1) return { bg: 'var(--loss)', color: '#FFFFFF', glow: false }; // Descenso
+            if (index > 0 && index < 9) return { bg: accentHex, color: '#0A1A2F', glow: true }; // Reducido (2 al 9)
+            if (index >= totalTeams - 2) return { bg: 'var(--loss)', color: '#FFFFFF', glow: false }; // Descenso (Últimos 2)
             return { bg: 'transparent', color: 'var(--text-faint)', glow: false };
         }
         if (league === 'nacional-b') {
