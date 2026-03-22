@@ -1034,20 +1034,7 @@
     "round": 7
   },
   {
-<<<<<<< HEAD:src/lib/data/official_fixture.json
-    "id": "762871",
-    "homeTeamId": "aldosivi",
-    "awayTeamId": "argentinos",
-    "homeScore": 0,
-    "awayScore": 2,
-    "isPlayed": true,
-    "date": "2026-02-25T20:00Z",
-    "tournament": "apertura",
-    "round": 7
-  },
-  {
-=======
->>>>>>> 8b71941 (Actualizar resultados y estadísticas al 21 de marzo de 2026):src/data/official_fixture.json
+
     "id": "762872",
     "homeTeamId": "barracas",
     "awayTeamId": "tigre",
@@ -1084,11 +1071,7 @@
     "id": "762870",
     "homeTeamId": "velez",
     "awayTeamId": "riestra",
-<<<<<<< HEAD:src/lib/data/official_fixture.json
-    "homeScore": 3,
-=======
     "homeScore": 0,
->>>>>>> 8b71941 (Actualizar resultados y estadísticas al 21 de marzo de 2026):src/data/official_fixture.json
     "awayScore": 0,
     "isPlayed": true,
     "date": "2026-02-25T22:30Z",
