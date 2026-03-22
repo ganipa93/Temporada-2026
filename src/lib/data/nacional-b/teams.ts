@@ -47,7 +47,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 26,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -187,7 +187,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
             goals: 2,
-            assists: 0,
+            assists: 3,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -367,7 +367,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -458,7 +458,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -588,7 +588,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -658,7 +658,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 36,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -809,7 +809,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -819,7 +819,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -849,7 +849,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -869,7 +869,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -979,7 +979,7 @@ export const TEAMS: Team[] = [
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -1360,7 +1360,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -1561,7 +1561,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -1661,7 +1661,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -1691,7 +1691,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -1932,7 +1932,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -2122,7 +2122,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -2162,7 +2162,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 24,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -2333,7 +2333,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -2443,7 +2443,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -2834,7 +2834,7 @@ export const TEAMS: Team[] = [
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -3155,7 +3155,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -3165,7 +3165,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -4058,7 +4058,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 0,
-            assists: 0,
+            assists: 3,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -4409,7 +4409,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -4639,7 +4639,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -4890,7 +4890,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 0,
-            assists: 0,
+            assists: 3,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -5462,7 +5462,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 27,
             goals: 1,
-            assists: 0,
+            assists: 2,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -5482,7 +5482,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 21,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -5723,7 +5723,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
             goals: 2,
-            assists: 0,
+            assists: 2,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -5833,7 +5833,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 29,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -6154,7 +6154,7 @@ export const TEAMS: Team[] = [
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -6345,7 +6345,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -6465,7 +6465,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -6806,7 +6806,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
             goals: 3,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -6977,7 +6977,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -7027,7 +7027,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 34,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -7037,7 +7037,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -7137,7 +7137,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -7288,7 +7288,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -7589,7 +7589,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -7940,7 +7940,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -8351,7 +8351,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 31,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -8451,7 +8451,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -9063,7 +9063,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 37,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -9273,7 +9273,7 @@ export const TEAMS: Team[] = [
             position: 'GK' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 2,
             redCards: 0,
             matchesPlayed: 0
@@ -9815,7 +9815,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 30,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -10006,7 +10006,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -10246,7 +10246,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 38,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -10507,7 +10507,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 28,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -10597,7 +10597,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 35,
             goals: 0,
-            assists: 0,
+            assists: 2,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -10728,7 +10728,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 32,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -10808,7 +10808,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 25,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
@@ -10898,7 +10898,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -11289,7 +11289,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 20,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 3,
             redCards: 0,
             matchesPlayed: 0
@@ -11480,7 +11480,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -11530,7 +11530,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 22,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -12132,7 +12132,7 @@ export const TEAMS: Team[] = [
             position: 'MID' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -12212,7 +12212,7 @@ export const TEAMS: Team[] = [
             position: 'DEF' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 19,
             goals: 0,
-            assists: 0,
+            assists: 1,
             yellowCards: 1,
             redCards: 0,
             matchesPlayed: 0
@@ -12252,7 +12252,7 @@ export const TEAMS: Team[] = [
             position: 'FWD' as 'GK' | 'DEF' | 'MID' | 'FWD',
             age: 23,
             goals: 1,
-            assists: 0,
+            assists: 1,
             yellowCards: 0,
             redCards: 0,
             matchesPlayed: 0
