@@ -111,5 +111,6 @@ foreach ($ev in $allEvents) {
 Write-Host "Generated $($fixtures.Count) clean matches."
 $json = $fixtures | ConvertTo-Json -Depth 5 -Compress
 $json = $fixtures | ConvertTo-Json -Depth 5
-Set-Content -Path "$PWD\src\lib\data\$folder\official_fixture.json" -Value $json -Encoding UTF8
+$utf8NoBom = New-Object System.Text.UTF8Encoding $False
+[System.IO.File]::WriteAllText("$PWD\src\lib\data\$folder\official_fixture.json", $json, $utf8NoBom)
 Write-Host "Saved to $folder/official_fixture.json"
