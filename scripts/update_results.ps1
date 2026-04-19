@@ -91,12 +91,21 @@ foreach ($ev in $allEvents) {
         
         $assumedRound = [math]::Floor(($validMatchCount - 1) / $matchesPerRound) + 1
 
+        $roundsPerTournament = ($matchesPerRound * 2) - 1
+        $assignedTournament = 'apertura'
+        $assignedRound = $assumedRound
+
+        if ($assumedRound -gt $roundsPerTournament) {
+            $assignedTournament = 'clausura'
+            $assignedRound = $assumedRound - $roundsPerTournament
+        }
+
         $fixtureObj = [ordered]@{
             id = $ev.id
             date = $ev.date
             status = if ($isPlayed) { 'FT' } else { 'NS' }
-            round = $assumedRound
-            tournament = 'apertura'
+            round = $assignedRound
+            tournament = $assignedTournament
             homeTeamId = $homeSlug
             awayTeamId = $awaySlug
             homeScore = $homeScore
