@@ -91,7 +91,7 @@ foreach ($ev in $allEvents) {
         
         $assumedRound = [math]::Floor(($validMatchCount - 1) / $matchesPerRound) + 1
 
-        $roundsPerTournament = ($matchesPerRound * 2) - 1
+        $roundsPerTournament = if ($folder -eq 'primera') { 16 } else { ($matchesPerRound * 2) - 1 }
         $assignedTournament = 'apertura'
         $assignedRound = $assumedRound
 
