@@ -100,6 +100,10 @@ foreach ($ev in $allEvents) {
             $assignedRound = $assumedRound - $roundsPerTournament
         }
 
+        if ($assignedRound -gt $roundsPerTournament) {
+            continue
+        }
+
         $fixtureObj = [ordered]@{
             id = $ev.id
             date = $ev.date
