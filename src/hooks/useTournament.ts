@@ -91,8 +91,8 @@ export const useTournament = () => {
     // Persistence
     useEffect(() => {
         if (matches.length > 0) {
-            localStorage.setItem(`tournament_teams_${leagueId}_v8`, JSON.stringify(teams));
-            localStorage.setItem(`tournament_matches_${leagueId}_v8`, JSON.stringify(matches));
+            localStorage.setItem(`tournament_teams_${leagueId}_v9`, JSON.stringify(teams));
+            localStorage.setItem(`tournament_matches_${leagueId}_v9`, JSON.stringify(matches));
         }
     }, [teams, matches, leagueId]);
 
@@ -248,8 +248,8 @@ export const useTournament = () => {
     };
 
     const resetTournament = () => {
-        localStorage.removeItem(`tournament_teams_${leagueId}_v8`);
-        localStorage.removeItem(`tournament_matches_${leagueId}_v8`);
+        localStorage.removeItem(`tournament_teams_${leagueId}_v9`);
+        localStorage.removeItem(`tournament_matches_${leagueId}_v9`);
         window.location.reload();
     };
 
